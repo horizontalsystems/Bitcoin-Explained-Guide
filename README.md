@@ -1,12 +1,15 @@
+
 # Bitcoin-Explained-101
+
 What is Bitcoin? How it works? How to get started? Everything you should know in simple terms.
 
 ## Table Of Contents
 
 1. About Bitcoin
 
--- What is Bitcoin?
--- How Bitcoin network works?
+- What is Bitcoin?
+- How Bitcoin network works?
+- Bitcoin Network is Decentralized
 
 
 2. Why Bitcoin
@@ -49,19 +52,46 @@ What is Bitcoin? How it works? How to get started? Everything you should know in
 
 ## 1. About Bitcoin
 
-Bitcoin got labelled in many different ways ove the last few years; ranging from electronic money to the digital gold.
+Over the last few years Bitcoin got labelled in many different ways ranging from electronic money to the digital gold.
 
-While Bitcoin may be defined in many different ways depending on who you ask, it holds certain unversal properties which in the eyes of many make the Bitcoin "valuable" and consequently a better alternative to the traditional money like USD or EUR (aka fiat money).
+While Bitcoin may be defined in many different ways depending on who you ask, it holds certain unversal properties which in the eyes of many make the Bitcoin "valuable" and consequently regarded as a better alternative to the traditional money like USD or EUR (aka fiat money) or other classical hard assets such as gold or silver.
 
-The idea of Bitcoin was first proposed by someone calling himself Satoshi Nakamoto in a form of technical paper, which presented Bitcoin concept and outlined the algorithms (computer programs) for such system. It can be found here, https://bitcoin.org/bitcoin.pdf
+The idea of Bitcoin was first proposed by someone calling himself Satoshi Nakamoto back in 2008, which presented the Bitcoin whitepaper where the system was explained in a technical manner. If you're interested it can be found here, https://bitcoin.org/bitcoin.pdf
 
-The proposed system brings forward a system that is totally independent from any entity and functions in manner where everything is governed by programmed code, without any means to interfere or cheat the system. As this guide is intended at non technical people we won't be going into details here. What you should know is that the proposed system is something that can be easily understood and evaluated by anyone with a background in computer scicence and mathematics. So, the point is, it works exactly as it claims.
+While you may need to understand the paper to fairly appreciate the Bitcoin phenomena it should be noted that the author(s) of the paper had a deep understanding of the following fields:
 
-In summary the paper proposed a system where there can be 21 million Bitcoins in total. A number of Bitcoins are released to the network by an algortihm roughly every 10 minutes. It started from 0 back at the end of 2008 and currently there are over 17 million Bitcoins in the market. The remaining 4 million would be created over the course of 130 years.
+- Economics
+- Financial markets
+- Mathematics
+- Cryptography
+- Computer Science
 
-Some of the fundmaental properties of Bitcoin (which now also known as Bitcoin blockchain) are:
+Therefore, it would be unfair to regard Bitcoin as a fun geeky experiment but a disruptive invention that aims to fix the problems in present day monetary systems and global financial markets.
 
-- it is a trustless system: it works as defined in code, no exceptions. 
+The paper proposed Bitcoin, in a form of independent network that is not reliant upon any central entity and functions in manner where everything is governed by code, without any means to interfere or cheat the system. 
+
+As this guidebook is aimed at non-technical people we won't be going into details here. What you should know is that the proposed system is something that can be easily understood and evaluated by anyone with a background in computer scicence and mathematics. So, the point is, it works exactly as it claims, and is easily verifiable.
+
+
+**Bitcoin Network**
+
+[bitcoin_network_sketch]
+
+... is Decentralized
+
+
+**Bitcoin in numbers**
+
+
+There can exists at most 21 million Bitcoins with over 17 million Bitcoins already being in the market. The remaining 4 million would be created over the course of 130 years.
+
+The system designed in a way where a certain number of Bitcoin added to the system roughly every 10 minutes. Those newly created Bitcoins are given away "randomly" to one of the parties. The process is not really random.... but for the sake of keeping things simple all you should understand is that a certain known number of Bitcoins are awarded to one of the network participants every 10 minutes.
+
+
+Some of the fundmaental properties of Bitcoin are:
+
+- it is a trustless system: 
+it works as defined in code, no exceptions. 
 
 - strong control of ownership
 
@@ -69,10 +99,6 @@ Some of the fundmaental properties of Bitcoin (which now also known as Bitcoin b
 
 - open to all
 
-
-**Bitcoin Network Explained**
-
-**Can the Bitcoin be stopped?**
 
 
 ## 2. Why Bitcoin
@@ -90,6 +116,12 @@ Some of the fundmaental properties of Bitcoin (which now also known as Bitcoin b
 
 **Is it legal to use Bitcoin?**
 
+...
+
+**Can the Bitcoin be stopped?**
+
+
+...
 
 
 ## 3. Buying Bitcoin
@@ -252,6 +284,9 @@ After the transaction is included in the block it can be already considered as c
 - Why mining is important?
 
 - How to become a bitcoin miner  ?
+
+
+
 
 
 
