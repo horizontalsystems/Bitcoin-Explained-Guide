@@ -6,7 +6,6 @@ What is Bitcoin? How it works? How to get started? Everything you should know in
 1. About Bitcoin
 
 -- What is Bitcoin?
--- How many Bitcoins are out there?
 -- How Bitcoin network works?
 
 
@@ -15,7 +14,7 @@ What is Bitcoin? How it works? How to get started? Everything you should know in
 - Why Bitcoin is growing?
 - What Problems it tries to solve?
 - Is it legal to use Bitcoin?
-
+- Can the Bitcoin be stopped?
 
 3. Getting started with Bitcoin
 
@@ -52,7 +51,32 @@ What is Bitcoin? How it works? How to get started? Everything you should know in
 
 ### What is Bitcoin?
 
-### How many Bitcoins are out there?
+Bitcoin got labelled in many different ways ove the last few years; ranging from electronic money to the digital gold.
+
+While Bitcoin may be defined in many different ways depending on who you ask, it holds certain unversal properties which in the eyes of many make the Bitcoin "valuable" and consequently a better alternative to the traditional money like USD or EUR (aka fiat money).
+
+The idea of Bitcoin was first proposed by someone calling himself Satoshi Nakamoto in a form of technical paper, which presented Bitcoin concept and outlined the algorithms (computer programs) for such system. It can be found here, https://bitcoin.org/bitcoin.pdf
+
+The proposed system brings forward a system that is totally independent from any entity and functions in manner where everything is governed by programmed code, without any means to interfere or cheat the system. As this guide is intended at non technical people we won't be going into details here. What you should know is that the proposed system is something that can be easily understood and evaluated by anyone with a background in computer scicence and mathematics. So, the point is, it works exactly as it claims.
+
+In summary the paper proposed a system where there can be 21 million Bitcoins in total. A number of Bitcoins are released to the network by an algortihm roughly every 10 minutes. It started from 0 back at the end of 2008 and currently there are over 17 million Bitcoins in the market. The remaining 4 million would be created over the course of 130 years.
+
+Some of the fundmaental properties of Bitcoin (which now also known as Bitcoin blockchain) are:
+
+- it is a trustless system: it works as defined in code, no exceptions. 
+
+- strong control of ownership
+
+- without the means of double spending
+- open to all
+
+
+
+
+
+
+
+
 
 ### How Bitcoin network works?
 
@@ -62,63 +86,124 @@ What is Bitcoin? How it works? How to get started? Everything you should know in
 
 ### What Problems it tries to solve?
 
+- unbanked
+- financial access for all
+- deflationary
+
+### Does it have any limitations?
+
+- transactions volume
+
 ### Is it legal to use Bitcoin?
 
-## 3. Getting started with Bitcoin
+### Can the Bitcoin be stopped?
 
-### How to acquire Bitcoin?
+- impossioble
 
-### Bitcoin exchanges
+## 3. Buying Bitcoin
 
 
-## 4. Storing Bitcoin (Safely)
 
-### Bitcoin wallets explained
 
-Bitcoins stored in Bitcoin wallets. When someone says they own X amount of bitcoins they don't have actual bitcoins on their Bitcoin wallet. What they actually have is the key (a random collection of letters that's impossible to guess, even for the most powerful computer). Only the person who knows that key (often called SECRET KEY or PRIVATE KEY) can send those Bitcoins, or in other words spend/transfer them to someone else.
+## 4. Storing Bitcoin Safely
 
-When it comes to Bitcoin wallets, people usually get to choose between two following options
+Bitcoins are usually stored in Bitcoin wallets which can be installed as a mobile app, a desktop program, a website or even a small hardware gadget.
 
-Wallets that do not let you control your SECRET KEY.
+Regardless of the wallet type there is just one crucial point you should look for when choosing a wallet. That is whether the wallet lets you fully control the funds the wallet holds or not.
 
-These come in many forms but in general what you get is username and password so that you can send them instructions like withdrawing/depositing bitcoins. In Bitcoin community these are considered insecure.
 
-The risk here is for wallet to be hacked or for the wallet operators to scam everyone by telling that they were hacked. They also can freeze/restrict your wallet for whatever reason. All of the risks mentioned are fairly common. More common than you may think :)
+**Understanding the "Private Key"**
 
-A LOT of Bitcoins were and being stollen this way. This months alone around 40 million worth of bitcoins were gone from one such wallet provider.
+Bitcoin (and most of other crypto) don't have usual accounts/passwords. Instead you get something usually referred as the “Private Key”. You get that key when setting a new wallet app/program for the first time. This key generated randomly so no one can ever guess it. Not even the most powerful computer in the world even if it runs for decades.
 
-Wallets that give you (and only) full control of your SECRET KEY
+The wallet you should be using is the one that allows you (and only you) to see the "Private Key".
 
-In that case you're the only one with access. No one but you (as owner of the key) can transfer Bitcoins under the control of that SECRET KEY.
+Most wallets out there DO NOT provide that capability, even those coming from known exchanges such as Coinbase. What that really means is that funds on the user's wallet balance are in practice are controlled by the entity providing the wallet. In practice, that means the user's access to the wallet can be restricted at any time and funds on the waller can be frozen. It also means that if the infrustrcture/servers powering that wallet is compromised the users' funds can be stollen. 
 
-The risk here is that you may loose the key or expose it to someone who can then reenter that key in some other wallet and get control of your Bitcoins. So, while this option is secure it requires a basic understanding of security which I hopefully managed to explain above. You just need to ensure they Secret Key for the wallet is kept somewhere safe.
+All of the risks mentioned are fairly common with a lof of Bitcoins were and being stollen this way.  It's more common than you may think! Due to unregulated nature of this space, wallet users are unlikely to be compensate for the losses
+
+- link1
+- link2
+- link3
+- 1ink4
+
+On the other hand, when the wallet provider gives its user exclusive control over the Private Key, the full control is delegated to the user. In practice that would mean that no one but the wallet user has control over the funds. 
+
+The risk here is that you may loose the key or expose it to someone who can then reenter that key in some other wallet and get control of your Bitcoins.
+
+
+**"Private Key" is Everything**
+
+The “Private Key” usually shown to user in a form of 12 plain English words. Sometimes it can be more than 12. Those 12 plain words is just a ”human readable” representation of that key.
+
+[secret_key_image]
+
+
+Safely storing that “Private Key” is extremely important. Let's say you transferred some bitcoins to your new wallet app. Even if your phone stops working or the wallet app stops working your funds are still safe. You will always be able to restore access to your bitcoins using that “Private Key”. It can be even years later, in the same app or some other wallet app/program.
+
+Treat the “Private Key” wallet app gives you with great care. If someone ever sees it, your funds are in danger because that person can essentially download same or some other wallet app and get access to you funds using that key. You have to ensure they Secret Key for the wallet is kept somewhere safe.
+
+
+**What If Your Phone Is Lost**
+
+Let's say you lost your phone and someone finds it. If the phone doesn't have the Android/iOS PIN lock in place, the person who found your phone may potentially access (hack into) the wallet app and from there essentially become in possession of that “Private Key” controlling your funds. That person may then spend your bitcoins by sending them to his/her address.
+
+On the other hand, if your has OS PIN in place it would extremely difficult for someone to hack into it. You will have enough time to get a new phone or simply download some new wallet app to your computer and use the 'Restore' option which most apps have to get access to your funds.
+
+[restore_wallet_screens]
+
+Using that Reastore option you will are able to restore access your funds and then move your funds to a new wallet (ideally within the same app). Once you have moved your funds, even if the intruder manages to break into your wallet (that was on the old phone) it will be useless as it won't have any money on it. The new wallet will come with its own "Private Key".
+
+That’s the only thing you should really understand. The rest is secondary.
+
+
+**Keeping Bitcoins on Exchange**
+
+As mentioned above the most popular and pretty much the only practical (and somewhat safer) way to purchase Bitcoins is by using crypto exchanges. There is no shortage of them around.
+
+Depending on the amount of Bitcoins you're looking to buy in most cases the process will be somewwat similar to the steps outlined below:
+
+For smaller amounts (below < $1000):
+
+This is the easiest option and for which you will bascially need only a credit card. You will be able to purhase Bitcoin and other crypto using your credit card. This option is convenient but bear in mind that you will be prurchasing the crypto at slightly higher prices than market rates.
+
+- credit card option 1
+- credit card option 2
+- credit card option 3
+
+
+For larger amounts (above > $1000):
+
+If you're looking to invest substantial amount of money then the only safe option for a new user is buying on crypto exchange. That may sounds a bit complicated for someone who never traded stocks or currencies but it's not difficult at all.
+
+Most exchanges are same as pretty much all have to abide by financial regulations and therefore have certain rules in place. The steps of purchasing the Bitcoins on Exchange would be as follows:
+
+1. setup an account
+2. verify account (usually it would ask for a passport scan)
+3. fund exchange account (via credit card or bank transfer)
+4. purchase Bitcoin (or other crypto)
+5. transfer purchased Bitcoin to your wallet for safekeeping
+
+A lot of people prefer keeping the purchased Bitcoins on the exchange itself. Many mistakenly assume that keeping them on exchanges is safe while it's not. Just like wallets exchanges are hacked and when that happens usually users loose their funds without getting compensated.
+
+- exhcnage hack link 1
+- exhcnage hack link 2
+- exhcnage hack link 3
+- exhcnage hack link 4
+
 
 If you keep bitcoins on exchange:
 
  - It means the exchange keeps them for you on their account. They give you username and password so that you can send them instructions like withdrawing/depositing bitcoins.
 
-- The risk here is for exchange tone hacked or for them to scam everyone by telling that they were hacked. They also can freeze/restrict your account for whatever reason. All of the risks mentioned are fairly common.
+- The risk here is for exchange to get hacked or for them to scam everyone by telling that they were hacked. They also can freeze/restrict your account for whatever reason. All of the risks mentioned are fairly common.
 
-- If someone somehow gets hold of your username/password to access the exchange you will loose your funds because the attacker will withdraw Bitcoins elsewhere. Note that some senior level administrators on the exchange probably have full access to your account. The point I am trying to make you kind of have to trust them not to be evil... :)
+- If someone somehow gets hold of your username/password to access the exchange you will loose your funds because the attacker will withdraw Bitcoins elsewhere. Note that some senior level administrators on the exchange probably have full access to your account. 
+
+The point I am trying to make you kind of have to trust them not to be evil... :)
 
 
-### What you should know to keep your Bitcoins secure?
 
-Bitcoin (and most of other crypto) don't have usual accounts/passwords. Instead you get something usually referred as the “Private Key”. You get that key when setting a new wallet app/program for the first time. This key generated randomly so no one can ever guess it. Not even the most powerful computer in the world even if it runs for decades
-
-The “Private Key” usually shown to you in a form of 12 plain English words. Sometimes it can be more than 12. Those 12 plain words is just a ”human readable” representation of that key.
-
-Safely storing that “Private Key” is extremely important. Let's say you transferred some bitcoins to your new wallet app. Even if your phone stops working OR the wallet app stops working your funds are safe. You will always be able to restore access to your bitcoins using that “Private Key”. It can be even years later, in the same app or some other wallet app/program.
-
-Treat “Private Key” wallet app gives you with great care. If someone ever sees it, your funds are in danger because that person can essentially download some wallet app and get access to you funds using that key.
-
-Let's say you lost your phone and someone finds it. If the phone doesn't have the Android/iOS PIN lock in place, the person who found your phone may potentially access (hack into) the wallet app and from there essentially become in possession of that “Private Key” controlling your funds. That person may then spend your bitcoins by sending them to his/her address.
-
-On the other hand, if your has OS PIN in place it would extremely difficult for someone to hack into it. You will have enough time to get a new phone or simply download some new wallet app to your computer. Use the 'Restore' option which most apps have to get access to your funds. 
-
-Finally you will need to move your funds to a new wallet, which can be created on that same and will come with a new "Private Key". Once you have moved your funds, even if the intruder manages to break into your lost phone the old wallet will be useless as it won't have any money on it.
-
-That’s the only thing you should really understand. The rest is secondary.
 
 
 ## 5. Send / Receive Bitcoin
