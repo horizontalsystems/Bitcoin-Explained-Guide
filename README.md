@@ -52,32 +52,37 @@ What is Bitcoin? How it works? How to get started? Everything you should know in
 
 ## 1. About Bitcoin
 
-Over the last few years Bitcoin got labelled in many different ways ranging from electronic money to the digital gold.
+Over the last few years Bitcoin got labelled in many different ways ranging from electronic cash to the digital gold.
 
 While Bitcoin may be defined in many different ways depending on who you ask, it holds certain unversal properties which in the eyes of many make the Bitcoin "valuable" and consequently regarded as a better alternative to the traditional money like USD or EUR (aka fiat money) or other classical hard assets such as gold or silver.
 
-The idea of Bitcoin was first proposed by someone calling himself Satoshi Nakamoto back in 2008, which presented the Bitcoin whitepaper where the system was explained in a technical manner. If you're interested it can be found here, https://bitcoin.org/bitcoin.pdf
+The idea of Bitcoin was first proposed by someone calling himself Satoshi Nakamoto (not a real name) back in 2008. If interested it can be found here, https://bitcoin.org/bitcoin.pdf 
 
-While you may need to understand the paper to fairly appreciate the Bitcoin phenomena it should be noted that the author(s) of the paper had a deep understanding of the following fields:
+As this guidebook is aimed at non-technical people we won't be going into details here. The paper puts focus on ability to transact with anyone in a safe manner without the need for a third-party intermediary such as banks.
 
-- Economics
-- Financial markets
-- Mathematics
-- Cryptography
-- Computer Science
+<img src="/images/p2p-vs-centrlized.jpg">
 
-Therefore, it would be unfair to regard Bitcoin as a fun geeky experiment but a disruptive invention that aims to fix the problems in present day monetary systems and global financial markets.
+Consequently, the paper proposes Bitcoin, in a form of independent network that is:
 
-The paper proposed Bitcoin, in a form of independent network that is not reliant upon any central entity and functions in manner where everything is governed by code, without any means to interfere or cheat the system. 
+- not reliant upon any central entity to work
+- functions on its own, 24/7
+- ensures equal and fair rules for all participants
+- unconditionally open for anyone to join
 
-As this guidebook is aimed at non-technical people we won't be going into details here. What you should know is that the proposed system is something that can be easily understood and evaluated by anyone with a background in computer scicence and mathematics. So, the point is, it works exactly as it claims, and is easily verifiable.
+The ideas brought forward by the author require a fairly solid understanding of present day monetary system and extensive knowledge of Mathematics, Cryptography and Computer Science. Bitcoin is a scientific discovery thst challenges the status quo of present day monetary system and enitites surrounding it by making them somewhat redundant.
 
 
 **Bitcoin Network**
 
-[bitcoin_network_sketch]
+The sketch below illustrates how the Bitcoin network looks. Anyone is able to becaome a member of the network and start transacting with Bitcoins on equal terms.
 
-... is Decentralized
+<img src="/images/network-btc.jpg">
+
+While every network participant able to send/receive Bitcoin payments, some network members also keep the entiry history of transactions from the very first one to the last transaction happening now. That history of transactions is what everyone calls a Bitcoin blockchain.
+
+These members which keep a hsitory of transactions are often called as full nodes (or miners) and tasked with validating every new transaction and ensure that only valid transactions are made to the blockchain. Anyone can setup a full node at home, as long as there is an internet connnection it can autonomously run on old computers. 
+
+If one of the nodes tries to cheat by marking an invalid transaction as valid it would be disregarded by all other nodes on the network. In essence, nodes guarantee the openness, decentralization and security of the network.
 
 
 **Bitcoin in numbers**
