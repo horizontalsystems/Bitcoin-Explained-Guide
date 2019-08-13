@@ -3,20 +3,20 @@
 
 What is Bitcoin? How it works? How to get started? Everything you should know in simple terms.
 
+Disclaimer: For the sake of keeping this guide simple and accessible for non-technical audience, some of the concepts were simplified to make it easier for a non-technical user to udnerstand Bitcoin, how it works and some key of its key properties.
+
+
 ## Table Of Contents
 
 1. About Bitcoin
 
 - What is Bitcoin?
-- How Bitcoin network works?
-- Bitcoin Network is Decentralized
-
+- How Bitcoin Network Works?
+- Bitcoin in Numbers
 
 2. Why Bitcoin
 
 - Why Bitcoin is growing?
-- What Problems it tries to solve?
-- Is it legal to use Bitcoin?
 - Can the Bitcoin be stopped?
 
 3. Getting started with Bitcoin
@@ -58,75 +58,97 @@ While Bitcoin may be defined in many different ways depending on who you ask, it
 
 The idea of Bitcoin was first proposed by someone calling himself Satoshi Nakamoto (not a real name) back in 2008. If interested it can be found here, https://bitcoin.org/bitcoin.pdf 
 
-As this guidebook is aimed at non-technical people we won't be going into details here. The paper puts focus on ability to transact with anyone in a safe manner without the need for a third-party intermediary such as banks.
+As this guidebook is aimed at non-technical people we won't be going into details here. The paper puts focus on ability to transact with anyone in a safe manner without the need for a third-party intermediary (such as banks in traditional monetary system).
 
 <img src="/images/p2p-vs-centrlized.jpg">
 
 Consequently, the paper proposes Bitcoin, in a form of independent network that is:
 
 - not reliant upon any central entity to work
-- functions on its own, 24/7
+- functions 24/7 without dependence on a single entity
 - ensures equal and fair rules for all participants
 - unconditionally open for anyone to join
 
-The ideas brought forward by the author require a fairly solid understanding of present day monetary system and extensive knowledge of Mathematics, Cryptography and Computer Science. Bitcoin is a scientific discovery thst challenges the status quo of present day monetary system and enitites surrounding it by making them somewhat redundant.
+The ideas brought forward by the author require a fairly solid understanding of present day monetary system and extensive knowledge of Mathematics, Cryptography and Computer Science. Therefore, Bitcoin should be regarded as a major scientific discovery that challenges the status quo of present day monetary systems and enitites surrounding them.
 
 
-**Bitcoin Network**
+**How Bitcoin Network Works**
 
-The sketch below illustrates how the Bitcoin network looks. Anyone is able to becaome a member of the network and start transacting with Bitcoins on equal terms.
+The sketch below illustrates how the Bitcoin network looks. Essentially, there are two types of parties participating on the network: wallets and nodes (also known as miners). 
 
 <img src="/images/network-btc.jpg">
 
-While every network participant able to send/receive Bitcoin payments, some network members also keep the entiry history of transactions from the very first one to the last transaction happening now. That history of transactions is what everyone calls a Bitcoin blockchain.
+1. Wallets are usually represented by Bitcoin users which send and receive payments. Depending on the wallet, it may communicate with any entity on the Bitcoin network directly or may require a middle-man through which it can send/receive payments.
 
-These members which keep a hsitory of transactions are often called as full nodes (or miners) and tasked with validating every new transaction and ensure that only valid transactions are made to the blockchain. Anyone can setup a full node at home, as long as there is an internet connnection it can autonomously run on old computers. 
+2. Nodes are the entitites which process network transactions and more importantly keep entire history of transactions. A node can also act like a wallet at the same time.
+
+
+Anyone is able to becaome a member of the network as a node or as a wallet, and start transacting with Bitcoins on equal terms as everyone else.
+
+
+While every network participant able to send/receive Bitcoin payments, some network members (that Nodes) also keep the entiry history of transactions from the very first one to the last transaction happening now. That history of transactions is what everyone calls a Bitcoin blockchain.
+
+Nodes are tasked with validating every new transaction and ensure that only valid transactions are made to the blockchain. Anyone can setup a full node at home (will be covered later), as long as there is an internet connnection it can autonomously run on old computers. 
 
 If one of the nodes tries to cheat by marking an invalid transaction as valid it would be disregarded by all other nodes on the network. In essence, nodes guarantee the openness, decentralization and security of the network.
 
 
-**Bitcoin in numbers**
+**Bitcoin Network in Numbers**
 
+There can exists at most 21 million Bitcoins with over 17 million Bitcoins already being in the market. The remaining part will be created by the network over the course of 130 years in manner described below.
 
-There can exists at most 21 million Bitcoins with over 17 million Bitcoins already being in the market. The remaining 4 million would be created over the course of 130 years.
+The system designed in a way where a certain number of Bitcoin added to the system roughly every 10 minutes. Those newly created Bitcoins are given away "randomly" to one of the parties. The process is not really random.... but for the sake of keeping things simple all you should understand is that a certain known number of Bitcoins are awarded to one of the network nodes every 10 minutes. The award goes to the node that is first to succesfully solve a mathematical problem. While all nodes are trying to solve it only the very first one gets the prize.
 
-The system designed in a way where a certain number of Bitcoin added to the system roughly every 10 minutes. Those newly created Bitcoins are given away "randomly" to one of the parties. The process is not really random.... but for the sake of keeping things simple all you should understand is that a certain known number of Bitcoins are awarded to one of the network participants every 10 minutes.
+Once the total Bitcoin count reaches 21 million noew new Bitcoins will be issued to the winning node. 
 
+In conclusion, here are the essentials points you should know:
 
-Some of the fundmaental properties of Bitcoin are:
+- 21 million: total number of Bitcoins that can exist
+- slighly over 17.8 million has already been created by system since 2008
+- the remaining 3.2 million will be created over the next 130 years
+- about 4 million of those that were already created have been lost (source: fortune.com)[https://fortune.com/2017/11/25/lost-bitcoins/]
 
-- it is a trustless system: 
-it works as defined in code, no exceptions. 
+Taking into the account above, keep in mind that while there can be 21 million Bitcoins in total the current market supply of Bitcoins is about 14 million Bitcoins.
 
-- strong control of ownership
+More stats:
 
-- without the means of double spending
-
-- open to all
+- https://www.buybitcoinworldwide.com/how-many-bitcoins-are-there/
+- https://fortune.com/2017/11/25/lost-bitcoins/
 
 
 
 ## 2. Why Bitcoin
 
-- Why Bitcoin is growing?
-- What Problems it tries to solve?
-- unbanked
-- financial access for all
-- deflationary
+Bitcoin started as an idea, which initially was worthless at first without anyone knowing about it. At first it might have attracted hard core enthusiasts which probably played with it for fun. Back then Bitcoin was pereceived mostly as "fun money by geeks" rather than a phenomena that's going to overturn the Financial system. Only few understood that. More people understand that now but the number of such people is still extremely low as mainstream media plays a strong role in shaping how the masses perceive Bitcoin.
+
+Back in early days, the idea that in 10 years Bitcoin would be worth over $10,000 appeared somewhat unbelieveable to early adopters with some spending about 10,000 BTC to buy (Papa John's pizza)[https://bitcointalk.org/index.php?topic=137.msg1195#msg1195]. 
+
+[bitcoin growth graph, covering entire period]
+
+Growing from 0$ to 100$ was the biggest challenge for Bitcoin had and that first happened sometime in 2013 (nearly 5 years after it emerged)... As time gone buy, it grew higher and higher. It broke $1,000 next year in 2014 though retreated quickly, and reached nearly $20,000 in the end of 2018. 
+
+Understandably Bitcoin was (extremely volatile in its early days)[https://cointelegraph.com/news/a-dazzling-history-of-bitcoins-ups-and-downs]. The volatility was due to low number of people willing to buy/sell the Bitcoin so the price swings were huge back then. Even today, with Bitcoin having a 200 billion market cap it's not uncommon to see a daily price change of 10%. 
+
+Bitcoin today is very different from what it was 10 years ago. While media still plays a huge role in how people pervceive the Bitcoin, they are loosing the battle. Today, all mainstream financial channels, talk about it. And not just media, the kings of financial world as well as world leaders are all talkign about it. While for the most part they try to demean it, they are loosing the battle
 
 
-**Does it have any limitations?**
 
-- transactions volume
+**Why Bitcoin Keeps Growing?**
 
-**Is it legal to use Bitcoin?**
+What drives Bitcoin price and adoption What Problems it tries to solve?
 
-...
+- demcratic financial access for all (unbanked)
+- better money. deflationary
+- decentralization
+- dethroning banks and entities reigning in financial system
 
-**Can the Bitcoin be stopped?**
 
+**Can The Bitcoin Be Stopped?**
 
-...
+- transactions volume limitation
+- hack/bug
+- giovernment ban
+
 
 
 ## 3. Buying Bitcoin
