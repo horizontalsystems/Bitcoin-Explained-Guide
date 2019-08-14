@@ -60,7 +60,14 @@ The idea of Bitcoin was first proposed by someone calling himself Satoshi Nakamo
 
 As this guidebook is aimed at non-technical people we won't be going into details here. The paper puts focus on ability to transact with anyone in a safe manner without the need for a third-party intermediary (such as banks in traditional monetary system).
 
-<img src="/images/p2p-vs-centrlized.jpg">
+_Traditional Monetary System_
+
+<img src="/images/image_banks.png" align="center">
+
+_Decentralized Monetary System_
+
+<img src="/images/image_blockchains.png">
+
 
 Consequently, the paper proposes Bitcoin, in a form of independent network that is:
 
