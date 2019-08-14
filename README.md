@@ -56,44 +56,48 @@ Over the last few years Bitcoin got labelled in many different ways ranging from
 
 While Bitcoin may be defined in many different ways depending on who you ask, it holds certain unversal properties which in the eyes of many make the Bitcoin "valuable" and consequently regarded as a better alternative to the traditional money like USD or EUR (aka fiat money) or other classical hard assets such as gold or silver.
 
-The idea of Bitcoin was first proposed by someone calling himself Satoshi Nakamoto (not a real name) back in 2008. If interested it can be found here, https://bitcoin.org/bitcoin.pdf 
+The idea of Bitcoin was first proposed by someone calling himself Satoshi Nakamoto (not a real name) back in 2008. If interested it can be found here, https://bitcoin.org/bitcoin.pdf
 
 As this guidebook is aimed at non-technical people we won't be going into details here. The paper puts focus on ability to transact with anyone in a safe manner without the need for a third-party intermediary (such as banks in traditional monetary system).
 
-_Traditional Monetary System_
+<p style="text-align: center;">_Traditional Monetary System_</p>
 
 <img src="/images/image_banks.png" align="center">
 
-_Decentralized Monetary System_
+<p style="text-align: center;">_Decentralized Monetary System_</p>
 
 <img src="/images/image_blockchains.png">
 
 
-Consequently, the paper proposes Bitcoin, in a form of independent network that is:
+Satoshi proposed Bitcoin, in a form of independent and decentralized network that is:
 
 - not reliant upon any central entity to work
 - functions 24/7 without dependence on a single entity
 - ensures equal and fair rules for all participants
 - unconditionally open for anyone to join
 
-The ideas brought forward by the author require a fairly solid understanding of present day monetary system and extensive knowledge of Mathematics, Cryptography and Computer Science. Therefore, Bitcoin should be regarded as a major scientific discovery that challenges the status quo of present day monetary systems and enitites surrounding them.
+
+Note: The ideas brought forward in the paper required a fairly solid understanding of the contemporary monetary system and extensive knowledge of Mathematics, Cryptography and Computer Science. Therefore, Bitcoin should be regarded as a scientific discovery that challenges the status quo of present day monetary system and regulatory enitites surrounding them.
 
 
 **How Bitcoin Network Works**
 
-The sketch below illustrates how the Bitcoin network looks. Essentially, there are two types of parties participating on the network: wallets and nodes (also known as miners). 
+Usually, when someone talks about Bitcoin blockchain or Bitcoin users the person refers to Bitcoin network.
 
-<img src="/images/network-btc.jpg">
+The sketch below illustrates the Bitcoin network. In essence, there are two types of parties participating on the network: wallets and nodes (aka miners).
 
-1. Wallets are usually represented by Bitcoin users which send and receive payments. Depending on the wallet, it may communicate with any entity on the Bitcoin network directly or may require a middle-man through which it can send/receive payments.
 
-2. Nodes are the entitites which process network transactions and more importantly keep entire history of transactions. A node can also act like a wallet at the same time.
+<img src="/images/image_net.jpg">
 
 
 Anyone is able to becaome a member of the network as a node or as a wallet, and start transacting with Bitcoins on equal terms as everyone else.
 
 
-While every network participant able to send/receive Bitcoin payments, some network members (that Nodes) also keep the entiry history of transactions from the very first one to the last transaction happening now. That history of transactions is what everyone calls a Bitcoin blockchain.
+1. Wallets are usually represented by Bitcoin users which send and receive payments. Depending on the wallet, it may communicate with any entity on the Bitcoin network directly or may require a middle-man through which it can send/receive payments.
+
+2. Nodes are the entitites which process network transactions and more importantly keep entire history of transactions. A node can also act like a wallet at the same time.
+
+While every network participant able to send/receive Bitcoin payments, some network members (Nodes) also keep the entiry history of transactions from the very first one to the last transaction happening now. That entire history of transactions is what is called a Bitcoin blockchain. The word blockchain originates from the fact that new transactions are added to history in batches (i.e. a block of transactions).
 
 Nodes are tasked with validating every new transaction and ensure that only valid transactions are made to the blockchain. Anyone can setup a full node at home (will be covered later), as long as there is an internet connnection it can autonomously run on old computers. 
 
@@ -104,9 +108,9 @@ If one of the nodes tries to cheat by marking an invalid transaction as valid it
 
 There can exists at most 21 million Bitcoins with over 17 million Bitcoins already being in the market. The remaining part will be created by the network over the course of 130 years in manner described below.
 
-The system designed in a way where a certain number of Bitcoin added to the system roughly every 10 minutes. Those newly created Bitcoins are given away "randomly" to one of the parties. The process is not really random.... but for the sake of keeping things simple all you should understand is that a certain known number of Bitcoins are awarded to one of the network nodes every 10 minutes. The award goes to the node that is first to succesfully solve a mathematical problem. While all nodes are trying to solve it only the very first one gets the prize.
+The system designed in a way where a certain number of Bitcoin added to the system roughly every 10 minutes. Those newly created Bitcoins are given away "randomly" to one of the parties. The process is not really random.... but for the sake of keeping things simple, all you should understand is that a certain known number of Bitcoins are awarded to one of the network nodes every 10 minutes. The award goes to the node that is the first to succesfully solve a mathematical problem. While all nodes are trying to solve it only the very first one gets the prize.
 
-Once the total Bitcoin count reaches 21 million noew new Bitcoins will be issued to the winning node. 
+Once the total Bitcoin count reaches 21 million noew new Bitcoins will be issued to the winning node.
 
 In conclusion, here are the essentials points you should know:
 
@@ -123,31 +127,35 @@ More stats:
 - https://fortune.com/2017/11/25/lost-bitcoins/
 
 
-
 ## 2. Why Bitcoin
 
-Bitcoin started as an idea, which initially was worthless at first without anyone knowing about it. At first it might have attracted hard core enthusiasts which probably played with it for fun. Back then Bitcoin was pereceived mostly as "fun money by geeks" rather than a phenomena that's going to overturn the Financial system. Only few understood that. More people understand that now but the number of such people is still extremely low as mainstream media plays a strong role in shaping how the masses perceive Bitcoin.
+Bitcoin started as an idea, which initially was worthless as only a handful of people knew about it... Back then Bitcoin was mostly pereceived as a "fun money for geeks" rather than a phenomena that can potentially overturn the Financial System. Only few understood that... Although a lot more more people understand that now, the number of such people is still realtively low. This is mainly due to the fact that mainstream media plays a strong role in shaping how the masses perceive Bitcoin.
 
-Back in early days, the idea that in 10 years Bitcoin would be worth over $10,000 appeared somewhat unbelieveable to early adopters with some spending about 10,000 BTC to buy (Papa John's pizza)[https://bitcointalk.org/index.php?topic=137.msg1195#msg1195]. 
+Back in early days, the idea that someday Bitcoin would be worth over $10,000 appeared somewhat unbelieveable...  With some[https://bitcointalk.org/index.php?topic=137.msg1195#msg1195] spending 10,000 BTC (over 100 mill USD today) to buy pizza. 
 
-[bitcoin growth graph, covering entire period]
+In August 2019, Bitcoin was mostly traded over the $11,000 mark. It seems to have consoilidated above the $10,000 mark at this point.
 
-Growing from 0$ to 100$ was the biggest challenge for Bitcoin had and that first happened sometime in 2013 (nearly 5 years after it emerged)... As time gone buy, it grew higher and higher. It broke $1,000 next year in 2014 though retreated quickly, and reached nearly $20,000 in the end of 2018. 
+Regardless of current price, the biggest challenge for Bitcoin was to grow from 0$ to 100$ and that first happened sometime in 2013 (nearly 5 years after it emerged)... As time gone buy, it grew higher and higher. It broke $1,000 next year in 2014 though retreated quickly, and even reached nearly $20,000 in the end of 2018.
 
-Understandably Bitcoin was (extremely volatile in its early days)[https://cointelegraph.com/news/a-dazzling-history-of-bitcoins-ups-and-downs]. The volatility was due to low number of people willing to buy/sell the Bitcoin so the price swings were huge back then. Even today, with Bitcoin having a 200 billion market cap it's not uncommon to see a daily price change of 10%. 
+Understandably Bitcoin was (extremely volatile in its early days)[https://cointelegraph.com/news/a-dazzling-history-of-bitcoins-ups-and-downs]. The volatility was due to low number of people willing to buy/sell the Bitcoin so the price swings were huge back then. Even today, with Bitcoin having a 200 billion market cap it's not uncommon to see a daily price change of 10%. It should reach a market cap of over two trillion before public hype/panic/traders are not able to influence the price significantly.
 
-Bitcoin today is very different from what it was 10 years ago. While media still plays a huge role in how people pervceive the Bitcoin, they are loosing the battle. Today, all mainstream financial channels, talk about it. And not just media, the kings of financial world as well as world leaders are all talkign about it. While for the most part they try to demean it, they are loosing the battle
+Bitcoin today is very different from what it was 10 years ago. While media still plays a huge role in how people pervceive the Bitcoin, they seem to be loosing the battle as the price seem to be going up... Today, nearly all mainstream financial channels have expressed their opinion about Bitcoin. And not just media, the kings of financial world as well as (world leaders)[https://twitter.com/realdonaldtrump/status/1149472282584072192] are all talkign about it. 
 
+It's no longer perceived as "fun money for geeks" but more as a unversal "financial asset" with a growing appeal.
 
 
 **Why Bitcoin Keeps Growing?**
 
-What drives Bitcoin price and adoption What Problems it tries to solve?
+To understand what drives Bitcoin price higher and further adoption it's important to look at Bitcoin as a potential solution to major problems rather than some new promising asset class or simply as an alternative to gold or money.
 
-- demcratic financial access for all (unbanked)
-- better money. deflationary
-- decentralization
-- dethroning banks and entities reigning in financial system
+Unlike traditional assets and financial instruments which are usually promoted/enforced by the governments or some other involved entity, core Bitcoin community are driven by ideas. 
+
+These people put singificant amount of personal time and resources into educating people about the benefits brought by Bitcoin and spread the word about it.
+
+
+- decentralized financial system where all parties are equal
+- unconditional financial inclusion for all
+- better alternative to debt driven fiat currencies
 
 
 **Can The Bitcoin Be Stopped?**
