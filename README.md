@@ -13,6 +13,7 @@ Disclaimer: For the sake of keeping this guide simple and accessible for non-tec
 - What is Bitcoin?
 - How Bitcoin Network Works?
 - Bitcoin in Numbers
+- Other crypto & Bitcoin forks
 
 2. Why Bitcoin
 
@@ -40,8 +41,12 @@ Disclaimer: For the sake of keeping this guide simple and accessible for non-tec
 - How long the transaction takes place?
 - Is it possible to cancel bitcoin transaction?
 
+6. Transacting with Bitcoin
 
-6. Bitcoin Nodes and Mining
+- Crypto To Fiat Credit cards
+- Using Crypto To Fiat cards
+
+7. Bitcoin Nodes and Mining
 
 - What is Bitcoin mining?
 - Why mining is important?
@@ -49,6 +54,10 @@ Disclaimer: For the sake of keeping this guide simple and accessible for non-tec
 
 
 <br><br><br>
+
+## Introduction
+
+// add content
 
 ## 1. About Bitcoin
 
@@ -77,7 +86,7 @@ Satoshi proposed Bitcoin, in a form of independent and decentralized network tha
 - unconditionally open for anyone to join
 
 
-Note: The ideas brought forward in the paper required a fairly solid understanding of the contemporary monetary system and extensive knowledge of Mathematics, Cryptography and Computer Science. Therefore, Bitcoin should be regarded as a scientific discovery that challenges the status quo of present day monetary system and regulatory enitites surrounding them.
+Note: The ideas brought forward in the paper required a fairly comprehensive understanding of the contemporary monetary system and extensive knowledge of Mathematics, Cryptography and Computer Science. Therefore, Bitcoin should be regarded as a scientific discovery that challenges the status quo of present day monetary system and regulatory enitites surrounding them.
 
 
 **How Bitcoin Network Works**
@@ -90,16 +99,16 @@ The sketch below illustrates the Bitcoin network. In essence, there are two type
 <img src="/images/image_net.jpg">
 
 
-Anyone is able to becaome a member of the network as a node or as a wallet, and start transacting with Bitcoins on equal terms as everyone else.
+Anyone is able to become a member of the network as a node or a wallet, and start transacting with Bitcoins on equal terms as everyone else.
 
 
-1. Wallets are usually represented by Bitcoin users which send and receive payments. Depending on the wallet, it may communicate with any entity on the Bitcoin network directly or may require a middle-man through which it can send/receive payments.
+1. Wallets are usually represented by Bitcoin users which send and receive payments. Depending on the wallet type, it may communicate with any entity on the Bitcoin network directly or may require a middle-man through which it can send/receive payments.
 
 2. Nodes are the entitites which process network transactions and more importantly keep entire history of transactions. A node can also act like a wallet at the same time.
 
 While every network participant able to send/receive Bitcoin payments, some network members (Nodes) also keep the entiry history of transactions from the very first one to the last transaction happening now. That entire history of transactions is what is called a Bitcoin blockchain. The word blockchain originates from the fact that new transactions are added to history in batches (i.e. a block of transactions).
 
-Nodes are tasked with validating every new transaction and ensure that only valid transactions are made to the blockchain. Anyone can setup a full node at home (will be covered later), as long as there is an internet connnection it can autonomously run on old computers. 
+Nodes are tasked with validating every new transaction and ensure that only valid transactions are made to the blockchain. Anyone can setup a full node at home (will be covered later), as long as there is a working internet connnection it can autonomously operate even on an old computer. 
 
 If one of the nodes tries to cheat by marking an invalid transaction as valid it would be disregarded by all other nodes on the network. In essence, nodes guarantee the openness, decentralization and security of the network.
 
@@ -110,9 +119,9 @@ There can exists at most 21 million Bitcoins with over 17 million Bitcoins alrea
 
 The system designed in a way where a certain number of Bitcoin added to the system roughly every 10 minutes. Those newly created Bitcoins are given away "randomly" to one of the parties. The process is not really random.... but for the sake of keeping things simple, all you should understand is that a certain known number of Bitcoins are awarded to one of the network nodes every 10 minutes. The award goes to the node that is the first to succesfully solve a mathematical problem. While all nodes are trying to solve it only the very first one gets the prize.
 
-Once the total Bitcoin count reaches 21 million noew new Bitcoins will be issued to the winning node.
+Once the total Bitcoin count reaches 21 million no new Bitcoins will be issued to the winning node.
 
-In conclusion, here are the essentials points you should know:
+In conclusion, here are the essential points you should know:
 
 - 21 million: total number of Bitcoins that can exist
 - slighly over 17.8 million has already been created by system since 2008
@@ -121,25 +130,40 @@ In conclusion, here are the essentials points you should know:
 
 Taking into the account above, keep in mind that while there can be 21 million Bitcoins in total the current market supply of Bitcoins is about 14 million Bitcoins.
 
-More stats:
+More reading (optional):
 
 - https://www.buybitcoinworldwide.com/how-many-bitcoins-are-there/
 - https://fortune.com/2017/11/25/lost-bitcoins/
+- https://coinsavage.com/content/2018/11/the-21-million-bitcoin-story-explained-why-is-the-number-special/
+
+
+**Other crypto & Bitcoin forks**
+
+// add content
+
 
 
 ## 2. Why Bitcoin
 
-Bitcoin started as an idea, which initially was worthless as only a handful of people knew about it... Back then Bitcoin was mostly pereceived as a "fun money for geeks" rather than a phenomena that can potentially overturn the Financial System. Only few understood that... Although a lot more more people understand that now, the number of such people is still realtively low. This is mainly due to the fact that mainstream media plays a strong role in shaping how the masses perceive Bitcoin.
+Bitcoin started as an idea, which initially was worthless as only a handful of people knew about it... Back then Bitcoin was mostly pereceived as a "fun money for geeks" rather than a phenomena that can potentially challenge and overturn the Financial System. Only few understood that... Although a lot more more people understand that now, the number of such people is still realtively low. This is mainly due to the fact that mainstream media plays a strong role in shaping how the masses perceive Bitcoin.
 
 Back in early days, the idea that someday Bitcoin would be worth over $10,000 appeared somewhat unbelieveable...  With some[https://bitcointalk.org/index.php?topic=137.msg1195#msg1195] spending 10,000 BTC (over 100 mill USD today) to buy pizza. 
 
 In August 2019, Bitcoin was mostly traded over the $11,000 mark. It seems to have consoilidated above the $10,000 mark at this point.
 
-Regardless of current price, the biggest challenge for Bitcoin was to grow from 0$ to 100$ and that first happened sometime in 2013 (nearly 5 years after it emerged)... As time gone buy, it grew higher and higher. It broke $1,000 next year in 2014 though retreated quickly, and even reached nearly $20,000 in the end of 2018.
+Regardless of current price, the biggest challenge for the Bitcoin was to grow from 0$ to 100$ and that first happened sometime in 2013 (nearly 5 years after it emerged)... As time gone buy, it grew higher and higher. It broke $1,000 next year in 2014 though retreated quickly, and even reached nearly $20,000 in the end of 2018.
 
 Understandably Bitcoin was (extremely volatile in its early days)[https://cointelegraph.com/news/a-dazzling-history-of-bitcoins-ups-and-downs]. The volatility was due to low number of people willing to buy/sell the Bitcoin so the price swings were huge back then. Even today, with Bitcoin having a 200 billion market cap it's not uncommon to see a daily price change of 10%. It should reach a market cap of over two trillion before public hype/panic/traders are not able to influence the price significantly.
 
-Bitcoin today is very different from what it was 10 years ago. While media still plays a huge role in how people pervceive the Bitcoin, they seem to be loosing the battle as the price seem to be going up... Today, nearly all mainstream financial channels have expressed their opinion about Bitcoin. And not just media, the kings of financial world as well as (world leaders)[https://twitter.com/realdonaldtrump/status/1149472282584072192] are all talkign about it. 
+Bitcoin today is very different from what it was 10 years ago. While media still plays a huge role in how people pervceive the Bitcoin, they seem to be loosing the battle as the price seem to be going up... These days, nearly all mainstream financial channels regularly talk about Bitcoin. And not just media, the kings of financial world as well as (world leaders)[https://twitter.com/realdonaldtrump/status/1149472282584072192] are all talkign about it. 
+
+
+- Fed Chair Jerome Powell on Bitcoin as a Store of Value, https://www.youtube.com/watch?v=jBUlXryF2WI
+- Trump on Bitcoin, https://twitter.com/realdonaldtrump/status/1149472282584072192
+- Jack Dorse, Twitter CEO, https://www.cnbc.com/video/2019/03/06/jack-dorsey-spends-10k-a-week-on-bitcoin-predicts-a-massive-bitcoin-boom.html
+- https://medium.com/@MartinRosulek/14-bitcoin-quotes-by-famous-people-6e7a1a009281
+- Ron Paul, https://www.ccn.com/ron-paul-pledges-allegiance-to-bitcoin-calls-crypto-a-great-idea/
+
 
 It's no longer perceived as "fun money for geeks" but more as a unversal "financial asset" with a growing appeal.
 
@@ -152,28 +176,35 @@ Unlike traditional assets and financial instruments which are usually promoted/e
 
 These people put singificant amount of personal time and resources into educating people about the benefits brought by Bitcoin and spread the word about it.
 
-
-- decentralized financial system where all parties are equal
-- unconditional financial inclusion for all
+- decentralized financial system where all participants are equal
+- unconditional financial inclusion for everyone
 - better alternative to debt driven fiat currencies
+
+Links:
+
+- https://www.reddit.com/r/Bitcoin/comments/cqzxtb/coinbase_custody_seeing_200400_million_in_crypto/ 
+-
+-
+-
 
 
 **Can The Bitcoin Be Stopped?**
 
 - transactions volume limitation
+--
+--
 - hack/bug
-- giovernment ban
+--
+--
+- government ban
+-- https://www.youtube.com/watch?v=xolYGw2wU6Y
 
 
 
 ## 3. Buying Bitcoin
 
 
-- exchanghe link1
-- exchanghe link2
-- exchanghe link3
-- exchanghe 1ink4
-
+https://www.finder.com/buy-bitcoin-credit-card
 
 
 ## 4. Storing Bitcoin Safely
@@ -191,12 +222,16 @@ The wallet you should be using is the one that allows you (and only you) to see 
 
 Most wallets out there DO NOT provide that capability, even those coming from known exchanges such as Coinbase. What that really means is that funds on the user's wallet balance are in practice are controlled by the entity providing the wallet. In practice, that means the user's access to the wallet can be restricted at any time and funds on the waller can be frozen. It also means that if the infrustrcture/servers powering that wallet is compromised the users' funds can be stollen. 
 
-All of the risks mentioned are fairly common with a lof of Bitcoins were and being stollen this way.  It's more common than you may think! Due to unregulated nature of this space, wallet users are unlikely to be compensate for the losses
+All of the risks mentioned are fairly common with a lof of Bitcoins were and being stollen this way. It's more common than you may think! Due to unregulated nature of this space, wallet users are unlikely to be compensated for the losses
 
-- link1
-- link2
-- link3
-- 1ink4
+- Crypto Developer Komodo ‘Hacks’ Wallet Users to Foil $13 Million Theft
+https://www.coindesk.com/crypto-developer-komodo-hacks-wallet-users-to-foil-13-million-hack
+
+- 9 Ways to Hack Your Bitcoin Wallet
+https://www.wipersoft.com/9-ways-to-hack-your-bitcoin-wallet/
+
+- Cryptocurrency customers are unable to access their coins after Canadian CEO’s death
+https://www.cnbc.com/2019/02/05/millions-in-cryptocurrencies-frozen-after-quadriga-founders-death.html
 
 On the other hand, when the wallet provider gives its user exclusive control over the Private Key, the full control is delegated to the user. In practice that would mean that no one but the wallet user has control over the funds. 
 
@@ -227,6 +262,15 @@ Using that Reastore option you will are able to restore access your funds and th
 
 That’s the only thing you should really understand. The rest is secondary.
 
+**Recommended Bitcoin Wallets**
+
+// add content
+// explain differences between wallets
+// add a list of custodial wallets (unsafe wallets)
+
+
+https://qz.com/1103310/photos-the-secret-swiss-mountain-bunker-where-millionaires-stash-their-bitcoins/
+
 
 **Keeping Bitcoins on Exchange**
 
@@ -236,7 +280,7 @@ Depending on the amount of Bitcoins you're looking to buy in most cases the proc
 
 For smaller amounts (below < $1000):
 
-This is the easiest option and for which you will bascially need only a credit card. You will be able to purhase Bitcoin and other crypto using your credit card. This option is convenient but bear in mind that you will be prurchasing the crypto at slightly higher prices than market rates.
+This is the easiest option and for which you will basically need only a credit card. You will be able to purhase Bitcoin and other crypto using your credit card. This option is convenient but bear in mind that you will be prurchasing the crypto at slightly higher prices than market rates.
 
 - credit card option 1
 - credit card option 2
@@ -257,16 +301,20 @@ Most exchanges are same as pretty much all have to abide by financial regulation
 
 A lot of people prefer keeping the purchased Bitcoins on the exchange itself. Many mistakenly assume that keeping them on exchanges is safe while it's not. Just like wallets exchanges are hacked and when that happens usually users loose their funds without getting compensated.
 
-- exhcnage hack link 1
-- exhcnage hack link 2
-- exhcnage hack link 3
-- exhcnage hack link 4
+- The Largest Cryptocurrency Hacks So Far This Year
+https://www.investopedia.com/news/largest-cryptocurrency-hacks-so-far-year/
+
+- Coincheck: the Biggest Crypto Exchange Hack of All Time
+https://coin360.com/blog/top-7-crypto-exchange-hacks
+
+- A timeline of major crypto-exchange hacks
+https://discover.ledger.com/hackstimeline/
 
 If you keep bitcoins on exchange, it means the exchange keeps them for you on their account. They give you username and password so that you can send them instructions like withdrawing/depositing bitcoins.
 
 The risk here is for exchange to get hacked or for them to scam everyone by telling that they were hacked. They also can freeze/restrict your account for whatever reason. All of the risks mentioned are fairly common.
 
-If someone somehow gets hold of your username/password to access the exchange you will loose your funds because the attacker will withdraw Bitcoins elsewhere. Note that some senior level administrators on the exchange probably have full access to your account. 
+If someone somehow gets hold of your username/password to access the exchange you will loose your funds because the attacker will withdraw Bitcoins elsewhere. Note that some senior level administrators on the exchange potentially do have full access to your account funds.
 
 The point I am trying to make you kind of have to trust them not to be evil :)
 
@@ -317,6 +365,12 @@ If the fee was sufficient then it will most likely be confirmed within 10 minute
 Some of the wallets that have the fee estimation/recommendations capabilities are bread wallet (https://brd.com), unstoppable wallet (https://unstoppable.money)
 
 After the transaction is included in the block it can be already considered as completed.
+
+6. Transacting with Bitcoin
+
+// add content
+// - that section would outline all available credit cards (crypto to fiat cards)
+
 
 
 ## 6. Bitcoin Nodes and Mining
