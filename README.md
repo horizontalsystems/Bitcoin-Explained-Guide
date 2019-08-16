@@ -43,8 +43,13 @@ Disclaimer: For the sake of keeping this guide simple and accessible for non-tec
 
 6. Transacting with Bitcoin
 
-- Crypto To Fiat Credit cards
-- Using Crypto To Fiat cards
+**Using Bitcoin in real world**
+
+// add content
+
+**Using Crypto To Fiat cards**
+
+// add content
 
 7. Bitcoin Nodes and Mining
 
