@@ -1,9 +1,11 @@
 
 # Bitcoin-Explained-101
 
-What is Bitcoin? How it works? How to get started? Everything you should know in simple terms.
+What is Bitcoin? How it works? How to get started? Everything you should know about Bitcoin phenomena and other crypt currencies in simple terms and easy to digest manner.
 
-Disclaimer: For the sake of keeping this guide simple and accessible for non-technical audience, some of the concepts were simplified to make it easier for a non-technical user to udnerstand Bitcoin, how it works and some key of its key properties.
+Disclaimer: 
+
+This guide was written for an average person, who may have little to no technical knowledge needed to grasp the technical aspects of crypto and blockchain technologies. For the sake of keeping this guide simple and accessible for everyone, some of the concepts were simplified to make it easier for a non-technical user to grasp the Bitcoin, how it works and some key of its key properties.
 
 
 ## Table Of Contents
@@ -13,7 +15,7 @@ Disclaimer: For the sake of keeping this guide simple and accessible for non-tec
 - What is Bitcoin?
 - How Bitcoin Network Works?
 - Bitcoin in Numbers
-- Other crypto & Bitcoin forks
+- Bitcoin Forks and Other Cryptocurrencies
 
 2. Why Bitcoin
 
@@ -60,35 +62,31 @@ Disclaimer: For the sake of keeping this guide simple and accessible for non-tec
 
 <br><br><br>
 
-## Introduction
-
-// add content
-
 ## 1. About Bitcoin
 
 Over the last few years Bitcoin got labelled in many different ways ranging from electronic cash to the digital gold.
 
 While Bitcoin may be defined in many different ways depending on who you ask, it holds certain unversal properties which in the eyes of many make the Bitcoin "valuable" and consequently regarded as a better alternative to the traditional money like USD or EUR (aka fiat money) or other classical hard assets such as gold or silver.
 
-The idea of Bitcoin was first proposed by someone calling himself Satoshi Nakamoto (not a real name) back in 2008. If interested it can be found here, https://bitcoin.org/bitcoin.pdf
+The idea of Bitcoin was first proposed by someone calling himself Satoshi Nakamoto (not a real name) back in 2008. If interested it can be found [here](https://bitcoin.org/bitcoin.pdf). The paper puts focus on ability to transact with anyone in a safe manner without the need for a 3'rd party intermediary (such as banks in traditional monetary system).
 
-As this guidebook is aimed at non-technical people we won't be going into details here. The paper puts focus on ability to transact with anyone in a safe manner without the need for a third-party intermediary (such as banks in traditional monetary system).
 
-<p style="text-align: center;">_Traditional Monetary System_</p>
+*Centralized (Monetary) System*
 
 <img src="/images/image_banks.png" align="center">
 
-<p style="text-align: center;">_Decentralized Monetary System_</p>
+*Decentralized (Monetary) System*
 
 <img src="/images/image_blockchains.png">
 
 
-Satoshi proposed Bitcoin, in a form of independent and decentralized network that is:
+Satoshi Nakamoto proposed a Bitcoin, in a form of independent and decentralized network that is:
 
 - not reliant upon any central entity to work
 - functions 24/7 without dependence on a single entity
-- ensures equal and fair rules for all participants
-- unconditionally open for anyone to join
+- enforces equal and fair rules for all participants
+- stays unconditionally open for anyone to join
+- works without geographical boundaries
 
 
 Note: The ideas brought forward in the paper required a fairly comprehensive understanding of the contemporary monetary system and extensive knowledge of Mathematics, Cryptography and Computer Science. Therefore, Bitcoin should be regarded as a scientific discovery that challenges the status quo of present day monetary system and regulatory enitites surrounding them.
@@ -96,56 +94,66 @@ Note: The ideas brought forward in the paper required a fairly comprehensive und
 
 **How Bitcoin Network Works**
 
-Usually, when someone talks about Bitcoin blockchain or Bitcoin users the person refers to Bitcoin network.
+Usually, when someone talks about Bitcoin blockchain or Bitcoin users the person refers to the Bitcoin network.
 
-The sketch below illustrates the Bitcoin network. In essence, there are two types of parties participating on the network: wallets and nodes (aka miners).
+The sketch below illustrates the basic structure of Bitcoin network. In essence, there are two types of parties participating on the network: wallets and nodes (aka miners).
 
+<img src="/images/image_net.png">
 
-<img src="/images/image_net.jpg">
-
-
-Anyone is able to become a member of the network as a node or a wallet, and start transacting with Bitcoins on equal terms as everyone else.
-
+Anyone is able to join the network as a node or a wallet, and start transacting with Bitcoins on equal terms as everyone else.
 
 1. Wallets are usually represented by Bitcoin users which send and receive payments. Depending on the wallet type, it may communicate with any entity on the Bitcoin network directly or may require a middle-man through which it can send/receive payments.
 
-2. Nodes are the entitites which process network transactions and more importantly keep entire history of transactions. A node can also act like a wallet at the same time.
+2. Nodes are the entitites which process network transactions and more importantly keep history of transactions. A node can also act like a wallet at the same time.
 
-While every network participant able to send/receive Bitcoin payments, some network members (Nodes) also keep the entiry history of transactions from the very first one to the last transaction happening now. That entire history of transactions is what is called a Bitcoin blockchain. The word blockchain originates from the fact that new transactions are added to history in batches (i.e. a block of transactions).
+While every network participant able to send/receive Bitcoin payments, some network members (Nodes) also keep the entiry history of transactions from the very first one to the transactions happening now. That entire history of transactions is what is called a Bitcoin blockchain. The word blockchain originates from the fact that new transactions are added to history in batches (i.e. a block of transactions).
 
-Nodes are tasked with validating every new transaction and ensure that only valid transactions are made to the blockchain. Anyone can setup a full node at home (will be covered later), as long as there is a working internet connnection it can autonomously operate even on an old computer. 
+Nodes are tasked with validating every new transaction and ensure that only valid transactions are made to the blockchain. Anyone can setup a node at home (explained below), as long as there is a working internet connnection it can autonomously operate even on an old computer. 
 
-If one of the nodes tries to cheat by marking an invalid transaction as valid it would be disregarded by all other nodes on the network. In essence, nodes guarantee the openness, decentralization and security of the network.
+If one of the nodes tries to cheat the network by marking an invalid transaction as valid it would be disregarded by all other nodes on the network. In essence, cumulatively nodes guarantee the openness, decentralization and security of the network. Cheating on such netowrk in practical terms is close impossible.
 
 
-**Bitcoin Network in Numbers**
+**Bitcoin in Numbers**
 
-There can exists at most 21 million Bitcoins with over 17 million Bitcoins already being in the market. The remaining part will be created by the network over the course of 130 years in manner described below.
+There can exists at most 21 million Bitcoins with over 17 million Bitcoins already being in the market. The remaining part will be created by the network over the course of 130 years in a manner described below.
 
-The system designed in a way where a certain number of Bitcoin added to the system roughly every 10 minutes. Those newly created Bitcoins are given away "randomly" to one of the parties. The process is not really random.... but for the sake of keeping things simple, all you should understand is that a certain known number of Bitcoins are awarded to one of the network nodes every 10 minutes. The award goes to the node that is the first to succesfully solve a mathematical problem. While all nodes are trying to solve it only the very first one gets the prize.
+The system designed in a way where a certain number of Bitcoins are added to the system roughly every 10 minutes. Those newly created Bitcoins are given away "randomly" to one of the parties. The process is not really random.... but for the sake of keeping things simple, all you should understand is that a certain publicly known number of Bitcoins are awarded to one of the network nodes every 10 minutes. The award goes to the node that is the first to succesfully solve a mathematical problem. While all nodes are trying to solve it only the very first one gets the prize.
 
 Once the total Bitcoin count reaches 21 million no new Bitcoins will be issued to the winning node.
 
-In conclusion, here are the essential points you should know:
+In conclusion, here are the essential points:
 
 - 21 million: total number of Bitcoins that can exist
 - slighly over 17.8 million has already been created by system since 2008
 - the remaining 3.2 million will be created over the next 130 years
-- about 4 million of those that were already created have been lost (source: fortune.com)[https://fortune.com/2017/11/25/lost-bitcoins/]
+- about 4 million of those that were already created have been lost [source: fortune.com](https://fortune.com/2017/11/25/lost-bitcoins/)
 
 Taking into the account above, keep in mind that while there can be 21 million Bitcoins in total the current market supply of Bitcoins is about 14 million Bitcoins.
 
+<img src="/images/bitcoins_circulation.png">
+
 More reading (optional):
 
-- https://www.buybitcoinworldwide.com/how-many-bitcoins-are-there/
-- https://fortune.com/2017/11/25/lost-bitcoins/
-- https://coinsavage.com/content/2018/11/the-21-million-bitcoin-story-explained-why-is-the-number-special/
+- [How Many Bitcoins Are There?](https://www.buybitcoinworldwide.com/how-many-bitcoins-are-there/)
+- [Nearly 4 Million Bitcoins Lost Forever, New Study Says](https://fortune.com/2017/11/25/lost-bitcoins/)
+- [The 21 million Bitcoin story explained: Why is the number special?](https://coinsavage.com/content/2018/11/the-21-million-bitcoin-story-explained-why-is-the-number-special/)
 
 
-**Other crypto & Bitcoin forks**
+**Bitcoin Forks and Other Cryptocurrencies**
 
-// add content
+When trying to understand the Bitcoin for the first time a lot of people are usually left confused and frustrated...
 
+First the person tries to understand the Bitcoin and what's the big deal about it. Then while digging through they discover other cryptocurrencies with most trying hard to portray itself as a better alternative to Bitcoin. And then there are also a handful of cryptocurrencies which have "Bitcoin" in its name. All these aspects make onboarding experience for the new years extremely difficult.
+
+While it may seem like a lot to digest, the essential points can be summarized as:
+
+- Bitcoin:
+
+- Bitcoin Forks:
+
+- Other Cryptocurrencies:
+
+- Tokens: 
 
 
 ## 2. Why Bitcoin
