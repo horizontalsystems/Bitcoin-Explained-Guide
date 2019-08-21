@@ -153,7 +153,7 @@ While it may seem like a lot to digest, the essential points can be summarized a
 
 - Bitcoin Forks: Cryptocurrencies which were derived from the original Bitcoin (BTC). Due to the open source nature of Bitcoin and underlying code anyone is able to create a Bitcoin like cryptocurrency with some modifications and market it as a separate crypto coin. The most noteowrthy such cryptociurrency is [Bitcoin Cash](https://en.wikipedia.org/wiki/Bitcoin_Cash)
 
-- Other Cryptocurrencies (usually called "altcoins"): All other cryptocurrencies that are around. While there are a lot of them around only few managed to attract the audience and gain some crypto market share. The altcoins which have not attracted any audience and generally regarded as coins with no to little value are also labelled as "shitcoins".
+- Other Cryptocurrencies (usually called "altcoins"): All other cryptocurrencies that are around. While there are a lot of them around only few managed to attract the audience and gain some crypto market share. The altcoins which have not attracted any audience are generally regarded as coins with no to little value and are labelled as "shitcoins".
 
 For the comprehensive list as well as current market prices of cryptocurrencies see [CoinMarketCap.com](https://coinmarketcap.com).
 
@@ -162,25 +162,25 @@ For the comprehensive list as well as current market prices of cryptocurrencies 
 
 ## 2. Why Bitcoin
 
-Bitcoin started as an idea, which initially was worthless as only a handful of people knew about it... Back then Bitcoin was mostly pereceived as a "fun money for geeks" rather than a phenomena that can potentially challenge and overturn the Financial System. Only few understood that... Although a lot more more people understand that now, the number of such people is still realtively low. This is mainly due to the fact that mainstream media plays a strong role in shaping how the masses perceive Bitcoin.
+Bitcoin started as an idea, which initially was worthless as only a handful of people knew about it. Back then Bitcoin was mostly pereceived as a "fun money for geeks" rather than a phenomena that can potentially challenge and overturn the Financial System. Only few understood that... Although a lot more more people understand that now, the number of such people is still realtively low. This is mainly due to the fact that mainstream media plays a strong role in shaping how the masses perceive Bitcoin.
 
-Back in early days, the idea that someday Bitcoin would be worth over $10,000 appeared somewhat unbelieveable...  With some[https://bitcointalk.org/index.php?topic=137.msg1195#msg1195] spending 10,000 BTC (over 100 mill USD today) to buy pizza. 
+Back in early days, the idea that someday Bitcoin would be worth over $10,000 appeared somewhat unbelieveable...  With [some](https://bitcointalk.org/index.php?topic=137.msg1195#msg1195) spending 10,000 BTC (over 100,000,000 USD today) to buy pizza. 
 
-In August 2019, Bitcoin was mostly traded over the $11,000 mark. It seems to have consoilidated above the $10,000 mark at this point.
+In August 2019, Bitcoin was mostly traded over the $11,000 mark. It seems to have consoilidated above the $10,000 mark at this point. Regardless of current price, the biggest challenge for the Bitcoin was to grow from 0$ to 100$ and that first happened sometime in 2013 (nearly 5 years after it emerged)... As time gone buy, it grew higher and higher. It broke $1,000 next year in 2014 though retreated quickly, and even reached nearly $20,000 in the end of 2018.
 
-Regardless of current price, the biggest challenge for the Bitcoin was to grow from 0$ to 100$ and that first happened sometime in 2013 (nearly 5 years after it emerged)... As time gone buy, it grew higher and higher. It broke $1,000 next year in 2014 though retreated quickly, and even reached nearly $20,000 in the end of 2018.
+Understandably Bitcoin was and still is extremely volatile in its early days. The volatility was due to low number of people willing to buy/sell the Bitcoin so the price swings were huge back then. Even today, with Bitcoin having a 200 billion market cap it's not uncommon to see a daily price change of 10%. It should reach a market cap of over two trillion before public hype/panic/traders are not able to influence the price significantly.
 
-Understandably Bitcoin was (extremely volatile in its early days)[https://cointelegraph.com/news/a-dazzling-history-of-bitcoins-ups-and-downs]. The volatility was due to low number of people willing to buy/sell the Bitcoin so the price swings were huge back then. Even today, with Bitcoin having a 200 billion market cap it's not uncommon to see a daily price change of 10%. It should reach a market cap of over two trillion before public hype/panic/traders are not able to influence the price significantly.
+See: [A Dazzling History of Bitcoin’s Ups and Downs](https://cointelegraph.com/news/a-dazzling-history-of-bitcoins-ups-and-downs)
 
-Bitcoin today is very different from what it was 10 years ago. While media still plays a huge role in how people pervceive the Bitcoin, they seem to be loosing the battle as the price seem to be going up... These days, nearly all mainstream financial channels regularly talk about Bitcoin. And not just media, the kings of financial world as well as (world leaders)[https://twitter.com/realdonaldtrump/status/1149472282584072192] are all talkign about it. 
+Bitcoin today is very different from what it was 10 years ago. While media still plays a huge role in how people pervceive the Bitcoin, they seem to be loosing the battle as the price seem to be going up... These days, nearly all mainstream financial channels regularly talk about Bitcoin. And not just media, the kings of financial world as well as [world leaders](https://twitter.com/realdonaldtrump/status/1149472282584072192) are all taking notice.
 
 
-- Fed Chair Jerome Powell on Bitcoin as a Store of Value, https://www.youtube.com/watch?v=jBUlXryF2WI
-- Trump on Bitcoin, https://twitter.com/realdonaldtrump/status/1149472282584072192
-- Jack Dorse, Twitter CEO, https://www.cnbc.com/video/2019/03/06/jack-dorsey-spends-10k-a-week-on-bitcoin-predicts-a-massive-bitcoin-boom.html
-- https://medium.com/@MartinRosulek/14-bitcoin-quotes-by-famous-people-6e7a1a009281
-- Ron Paul, https://www.ccn.com/ron-paul-pledges-allegiance-to-bitcoin-calls-crypto-a-great-idea/
-
+- [Fed Chair Jerome Powell on Bitcoin as a Store of Value](https://www.youtube.com/watch?v=jBUlXryF2WI)
+- [President Trump on Bitcoin](https://twitter.com/realdonaldtrump/status/1149472282584072192)
+- [Jack Dorsey, CEO of Twitter](https://www.cnbc.com/video/2019/03/06/jack-dorsey-spends-10k-a-week-on-bitcoin-predicts-a-massive-bitcoin-boom.html)
+- [Ron Paul Pledges Allegiance to Bitcoin, Calls Crypto a Great Idea](https://www.ccn.com/ron-paul-pledges-allegiance-to-bitcoin-calls-crypto-a-great-idea/)
+- [Brian Armstrong, CEO of Coinbase](https://twitter.com/brian_armstrong/status/1162185049699057664)
+- [14 Bitcoin quotes by famous people](https://medium.com/@MartinRosulek/14-bitcoin-quotes-by-famous-people-6e7a1a009281)
 
 It's no longer perceived as "fun money for geeks" but more as a unversal "financial asset" with a growing appeal.
 
