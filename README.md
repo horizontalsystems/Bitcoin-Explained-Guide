@@ -106,11 +106,11 @@ Anyone is able to join the network as a node or a wallet, and start transacting 
 
 2. Nodes are the entitites which process network transactions and more importantly keep history of transactions. A node can also act like a wallet at the same time.
 
-While every network participant able to send/receive Bitcoin payments, some network members (Nodes) also keep the entiry history of transactions from the very first one to the transactions happening now. That entire history of transactions is what is called a Bitcoin blockchain. The word blockchain originates from the fact that new transactions are added to history in batches (i.e. a block of transactions).
+While every network participant is able to send/receive Bitcoin payments, some network members (Nodes) also keep the entiry history of transactions from the very first one to the transactions happening now. That entire history of transactions is what is called a Bitcoin blockchain. The word blockchain originates from the fact that new transactions are added to history in batches (i.e. a block of transactions), roughly once every 10 minutes.
 
 Nodes are tasked with validating every new transaction and ensure that only valid transactions are made to the blockchain. Anyone can setup a node at home (explained below), as long as there is a working internet connnection it can autonomously operate even on an old computer. 
 
-If one of the nodes tries to cheat the network by marking an invalid transaction as valid it would be disregarded by all other nodes on the network. In essence, cumulatively nodes guarantee the openness, decentralization and security of the network. Cheating on such netowrk in practical terms is close impossible.
+If one of the nodes tries to cheat the network by marking an invalid transaction as valid it would be disregarded by all other nodes on the network. In essence, cumulatively nodes guarantee the openness, availability, decentralization and security of the network. Cheating on such netowrk in practical terms is close impossible.
 
 
 **Bitcoin in Numbers**
@@ -121,7 +121,7 @@ The system designed in a way where a certain number of Bitcoins are added to the
 
 Once the total Bitcoin count reaches 21 million no new Bitcoins will be issued to the winning node.
 
-In conclusion, here are the essential points:
+In conclusion:
 
 - 21 million: total number of Bitcoins that can exist
 - slighly over 17.8 million has already been created by system since 2008
@@ -129,6 +129,8 @@ In conclusion, here are the essential points:
 - about 4 million of those that were already created have been lost [source: fortune.com](https://fortune.com/2017/11/25/lost-bitcoins/)
 
 Taking into the account above, keep in mind that while there can be 21 million Bitcoins in total the current market supply of Bitcoins is about 14 million Bitcoins.
+
+A single Bitcoin consists of 100 million (100,000,000) units called Satoshi.
 
 <img src="/images/bitcoins_circulation.png">
 
@@ -143,17 +145,19 @@ More reading (optional):
 
 When trying to understand the Bitcoin for the first time a lot of people are usually left confused and frustrated...
 
-First the person tries to understand the Bitcoin and what's the big deal about it. Then while digging through they discover other cryptocurrencies with most trying hard to portray itself as a better alternative to Bitcoin. And then there are also a handful of cryptocurrencies which have "Bitcoin" in its name. All these aspects make onboarding experience for the new years extremely difficult.
+First the person tries to understand the Bitcoin and what's the big deal about it. Then while digging through they discover other cryptocurrencies with most trying hard to portray itself as a better alternative to Bitcoin. And then there are also a handful of cryptocurrencies which have "Bitcoin" in its name. All these aspects make onboarding experience for the new users extremely difficult. 
 
 While it may seem like a lot to digest, the essential points can be summarized as:
 
-- Bitcoin:
+- Bitcoin: While there are a number of currencies with Bitcoin in the name the one that's considered the original Bitcoin is the one with the symbol BTC. Sometimes it's also called as the Bitcoin Core.  
 
-- Bitcoin Forks:
+- Bitcoin Forks: Cryptocurrencies which were derived from the original Bitcoin (BTC). Due to the open source nature of Bitcoin and underlying code anyone is able to create a Bitcoin like cryptocurrency with some modifications and market it as a separate crypto coin. The most noteowrthy such cryptociurrency is [Bitcoin Cash](https://en.wikipedia.org/wiki/Bitcoin_Cash)
 
-- Other Cryptocurrencies:
+- Other Cryptocurrencies (usually called "altcoins"): All other cryptocurrencies that are around. While there are a lot of them around only few managed to attract the audience and gain some crypto market share. The altcoins which have not attracted any audience and generally regarded as coins with no to little value are also labelled as "shitcoins".
 
-- Tokens: 
+For the comprehensive list as well as current market prices of cryptocurrencies see [CoinMarketCap.com](https://coinmarketcap.com).
+
+<img src="/images/coinmarketcap.png">
 
 
 ## 2. Why Bitcoin
