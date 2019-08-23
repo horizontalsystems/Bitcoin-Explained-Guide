@@ -3,9 +3,7 @@
 
 What is Bitcoin? How it works? How to get started? Everything you should know about Bitcoin phenomena and other crypt currencies in simple terms and easy to digest manner.
 
-Disclaimer: 
-
-This guide was written for an average person, who may have little to no technical knowledge needed to grasp the technical aspects of crypto and blockchain technologies. For the sake of keeping this guide simple and accessible for everyone, some of the concepts were simplified to make it easier for a non-technical user to grasp the Bitcoin, how it works and some key of its key properties.
+> Disclaimer: This guide was written for an average person, who may have little to no technical knowledge needed to grasp the technical aspects of crypto and blockchain technologies. For the sake of keeping this guide simple and accessible for everyone, some of the concepts were simplified to make it easier for a non-technical user to grasp the Bitcoin, how it works and some key of its key properties.
 
 
 ## Table Of Contents
@@ -19,8 +17,9 @@ This guide was written for an average person, who may have little to no technica
 
 2. Why Bitcoin
 
-- Why Bitcoin is growing?
-- Can the Bitcoin be stopped?
+- From Idea to World Fame
+- Why Bitcoin is Growing?
+- Can the Bitcoin Be Stopped?
 
 3. Getting started with Bitcoin
 
@@ -89,7 +88,7 @@ Satoshi Nakamoto proposed a Bitcoin, in a form of independent and decentralized 
 - works without geographical boundaries
 
 
-Note: The ideas brought forward in the paper required a fairly comprehensive understanding of the contemporary monetary system and extensive knowledge of Mathematics, Cryptography and Computer Science. Therefore, Bitcoin should be regarded as a scientific discovery that challenges the status quo of present day monetary system and regulatory enitites surrounding them.
+> Note: The ideas brought forward in the paper required a fairly comprehensive understanding of the contemporary monetary system and extensive knowledge of Mathematics, Cryptography and Computer Science. Therefore, Bitcoin should be regarded as a scientific discovery that challenges the status quo of present day monetary system and regulatory enitites surrounding them.
 
 
 **How Bitcoin Network Works**
@@ -182,27 +181,31 @@ Bitcoin today is very different from what it was 10 years ago. While media still
 - [Brian Armstrong, CEO of Coinbase](https://twitter.com/brian_armstrong/status/1162185049699057664)
 - [14 Bitcoin quotes by famous people](https://medium.com/@MartinRosulek/14-bitcoin-quotes-by-famous-people-6e7a1a009281)
 
-It's no longer perceived as "fun money for geeks" but more as a unversal "financial asset" with a growing appeal.
+It's no longer perceived as "fun money for geeks" but more as a "valuable financial asset" with a growing appeal. The current market price as well as the market capitalization of Bitcoin is an indication of that.
 
 
 **Why Bitcoin Keeps Growing?**
 
-To understand what drives Bitcoin price higher and further adoption it's important to look at Bitcoin as a potential solution to major problems rather than some new promising asset class or simply as an alternative to gold or money.
+To understand what drives Bitcoin price higher and further adoption it's important to look at Bitcoin as a potential solution to major problems that exist globally rather than some new asset class or even an alternative to gold or money.
 
-Unlike traditional assets and financial instruments which are usually promoted/enforced by the governments or some other involved entity, core Bitcoin community are driven by ideas. 
+Unlike traditional assets and financial instruments which are usually promoted by governments or other involved entities, the core driving forces of Bitcoin community are driven by the ideals pioneered by Bitcoin. 
 
-These people put singificant amount of personal time and resources into educating people about the benefits brought by Bitcoin and spread the word about it.
+These can be summarized as:
 
-- decentralized financial system where all participants are equal
-- unconditional financial inclusion for everyone
-- better alternative to debt driven fiat currencies
+- Financial system must be decentralized
+- Financial system must be temper-proof
+- All network participants must have equal rights
+- Unconditional access for everyone 
+- Unconditional control over your assets
+- No entity should be able to print money/assets
+
+These people put singificant amount of personal time and resources into educating people about these ideals.
+
 
 Links:
 
 - https://www.reddit.com/r/Bitcoin/comments/cqzxtb/coinbase_custody_seeing_200400_million_in_crypto/ 
--
--
--
+- https://www.ccn.com/billionaires-are-scouring-the-market-to-own-25-of-bitcoin-in-circulation/
 
 
 **Can The Bitcoin Be Stopped?**
@@ -214,7 +217,12 @@ Links:
 --
 --
 - government ban
--- https://www.youtube.com/watch?v=xolYGw2wU6Y
+
+
+- https://www.youtube.com/watch?v=xolYGw2wU6Y
+- https://www.forbes.com/sites/ktorpey/2019/07/30/us-lawmakers-are-realizing-they-cant-ban-bitcoin/
+- https://m.youtube.com/watch?v=Q6euy5W1js4
+- introduce blockstream mnessaging API
 
 
 
@@ -302,6 +310,9 @@ This is the easiest option and for which you will basically need only a credit c
 - credit card option 1
 - credit card option 2
 - credit card option 3
+- coinbase
+- crypterium
+- nexo
 
 
 For larger amounts (above > $1000):
