@@ -25,17 +25,15 @@ The purpose of this guide is to introduce to Bitcoin phenomena and other crypt c
 - Why Bitcoin is growing?
 - Can the Bitcoin be stopped?
 
-3. Getting started with Bitcoin
+3. Getting Started with Bitcoin
 
 - How to acquire Bitcoin?
 - Bitcoin exchanges
-
 
 4. Storing Bitcoin (Safely)
 
 - Bitcoin wallets explained
 - What you should know to keep your Bitcoins secure?
-
 
 5. Send / Receive Bitcoin
 
@@ -148,7 +146,7 @@ Taking into the Bitcoins that were lost, we can conclude that out of 17.8 millio
 
 <img src="/images/bitcoins_circulation.png">
 
-More reading (optional):
+Relevant stories:
 
 - [How Many Bitcoins Are There?](https://www.buybitcoinworldwide.com/how-many-bitcoins-are-there/)
 - [Nearly 4 Million Bitcoins Lost Forever, New Study Says](https://fortune.com/2017/11/25/lost-bitcoins/)
@@ -176,7 +174,7 @@ For the comprehensive list as well as current market prices of cryptocurrencies 
 
 ## 2. Why Bitcoin
 
-Bitcoin started as an idea, which initially was worthless as only a handful of people knew about it. Back then the Bitcoin was mostly perceived as a "fun money for geeks" rather than a phenomena that can potentially challenge and overturn the present-day Financial System. Only few understood that... Although a lot more more people understand that now, the number of such people is still relatively low. This is mainly due to the fact that mainstream media have played a strong role in shaping how the masses perceive Bitcoin. Nearly all early mainstream [media mentions of Bitcoin](https://www.ccn.com/bitcoin-mainstream-media/) were negative.
+Bitcoin started as an idea, which initially was worthless as only a handful of people knew about it. Back then the Bitcoin was mostly perceived as a "fun money for geeks" rather than a phenomena that can potentially challenge and overturn the present-day financial system. Only few understood that... Although a lot more more people understand that now, the number of such people is still relatively low. This is mainly due to the fact that mainstream media have played a strong role in shaping how the masses perceive Bitcoin. Nearly all early mainstream [media mentions of Bitcoin](https://www.ccn.com/bitcoin-mainstream-media/) were negative. The Bitcoin was [declared dead](https://99bitcoins.com/bitcoin-obituaries/) about 400 times by now.
 
 Back in early days, the idea that someday Bitcoin would be worth over $10,000 appeared somewhat unbelievable...  With [some](https://bitcointalk.org/index.php?topic=137.msg1195#msg1195) spending 10,000 BTC (over 100,000,000 USD today) to buy pizza :)
 
@@ -203,46 +201,46 @@ It's no longer perceived as "fun money for geeks" but more as a "valuable financ
 
 **Why Bitcoin Keeps Growing?**
 
-To understand what drives Bitcoin price higher and further adoption it's important to look at Bitcoin as a potential solution to a number of socio-economic major problems that exist globally (and affect everyone) rather than some new asset class or even an alternative to gold or fiat money. 
+To understand what drives Bitcoin price higher and further adoption it's important to look at Bitcoin as a social cause. A cause that seeks to provide a solution to some major socio-economic problems rather than some new asset class or even an alternative to gold or fiat money.
 
-Unlike traditional assets and financial instruments which are usually promoted by governments or other involved entities, the core driving forces of Bitcoin community are driven by the ideals pioneered by Bitcoin. 
+> Bitcoin is not an improvement to how we transact and preserve wealth, it's a whole new way to own and control wealth.
 
-These can be summarized as:
+Unlike traditional assets and financial instruments which are generally enforced by governments or some other centralized organizations, the core driving force of the Bitcoin is a global community. These people are driven by liberating ideas and share a strong passion to convey these ideas to the world.
 
-- Financial system must be Decentralized and Temper-proof
-
-- Network is open unconditionally to all and participants have equal rights
-
-- Unconditional control over your assets
-
-- No entity should be able to print money/assets
+Some of the main principles at the core of these ideas are:
 
 
-These people put significant amount of personal time and resources into educating people about these ideals.
+- Financial system must be decentralized and temper-proof
+
+- Financial system must be unconditionally open for all
+
+- Participants must have unconditional control over personal assets
+
+- The underlying asset powering the value transfer should be scarce
 
 
-Links:
+A growing number of people are gradually moving towards embracing Bitcoin in face of modern day problems such as for-profit wars, widespread poverty, excessive money printing and politically-motivated sanctioning. This trend is likely to continue ... over the long term Bitcoin will grow. Those that understand this are trying to accumulate the Bitcoin reserves now.
 
-- https://www.reddit.com/r/Bitcoin/comments/cqzxtb/coinbase_custody_seeing_200400_million_in_crypto/ 
-- https://www.ccn.com/billionaires-are-scouring-the-market-to-own-25-of-bitcoin-in-circulation/
+- [Coinbase custody seeing $200-400 million in crypto deposits weekly](https://www.reddit.com/r/Bitcoin/comments/cqzxtb/coinbase_custody_seeing_200400_million_in_crypto/ )
+- [Billionaires are 'Scouring the Market' to own 25% of Bitcoin in circulation](https://www.ccn.com/billionaires-are-scouring-the-market-to-own-25-of-bitcoin-in-circulation/)
 
 
 **Can The Bitcoin Be Stopped?**
 
-- transactions volume limitation
---
---
-- hack/bug
---
---
-- government ban
+A lot of new people entering Bitcoin ecosystem remain somewhat skeptical about its ability to succeed. The narrative that one day a Bitcoin or alike decentralized system may replace the centrally regulated financial systems seem unbelievable. A narrative that one day governments will try to ban/outlaw the Bitcoin seem more likely, especially for those who are unaware about how Bitcoin operates on a technical level.
 
+So, the real question is can the government or anyone else for that matter stop the Bitcoin? The answer is NO. 
 
-- https://www.youtube.com/watch?v=xolYGw2wU6Y
-- https://www.forbes.com/sites/ktorpey/2019/07/30/us-lawmakers-are-realizing-they-cant-ban-bitcoin/
-- https://m.youtube.com/watch?v=Q6euy5W1js4
-- introduce Blockstream messaging API
+Should any entity try to outlaw Bitcoin enforcing such ban would be practically impossible. As long as there is electricity powering your computers or phones the Bitcoin network can exist and flourish. They can surely make it more difficult for people to participate in the network but that's pretty much it.
 
+What you should understand taking down Bitcoin network is significantly more difficult then taking down the entire Internet. While modern day governments/regulators are able to effectively censor what being seen on search engines, YouTube or mainstream media, censoring people from Bitcoin is a whole new level.
+
+- [Rep. Patrick McHenry: 'There's no capacity to kill Bitcoin'](https://www.youtube.com/watch?v=xolYGw2wU6Y)
+- [U.S. Lawmakers Are Realizing They Can’t Ban Bitcoin](https://www.forbes.com/sites/ktorpey/2019/07/30/us-lawmakers-are-realizing-they-cant-ban-bitcoin/)
+- [Unstoppable Code: The Difference Between Can't and Won't](https://www.youtube.com/watch?v=Q6euy5W1js4&app=desktop)
+- [Blockstream Satellite: Broadcasting Bitcoin from Space](https://bitcoinmagazine.com/articles/blockstream-satellite-broadcasting-bitcoin-space)
+
+The only way for the Bitcoin network to stop having any meaningful value is for everyone to stop using it. Such an outcome is likely to occur only if someone discovers an unrepairable fundamental flaw in the code powering the network. Other than that any measure to outlaw the Bitcoin would lack the substance needed to enforce it. 
 
 
 ## 3. Buying Bitcoin
