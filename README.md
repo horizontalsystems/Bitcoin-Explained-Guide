@@ -258,12 +258,12 @@ At [current](https://www.coinbase.com/price/bitcoin) prices, buying even just on
 >
 > Therefore, use your own judgment when contemplating investing in Bitcoin and keep in mind that it may just go down in price and never recover from there. Future is unpredictable and therefore don't spend on this more than you can afford to loose.
 
-There are two main ways for a newcomer to acquire Bitcoin. You can either find someone willing to send you some amount of Bitcoins or you may purchase Bitcoins online.
+There are two main ways for a newcomer to acquire Bitcoin. You can either find someone willing to send you some or you may purchase Bitcoins online.
 
 
 **Buy Bitcoin online with Credit Card**
 
-At the moment there are plenty of places online where it's possible to buy Bitcoin and other popular cryptocurrencies using Visa or MasterCard credit cards. 
+At the moment there are plenty of places online where it's possible to buy Bitcoin and other popular cryptocurrencies using Visa or MasterCard credit cards. This is the easiest option and for which you will basically need only a credit card. This option is convenient but bear in mind that you will be purchasing the crypto at slightly higher prices (approx 1%) than market rates.
 
 > Note: While there are a lot places that advertise buying Bitcoin for credit cards not all are safe. For your safety use only resources that you know about. 
 
@@ -284,7 +284,17 @@ While buying using credit card is somewhat simpler, it works well only if you're
 
 **Buy Bitcoin on Exchange**
 
-Cryptocurrency exchanges are websites where you can buy, sell or exchange one cryptocurrency for another or for traditional currency like US Dollars (USD) or Euro (EUR). There are plenty of good cryptocurrency exchanges around, below are listed those that we have some experience with.
+Cryptocurrency exchanges are websites where you can buy, sell or exchange one cryptocurrency for another or for traditional currency like US Dollars (USD) or Euro (EUR). If you're looking to invest substantial amount of money then the only safe option for a new user is buying on crypto exchange. That may sounds a bit complicated for someone who never traded stocks or currencies but it's not difficult at all.
+
+Most exchanges are same as pretty much all have to abide by financial regulations and therefore have certain rules in place. The steps of purchasing the Bitcoins on Exchange is generally as follows:
+
+1. setup an account
+2. verify account (usually it would ask for a passport scan)
+3. fund exchange account (via credit card or bank transfer)
+4. purchase Bitcoin (or other crypto)
+5. transfer purchased Bitcoin to your wallet for safekeeping
+
+There are plenty of good cryptocurrency exchanges around, below are listed those that we have some experience with.
 
 
 - ShapeShift
@@ -380,33 +390,6 @@ https://qz.com/1103310/photos-the-secret-swiss-mountain-bunker-where-millionaire
 
 **Keeping Bitcoins on Exchange**
 
-As mentioned above the most popular and pretty much the only practical (and somewhat safer) way to purchase Bitcoins is by using crypto exchanges. There is no shortage of them around.
-
-Depending on the amount of Bitcoins you're looking to buy in most cases the process will be somewhat similar to the steps outlined below:
-
-For smaller amounts (below < $1000):
-
-This is the easiest option and for which you will basically need only a credit card. You will be able to purchase Bitcoin and other crypto using your credit card. This option is convenient but bear in mind that you will be purchasing the crypto at slightly higher prices than market rates.
-
-- credit card option 1
-- credit card option 2
-- credit card option 3
-- coinbase
-- crypterium
-- nexo
-
-
-For larger amounts (above > $1000):
-
-If you're looking to invest substantial amount of money then the only safe option for a new user is buying on crypto exchange. That may sounds a bit complicated for someone who never traded stocks or currencies but it's not difficult at all.
-
-Most exchanges are same as pretty much all have to abide by financial regulations and therefore have certain rules in place. The steps of purchasing the Bitcoins on Exchange is generally as follows:
-
-1. setup an account
-2. verify account (usually it would ask for a passport scan)
-3. fund exchange account (via credit card or bank transfer)
-4. purchase Bitcoin (or other crypto)
-5. transfer purchased Bitcoin to your wallet for safekeeping
 
 A lot of people prefer keeping the purchased Bitcoins on the exchange itself. Many mistakenly assume that keeping them on exchanges is safe while it's not. Just like wallets exchanges are hacked and when that happens usually users loose their funds without getting compensated.
 
@@ -480,6 +463,9 @@ After the transaction is included in the block it can be already considered as c
 // add content
 // - that section would outline all available credit cards (crypto to fiat cards)
 - https://cash.app
+- coinbase
+- crypterium
+- nexo
 
 
 ## 6. Bitcoin Nodes and Mining
