@@ -27,13 +27,13 @@ The purpose of this guide is to introduce to Bitcoin phenomena and other crypt c
 
 3. Getting Started with Bitcoin
 
-- How to acquire Bitcoin?
-- Bitcoin exchanges
+- Buy Bitcoin with credit card
+- Buy Bitcoin on exchange
 
 4. Storing Bitcoin (Safely)
 
 - Bitcoin wallets explained
-- What you should know to keep your Bitcoins secure?
+- How to keep your Bitcoins secure?
 
 5. Send / Receive Bitcoin
 
@@ -58,7 +58,7 @@ The purpose of this guide is to introduce to Bitcoin phenomena and other crypt c
 
 - What is Bitcoin mining?
 - Why mining is important?
-- How to become a bitcoin miner  ?
+- How to become a Bitcoin miner  ?
 
 
 <br><br><br>
@@ -203,7 +203,8 @@ It's no longer perceived as "fun money for geeks" but more as a "valuable financ
 
 To understand what drives Bitcoin price higher and further adoption it's important to look at Bitcoin as a social cause. A cause that seeks to provide a solution to some major socio-economic problems rather than some new asset class or even an alternative to gold or fiat money.
 
-> Bitcoin is not an improvement to how we transact and preserve wealth, it's a whole new way to own and control wealth.
+> Bitcoin is not an improvement to how we transact and preserve wealth.
+> It's a whole new way to own and control wealth.
 
 Unlike traditional assets and financial instruments which are generally enforced by governments or some other centralized organizations, the core driving force of the Bitcoin is a global community. These people are driven by liberating ideas and share a strong passion to convey these ideas to the world.
 
@@ -233,7 +234,7 @@ So, the real question is can the government or anyone else for that matter stop 
 
 Should any entity try to outlaw Bitcoin enforcing such ban would be practically impossible. As long as there is electricity powering your computers or phones the Bitcoin network can exist and flourish. They can surely make it more difficult for people to participate in the network but that's pretty much it.
 
-What you should understand taking down Bitcoin network is significantly more difficult then taking down the entire Internet. While modern day governments/regulators are able to effectively censor what being seen on search engines, YouTube or mainstream media, censoring people from Bitcoin is a whole new level.
+What you should understand taking down Bitcoin is significantly more difficult then taking down the entire Internet. While modern day governments/regulators are able to effectively censor what is being seen on search engines, YouTube or mainstream media, censoring people from being able to participate in Bitcoin network is a whole new level.
 
 - [Rep. Patrick McHenry: 'There's no capacity to kill Bitcoin'](https://www.youtube.com/watch?v=xolYGw2wU6Y)
 - [U.S. Lawmakers Are Realizing They Can’t Ban Bitcoin](https://www.forbes.com/sites/ktorpey/2019/07/30/us-lawmakers-are-realizing-they-cant-ban-bitcoin/)
@@ -245,8 +246,71 @@ The only way for the Bitcoin network to stop having any meaningful value is for 
 
 ## 3. Buying Bitcoin
 
+If you made until this point you should already have a general idea of what Bitcoin is. The next step for us is to introduce to buying Bitcoin so that you can own some.
 
-https://www.finder.com/buy-bitcoin-credit-card
+<img src="/images/buy-bitcoin-online.jpg">
+
+At [current](https://www.coinbase.com/price/bitcoin) prices, buying even just one Bitcoin would set you back as much as $10,000 or even more. The good news, you don't have to and perhaps should not spend $10,000 to get started. Start small and buy only $100 worth of Bitcoin at first. Later once you're comfortable with all aspects of owning Bitcoin you may buy more and increase your holdings.  
+
+> Disclaimer: 
+> 
+> Regardless of what the me (the author) or anyone else says about Bitcoin and its future potential, you should understand that there are no guarantees that the price of Bitcoin will grow higher and meet your expectations. A lot of people believe in technology and believe it will get it's place on world stage BUT no one knows what will happen in the future and how the Bitcoin going to evolve. 
+>
+> Therefore, use your own judgment when contemplating investing in Bitcoin and keep in mind that it may just go down in price and never recover from there. Future is unpredictable and therefore don't spend on this more than you can afford to loose.
+
+There are two main ways for a newcomer to acquire Bitcoin. You can either find someone willing to send you some amount of Bitcoins or you may purchase Bitcoins online.
+
+
+**Buy Bitcoin online with Credit Card**
+
+At the moment there are plenty of places online where it's possible to buy Bitcoin and other popular cryptocurrencies using Visa or MasterCard credit cards. 
+
+> Note: While there are a lot places that advertise buying Bitcoin for credit cards not all are safe. For your safety use only resources that you know about. 
+
+Below you will a list of popular places that have already served thousands of people looking to purchase Bitcoin and other cryptocurrencies using credit cards. While those coming from EU or US have plenty of options to choose for people coming from less developed nations there will be fewer options to choose from. That said, regardless of where you coming from one of the options below should work for you.
+
+- https://cex.io/cards/
+- https://payments.changelly.com/
+- https://www.coinbase.com/
+- https://www.coinmama.com/bitcoin
+- https://www.binance.com/en/creditcard
+- https://buy.bitcoin.com
+- https://indacoin.com
+- https://www.bitpanda.com/en/prices/bitcoin
+
+
+While buying using credit card is somewhat simpler, it works well only if you're looking to buy no more than a couple of thousands worth of Bitcoins. For larger amounts and regular purchases you should be buying using cryptocurrency exchange.
+
+
+**Buy Bitcoin on Exchange**
+
+Cryptocurrency exchanges are websites where you can buy, sell or exchange one cryptocurrency for another or for traditional currency like US Dollars (USD) or Euro (EUR). There are plenty of good cryptocurrency exchanges around, below are listed those that we have some experience with.
+
+
+- ShapeShift
+https://shapeshift.com
+
+- Binance
+Offers mobile app and probably the fastest growing exchange. If you need to pick only one, this is the best and #1 in 2019.
+
+- Coinbase.com
+https://www.coinbase.com/
+
+- CEX.io
+EUROPEAN BASED.
+
+- etoro.com
+
+- CoinMama: 
+Old but gold and let you buy BTC and ETH instantly.
+
+
+- Changelly: 
+Instantly convert any cryptocurrency to any of your choices. Great for instant conversion
+
+
+
+
 
 
 ## 4. Storing Bitcoin Safely
@@ -415,7 +479,7 @@ After the transaction is included in the block it can be already considered as c
 
 // add content
 // - that section would outline all available credit cards (crypto to fiat cards)
-
+- https://cash.app
 
 
 ## 6. Bitcoin Nodes and Mining
