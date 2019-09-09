@@ -246,28 +246,28 @@ The only way for the Bitcoin network to stop having any meaningful value is for 
 
 ## 3. Buying Bitcoin
 
-If you made until this point you should already have a general idea of what Bitcoin is. The next step for us is to introduce to buying Bitcoin so that you can own some.
+If you made until this point you should already have a general idea of what Bitcoin is. The next step for us is to introduce you to buying Bitcoin so that you can actually own some.
 
-<img src="/images/buy-bitcoin-online.jpg">
+<img src="/images/buy-bitcoin-online.png">
 
-At [current](https://www.coinbase.com/price/bitcoin) prices, buying even just one Bitcoin would set you back as much as $10,000 or even more. The good news, you don't have to and perhaps should not spend $10,000 to get started. Start small and buy only $100 worth of Bitcoin at first. Later once you're comfortable with all aspects of owning Bitcoin you may buy more and increase your holdings.  
+At [current](https://www.coinbase.com/price/bitcoin) prices, buying even just one Bitcoin would set you back as much as $10,000 or even more. The good news, you don't have to spend $10,000 to get started. Start small and buy only $50 or $100 worth of Bitcoin at first. Later once you're comfortable with all aspects of owning Bitcoin you may buy more and increase your holdings over time.  
 
 > Disclaimer: 
 > 
-> Regardless of what the me (the author) or anyone else says about Bitcoin and its future potential, you should understand that there are no guarantees that the price of Bitcoin will grow higher and meet your expectations. A lot of people believe in technology and believe it will get it's place on world stage BUT no one knows what will happen in the future and how the Bitcoin going to evolve. 
+> Regardless of what anyone says about Bitcoin and its future potential, you should understand that there are no guarantees that the price of Bitcoin will grow higher and meet your expectations. A lot of people believe in this new technology and hope it will get it's place on world stage BUT no one knows how the Bitcoin going to evolve. 
 >
-> Therefore, use your own judgment when contemplating investing in Bitcoin and keep in mind that it may just go down in price and never recover from there. Future is unpredictable and therefore don't spend on this more than you can afford to loose.
+> Therefore, use your own judgment when contemplating investing in Bitcoin and keep in mind that it may just go down in price and never recover from there. Future is unpredictable and hence don't spend on it more than you can afford to loose.
 
-There are two main ways for a newcomer to acquire Bitcoin. You can either find someone willing to send you some or you may purchase Bitcoins online.
+There are two main ways for a newcomer to acquire Bitcoin. You can either find someone willing to send you some or you may purchase some amount of Bitcoins online.
 
 
-**Buy Bitcoin online with Credit Card**
+**Buying Bitcoin with Credit Card**
 
-At the moment there are plenty of places online where it's possible to buy Bitcoin and other popular cryptocurrencies using Visa or MasterCard credit cards. This is the easiest option and for which you will basically need only a credit card. This option is convenient but bear in mind that you will be purchasing the crypto at slightly higher prices (approx 1%) than market rates.
+There are plenty of places online where it's possible to buy Bitcoin using Visa or MasterCard. While this option is convenient bear in mind that you will be purchasing the crypto at slightly elevated prices (approx. 1%) than market rates which is not really an issue for smaller amounts.
 
-> Note: While there are a lot places that advertise buying Bitcoin for credit cards not all are safe. For your safety use only resources that you know about. 
+> Note: There are a lot of places that advertise buying Bitcoin but bear in mind that not all are safe. For your safety use only resources that you know about.
 
-Below you will a list of popular places that have already served thousands of people looking to purchase Bitcoin and other cryptocurrencies using credit cards. While those coming from EU or US have plenty of options to choose for people coming from less developed nations there will be fewer options to choose from. That said, regardless of where you coming from one of the options below should work for you.
+Below you will a list of popular places that have already served thousands of people looking to purchase Bitcoin and other cryptocurrencies using credit cards. While for EU or US residents any of the options below should work without issues for people coming from less developed nations there will be fewer options to choose from. That said, regardless of where you coming from at least one of the options below should work for you.
 
 - https://cex.io/cards/
 - https://payments.changelly.com/
@@ -278,49 +278,35 @@ Below you will a list of popular places that have already served thousands of pe
 - https://indacoin.com
 - https://www.bitpanda.com/en/prices/bitcoin
 
+If you're looking to buy more than a couple of thousands worth of Bitcoins than you should be buying on some cryptocurrency exchange.
 
-While buying using credit card is somewhat simpler, it works well only if you're looking to buy no more than a couple of thousands worth of Bitcoins. For larger amounts and regular purchases you should be buying using cryptocurrency exchange.
 
+**Buying Bitcoin on Exchange**
 
-**Buy Bitcoin on Exchange**
+Cryptocurrency exchanges are websites where you can buy/sell cryptocurrencies for USD/EUR or trade one cryptocurrency for another. If you're looking to invest substantial amount of money then buying on cryptocurrency exchange is the safest option. That may sound a bit complicated for someone who never traded stocks or currencies but it's not difficult at all.
 
-Cryptocurrency exchanges are websites where you can buy, sell or exchange one cryptocurrency for another or for traditional currency like US Dollars (USD) or Euro (EUR). If you're looking to invest substantial amount of money then the only safe option for a new user is buying on crypto exchange. That may sounds a bit complicated for someone who never traded stocks or currencies but it's not difficult at all.
+When it comes to trading terms/requirements, most exchanges are same as pretty much all have to abide by financial regulations and therefore have certain rules and limits in place. 
 
-Most exchanges are same as pretty much all have to abide by financial regulations and therefore have certain rules in place. The steps of purchasing the Bitcoins on Exchange is generally as follows:
+The steps of purchasing the Bitcoins on Exchange is generally as follows:
 
 1. setup an account
-2. verify account (usually it would ask for a passport scan)
+2. verify account identity (passport scan etc)
 3. fund exchange account (via credit card or bank transfer)
 4. purchase Bitcoin (or other crypto)
 5. transfer purchased Bitcoin to your wallet for safekeeping
 
-There are plenty of good cryptocurrency exchanges around, below are listed those that we have some experience with.
 
+> Note: While basic documents (i.e. driver's license) would work for accounts with a monthly turnover below $5,000 - $10,000, once you go beyond that expect to go through a more robust checks. In addition to identity checks you will be asked to provide documents proving the origin of your funds. Should you fail to do that your funds/account may get frozen.
 
-- ShapeShift
-https://shapeshift.com
+Listed below are some of the better known cryptocurrency exchanges. 
 
-- Binance
-Offers mobile app and probably the fastest growing exchange. If you need to pick only one, this is the best and #1 in 2019.
-
-- Coinbase.com
-https://www.coinbase.com/
-
-- CEX.io
-EUROPEAN BASED.
-
-- etoro.com
-
-- CoinMama: 
-Old but gold and let you buy BTC and ETH instantly.
-
-
-- Changelly: 
-Instantly convert any cryptocurrency to any of your choices. Great for instant conversion
-
-
-
-
+- [Coinbase](https://www.coinbase.com/)
+- [CEX.io](https://cex.io)
+- [Binance](https://binance.com)
+- [ShapeShift](https://shapeshift.com)
+- [eToro](https://www.etoro.com)
+- [CoinMama](https://www.coinmama.com)
+- [Changelly](https://changelly.com) 
 
 
 ## 4. Storing Bitcoin Safely
