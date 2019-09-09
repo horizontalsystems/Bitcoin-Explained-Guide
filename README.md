@@ -296,7 +296,7 @@ The steps of purchasing the Bitcoins on Exchange is generally as follows:
 5. transfer purchased Bitcoin to your wallet for safekeeping
 
 
-> Note: While basic documents (i.e. driver's license) would work for accounts with a monthly turnover below $5,000 - $10,000, once you go beyond that expect to go through a more robust checks. In addition to identity checks you will be asked to provide documents proving the origin of your funds. Should you fail to do that your funds/account may get frozen.
+> Note: While basic documents (i.e. driver's license) would work for accounts with a monthly turnover below $5,000 - $10,000, once you go beyond that expect to go through a more robust inspection known as [KYC/AML checks](https://www.quora.com/What-is-a-difference-between-KYC-and-AML). In addition to identity checks you will be asked to provide documents proving the origin of your funds. Should you fail to do that your funds/account may get frozen.
 
 Listed below are some of the better known cryptocurrency exchanges. 
 
@@ -311,9 +311,22 @@ Listed below are some of the better known cryptocurrency exchanges.
 
 ## 4. Storing Bitcoin Safely
 
-Bitcoins are usually stored in Bitcoin wallets which can be installed as a mobile app, a desktop program, a website or even a small hardware gadget.
+Bitcoins are generally stored in cryptocurrency wallets which come in many different forms. A wallet can come in a form of a mobile app, a desktop program, a website or even a small hardware gadget.
 
-Regardless of the wallet type there is just one crucial point you should look for when choosing a wallet. That is whether the wallet lets you fully control the funds the wallet holds or not.
+Regardless of the wallet type and what's being said on the wallet website there is just **one crucial point** you should understand. That is basically whether the wallet lets you (the owner of the funds) exclusively control the cryptocurrency wallet holds. That is the main security criteria you should look for when choosing a wallet for your Bitcoins. 
+
+Taking the ownership aspect into account cryptocurrency wallets can be categorized as:
+
+1. Wallets that give user exclusive and unlimited control over user's crypto funds. The company providing the wallet does not have any control over the assets user holds. The user is the only one who can access and control the funds. Such wallets are usually called as Non-Custodial wallet. Generally, this type of wallets also enable users to easily switch between wallets made by different parties without issues. These type of wallets are generally preferred by cryptocurrency enthusiasts.
+
+2. Wallets that don't give user exclusive control over the funds. The wallet user may think as though s/he is the only one with access but in reality it's not the case. The wallet provider may easily block user from accessing/spending the wallet funds. It's not uncommon for such wallet providers to get hacked and have users' funds stolen as a result. As you will see below, that's a fairly common occurrence in cryptocurrency space. These wallets are called as Custodial wallets and most of the wallets out there are of that type. Better to avoid those.
+
+3. Then there are hybrid wallets where neither a wallet user nor the wallet provider has full control over the funds. Essentially, the way these wallets are programmed is that any action requires authorization from both parties. This works well against hacking attempts on the architecture of wallet provider but still keeps the door open for the wallet provider to freeze user funds for "whatever" reason.
+
+
+// custodial vs non-custodial wallets
+
+In conclusion, Non-Custodial wallets are generally considered safer and preferred over the Custodial or hybrid wallet types because they give user exclusive control over cryptocurrencies on balance.
 
 
 **Understanding the "Private Key"**
@@ -326,14 +339,9 @@ Most wallets out there DO NOT provide that capability, even those coming from kn
 
 All of the risks mentioned are fairly common with a lot of Bitcoins were and being stolen this way. It's more common than you may think! Due to unregulated nature of this space, wallet users are unlikely to be compensated for the losses
 
-- Crypto Developer Komodo ‘Hacks’ Wallet Users to Foil $13 Million Theft
-https://www.coindesk.com/crypto-developer-komodo-hacks-wallet-users-to-foil-13-million-hack
-
-- 9 Ways to Hack Your Bitcoin Wallet
-https://www.wipersoft.com/9-ways-to-hack-your-bitcoin-wallet/
-
-- Cryptocurrency customers are unable to access their coins after Canadian CEO’s death
-https://www.cnbc.com/2019/02/05/millions-in-cryptocurrencies-frozen-after-quadriga-founders-death.html
+- [Crypto Developer Komodo ‘Hacks’ Wallet Users to Foil $13 Million Theft](https://www.coindesk.com/crypto-developer-komodo-hacks-wallet-users-to-foil-13-million-hack)
+- [9 Ways to Hack Your Bitcoin Wallet](https://www.wipersoft.com/9-ways-to-hack-your-bitcoin-wallet/)
+- [Cryptocurrency customers are unable to access their coins after Canadian CEO’s death](https://www.cnbc.com/2019/02/05/millions-in-cryptocurrencies-frozen-after-quadriga-founders-death.html)
 
 On the other hand, when the wallet provider gives its user exclusive control over the Private Key, the full control is delegated to the user. In practice that would mean that no one but the wallet user has control over the funds. 
 
@@ -374,7 +382,7 @@ That’s the only thing you should really understand. The rest is secondary.
 https://qz.com/1103310/photos-the-secret-swiss-mountain-bunker-where-millionaires-stash-their-bitcoins/
 
 
-**Keeping Bitcoins on Exchange**
+**Do NOT Keep Bitcoins on Exchange**
 
 
 A lot of people prefer keeping the purchased Bitcoins on the exchange itself. Many mistakenly assume that keeping them on exchanges is safe while it's not. Just like wallets exchanges are hacked and when that happens usually users loose their funds without getting compensated.
@@ -395,6 +403,10 @@ The risk here is for exchange to get hacked or for them to scam everyone by tell
 If someone somehow gets hold of your username/password to access the exchange you will loose your funds because the attacker will withdraw Bitcoins elsewhere. Note that some senior level administrators on the exchange potentially do have full access to your account funds.
 
 The point I am trying to make you kind of have to trust them not to be evil :)
+
+
+
+
 
 
 ## 5. Transacting with Bitcoin: Sending / Receive 
