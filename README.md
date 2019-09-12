@@ -33,8 +33,15 @@ The purpose of this guide is to introduce to Bitcoin phenomena and other crypt c
 4. Storing Bitcoin (Safely)
 
 - Bitcoin wallets explained
+- Non Custodial Wallets
 - Understanding the "Private Key"
-- Recommended Bitcoin Wallets
+- Storing Private Keys Securely
+- What if Phone is Lost
+
+
+
+
+
 
 5. Send / Receive Bitcoin
 
@@ -160,9 +167,9 @@ When trying to understand the Bitcoin for the first time a lot of people are usu
 
 <img src="/images/bitcoin-and-forks.png">
 
-While it may seem like a lot to digest, the essential points can be summarized as:
+The essential points can be summarized as:
 
-- Bitcoin: While there are a number of currencies with Bitcoin in the name the one that's considered the original Bitcoin is the one with the symbol BTC. Sometimes it's also called as the Bitcoin Core.
+- Bitcoin: In addition to Bitcoin itself, there are a number of other cryptocurrencies with Bitcoin in the name the one that's considered the original Bitcoin is the one with the symbol BTC. Sometimes it's also referred to as the Bitcoin Core.
 
 - Bitcoin forks: Cryptocurrencies which were derived from the original Bitcoin (BTC). Due to the open source nature of Bitcoin and underlying code anyone with programming experience is able to create a Bitcoin like cryptocurrency with some modifications and market it as a separate cryptocurrency. The most noteworthy such cryptocurrency is [Bitcoin Cash](https://en.wikipedia.org/wiki/Bitcoin_Cash). 
 
@@ -221,14 +228,14 @@ Some of the main principles at the core of these ideas are:
 
 - Financial system must be decentralized and temper-proof
 
-- Financial system must be unconditionally open for all
+- Financial network must be unconditionally open for all
 
-- Participants must have unconditional control over personal assets
+- Participants must have unconditional control over assets
 
-- The underlying asset powering the value transfer should be scarce
+- The underlying value transfer asset should be scarce
 
 
-A growing number of people are gradually moving towards embracing Bitcoin in face of modern-day problems such as for-profit wars, money printing, excessive financial regulations and politically-motivated sanctioning. So, growing trend for Bitcoin is likely to continue ... over the long term Bitcoin will grow. Those that understand this are trying to accumulate the Bitcoin reserves now.
+In face of modern-day problems such as excessive money printing, politically-motivated sanctioning, for-profit wars, centralized financial system etc. a growing number of people are gradually moving towards Bitcoin. And that growing trend for Bitcoin is likely to continue. Those that understand this are trying to accumulate the Bitcoin reserves now.
 
 - [Coinbase Custody Seeing $200-400 million in Crypto Deposits Weekly](https://www.reddit.com/r/Bitcoin/comments/cqzxtb/coinbase_custody_seeing_200400_million_in_crypto/ )
 - [Billionaires are 'Scouring the Market' to Own 25% of Bitcoin in Circulation](https://www.ccn.com/billionaires-are-scouring-the-market-to-own-25-of-bitcoin-in-circulation/)
@@ -237,20 +244,20 @@ A growing number of people are gradually moving towards embracing Bitcoin in fac
 
 **Can The Bitcoin Be Stopped?**
 
-A lot of new people entering Bitcoin ecosystem remain somewhat skeptical about its ability to succeed. The narrative that one day a Bitcoin or alike decentralized system may replace the centrally regulated financial systems seems unbelievable. An outlook that at some point governments are going to try banning the Bitcoin regarded as more likely scenario, espcecially by those unaware about how Bitcoin operates on a technical level.
+A lot of new people entering Bitcoin ecosystem remain somewhat skeptical about its ability to succeed. The narrative that one day a Bitcoin or alike decentralized system may replace centrally regulated financial institutions seems unbelievable. An outlook that at some point governments are going to try banning the Bitcoin regarded as more likely scenario, especially by those unaware about how Bitcoin operates on a technical level.
 
 So, the real question is can the government or some other organization(s) stop the Bitcoin? The answer is NO. 
 
-Should any government try to outlaw Bitcoin enforcing such ban would be practically impossible. As long as there is electricity powering your computers or phones the Bitcoin network can exist and flourish. They can surely make it more difficult for people to participate in the network but that's pretty much it.
+Should any government try to outlaw Bitcoin enforcing such ban would be practically impossible. As long as there is electricity powering your computers or phones the Bitcoin network can exist and flourish. It can surely be made more difficult for people to participate in the network but that's pretty much it.
 
-What you should understand taking down Bitcoin is significantly more difficult then taking down the entire Internet. While modern day governments/regulators are able to effectively censor what is being seen on search engines, YouTube or mainstream media, censoring people from being able to participate in Bitcoin network is a whole new level.
+Taking down the Bitcoin network is even more difficult then taking down the entire Internet. While modern day governments/regulators are able to effectively censor what is being seen on search engines, YouTube or mainstream media, censoring people from being able to participate in Bitcoin network is a whole new level.
 
 - [Rep. Patrick McHenry: 'There's no capacity to kill Bitcoin'](https://www.youtube.com/watch?v=xolYGw2wU6Y)
 - [U.S. Lawmakers Are Realizing They Can’t Ban Bitcoin](https://www.forbes.com/sites/ktorpey/2019/07/30/us-lawmakers-are-realizing-they-cant-ban-bitcoin/)
 - [Unstoppable Code: The Difference Between Can't and Won't](https://www.youtube.com/watch?v=Q6euy5W1js4&app=desktop)
 - [Blockstream Satellite: Broadcasting Bitcoin from Space](https://bitcoinmagazine.com/articles/blockstream-satellite-broadcasting-bitcoin-space)
 
-The only way for the Bitcoin network to stop having any meaningful value is for everyone to stop using it. Such an outcome is likely to occur only if someone discovers an unrepairable fundamental flaw in the code powering the network. Other than that any measure to outlaw the Bitcoin would lack the substance needed to enforce it. 
+The only way for the Bitcoin network to stop having any meaningful value is for everyone to stop using it. Such an outcome may occur only if someone discovered an unrepairable fundamental flaw in the code powering the network. Other than that any measure to outlaw the Bitcoin would lack the substance needed to enforce it. 
 
 
 ## 3. Buying Bitcoin
@@ -322,6 +329,8 @@ Listed below are some of the better known cryptocurrency exchanges.
 
 Bitcoins are generally stored in cryptocurrency wallets which come in many different forms and types. A wallet can come in a form of a mobile app, a desktop program, a website or even a small hardware gadget.
 
+**Bitcoin Wallets Explained**
+
 Regardless of the wallet type and what's being said on the wallet website there is just **one crucial point** you should understand. That is whether the wallet lets you (the owner of funds) exclusively control the cryptocurrency held on that wallet. That is the main security criteria you should look for when choosing a wallet for your Bitcoins.
 
 Taking the ownership aspect into account cryptocurrency wallets can be categorized as:
@@ -330,11 +339,33 @@ Taking the ownership aspect into account cryptocurrency wallets can be categoriz
 
 2. Custodial Wallets that don't give user exclusive control over the funds. The wallet provider may potentially block user from spending the wallet funds. Moreover, it's not uncommon for such wallet providers to get hacked and have users' funds stolen as a result. Unfortunately, most of the wallets out there fall in that category. Avoid such wallets whenever possible.
 
-3. Then there are hybrid wallets where neither a wallet user nor the wallet provider has full control over the funds. These wallets are programmed to require approval from both parties for both the owner and wallet provider. This works well against hacking attempts but still keeps the door open for the wallet provider to censor the user.
+3. Then there are Hybrid wallets where neither a wallet user nor the wallet provider has full control over the funds. These wallets are programmed to require approval from both parties for both the owner and wallet provider. This works well against hacking attempts but still keeps the door open for the wallet provider to censor the user.
 
 <img src="/images/custodial-non-custodial.png">
 
 > Note: Non-Custodial wallets are generally considered safer and preferred over the Custodial or hybrid wallet types because they it gives user true independence by providing exclusive control over cryptocurrencies held on that wallet.
+
+A lot of people prefer keeping the purchased Bitcoins on the Crypto exchange itself. For the most part, crypto exchanges like Binance, Coinbase, CEX.io etc provide users with Custodial type wallets. Many mistakenly assume that keeping them on exchanges is safe while it's not. Just like wallet providers, exchanges are often targeted by hackers. And when exchanges are hacked usually users loose their funds without getting compensated.
+
+- [The Largest Cryptocurrency Hacks So Far This Year](https://www.investopedia.com/news/largest-cryptocurrency-hacks-so-far-year/)
+- [Coincheck: the Biggest Crypto Exchange Hack of All Time](https://coin360.com/blog/top-7-crypto-exchange-hacks)
+- [A Timeline of Major Crypto-exchange Hacks](https://discover.ledger.com/hackstimeline/)
+- [Hack Flashback: The Mt.Gox Hack](https://www.ledger.com/hack-flasback-the-mt-gox-hack-the-most-iconic-exchange-hack/)
+- [Crypto Developer Komodo ‘Hacks’ Wallet Users to Foil $13 Million Theft](https://www.coindesk.com/crypto-developer-komodo-hacks-wallet-users-to-foil-13-million-hack)
+- [9 Ways to Hack Your Bitcoin Wallet](https://www.wipersoft.com/9-ways-to-hack-your-bitcoin-wallet/)
+- [Cryptocurrency customers are unable to access their coins after Canadian CEO’s death](https://www.cnbc.com/2019/02/05/millions-in-cryptocurrencies-frozen-after-quadriga-founders-death.html)
+
+If you keep Bitcoins on exchange, it means the exchange keeps them for you on their account. They give you username and password so that you can send them instructions like withdrawing/depositing Bitcoins. They also can freeze/restrict your account for whatever reason. If someone somehow gets hold of your username/password to access the exchange you will loose your funds because the attacker will withdraw Bitcoins elsewhere. Note that senior level administrators on the exchange potentially do have access to your account funds.
+
+The point I am trying to make you kind of have to trust them not to be evil :)
+
+
+**Recommended Non-Custodial wallets**
+
+- unstoppable
+- BRD
+- ledger
+- trezor
 
 
 **Understanding the "Private Key"**
@@ -368,66 +399,57 @@ Treat the “Private Key” wallet app gives you with great care. If someone eve
 > Note: The risk here is that you may loose the key or expose it to someone who can then reenter that key in some other wallet and get control of your Bitcoins. That’s the only thing you should really understand. The rest is secondary.
 
 
+**Storing the "Private Key"**
+
+- Option 1: Write Private Keys on the paper and store it somewhere safe
+
+- Option 2 (Mac OSX users): [Store Private Keys in Keychain's Secure Notes](https://support.apple.com/guide/keychain-access/what-is-keychain-access-kyca1083/mac)
+
+- Option 3 (Windows users): [How to Encrypt and Protect Your Data and Files Using VeraCrypt](https://www.makeuseof.com/tag/encrypt-data-files-veracrypt/)
+
+
+
 **What If You Lose Phone**
 
-Let's say you lost your phone and someone finds it. 
+Let's say you lost your phone and someone finds it... Is your wallet and funds are in danger?
 
-If the phone doesn't have the Android/iOS Pin Lock in place, the person who found your phone may potentially access (hack into) the wallet app and from there gain access to the Private Keys controlling your funds. The thief may then steal your Bitcoins by sending them to another wallet.
+Both Google's Android and Apple's iOS operating systems provide security mechanisms to keep sensitive data safe in case of a phone loss. A good wallet app would usually have you covered in that regard by storing wallet Private Keys as per safe storage guidelines recommended by Google or Apple. 
 
-On the other hand, if the phone has OS Pin Lock in place it is extremely difficult to hack into it. Private Keys become unreachable. A good wallet app would usually have you covered in that regard.
+There were a number of incidents in the past where authorities tried to unlock the Pin locked phones. 
+
+- [FBI–Apple Encryption Dispute](https://en.wikipedia.org/wiki/FBI%E2%80%93Apple_encryption_dispute)
+- [Tim Cook: Americans Shouldn't Have to Choose Between Privacy and Security](https://money.cnn.com/2015/12/20/technology/apple-tim-cook-60-minutes/index.html?iid=EL)
+- [A Year After San Bernardino And Apple-FBI, Where Are We On Encryption?](https://www.npr.org/sections/alltechconsidered/2016/12/03/504130977/a-year-after-san-bernardino-and-apple-fbi-where-are-we-on-encryption)
+
+Long story short, if the phone doesn't have the Pin Lock in place, the person who finds your phone may potentially access (hack into) the apps on the phone incl. the wallet app itself and from there try to gain access to the Private Keys controlling your funds. If successful, the thief may then steal your Bitcoins by sending them to another wallet. On the other hand, if the phone has OS Pin Lock in place it is extremely difficult to hack into it. Private Keys become unreachable.
 
 > Note: The Pin Lock on an Operating System level is a safety requirement to ensure that sensitive data remain safe when an unauthorized party gets hold of the phone. Most of the good wallet apps will not work if the phone's Operating System doesn't have the Pin Lock in place.
 
+Some of the better wallet apps out there would refuse to work if the phone does not have the Pin Lock enabled.
+
 <img src="/images/pin-lock.png">
 
-In case of a device loss, the person may get a new phone and restore the wallet to regain access to his/her funds. After the access to the wallet is restored, it still recommended to transfer the funds to a new wallet.
+So, in case of a device loss, the person may get a new phone and restore the wallet funds with the help of the Private Key. After the access to the wallet is restored, it still recommended to transfer the funds to a new wallet.
 
 
 
 
 
-**Recommended Bitcoin Wallets**
-
-
-
-Most wallets out there DO NOT provide that capability, even those coming from known exchanges such as Coinbase. What that really means is that funds on the user's wallet balance are in practice are controlled by the entity providing the wallet. In practice, that means the user's access to the wallet can be restricted at any time and funds on the waller can be frozen. It also means that if the infrastructure/servers powering that wallet is compromised the users' funds can be stolen. 
-
-ll of the risks mentioned are fairly common with a lot of Bitcoins were and being stolen this way. It's more common than you may think! Due to unregulated nature of this space, wallet users are unlikely to be compensated for the losses
-
-- [Crypto Developer Komodo ‘Hacks’ Wallet Users to Foil $13 Million Theft](https://www.coindesk.com/crypto-developer-komodo-hacks-wallet-users-to-foil-13-million-hack)
-- [9 Ways to Hack Your Bitcoin Wallet](https://www.wipersoft.com/9-ways-to-hack-your-bitcoin-wallet/)
-- [Cryptocurrency customers are unable to access their coins after Canadian CEO’s death](https://www.cnbc.com/2019/02/05/millions-in-cryptocurrencies-frozen-after-quadriga-founders-death.html)
 
 
 
 
-// add content
-// explain differences between wallets
-// add a list of custodial wallets (unsafe wallets)
-https://qz.com/1103310/photos-the-secret-swiss-mountain-bunker-where-millionaires-stash-their-bitcoins/
 
 
-**Do NOT Keep Bitcoins on Exchange**
 
 
-A lot of people prefer keeping the purchased Bitcoins on the exchange itself. Many mistakenly assume that keeping them on exchanges is safe while it's not. Just like wallets exchanges are hacked and when that happens usually users loose their funds without getting compensated.
 
-- The Largest Cryptocurrency Hacks So Far This Year
-https://www.investopedia.com/news/largest-cryptocurrency-hacks-so-far-year/
 
-- Coincheck: the Biggest Crypto Exchange Hack of All Time
-https://coin360.com/blog/top-7-crypto-exchange-hacks
 
-- A timeline of major crypto-exchange hacks
-https://discover.ledger.com/hackstimeline/
 
-If you keep bitcoins on exchange, it means the exchange keeps them for you on their account. They give you username and password so that you can send them instructions like withdrawing/depositing bitcoins.
 
-The risk here is for exchange to get hacked or for them to scam everyone by telling that they were hacked. They also can freeze/restrict your account for whatever reason. All of the risks mentioned are fairly common.
 
-If someone somehow gets hold of your username/password to access the exchange you will loose your funds because the attacker will withdraw Bitcoins elsewhere. Note that some senior level administrators on the exchange potentially do have full access to your account funds.
 
-The point I am trying to make you kind of have to trust them not to be evil :)
 
 
 
