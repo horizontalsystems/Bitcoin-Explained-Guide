@@ -163,9 +163,9 @@ When trying to understand the Bitcoin for the first time a lot of people are usu
 
 The essential points can be summarized as:
 
-- Bitcoin: In addition to Bitcoin itself, there are a number of other cryptocurrencies with Bitcoin in the name the one that's considered the original Bitcoin is the one with the symbol BTC. Sometimes it's also referred to as the Bitcoin Core.
+- Bitcoin: In addition to Bitcoin itself, there are a number of other cryptocurrencies with Bitcoin in the name the one that's considered the original Bitcoin is the one with the symbol BTC. It's generally referred to as *Bitcoin* and sometimes also as *Bitcoin Core*.
 
-- Bitcoin forks: Cryptocurrencies which were derived from the original Bitcoin (BTC). Due to the open source nature of Bitcoin and underlying code anyone with programming experience is able to create a Bitcoin like cryptocurrency with some modifications and market it as a separate cryptocurrency. The most noteworthy such cryptocurrency is [Bitcoin Cash](https://en.wikipedia.org/wiki/Bitcoin_Cash). 
+- Bitcoin forks: Cryptocurrencies which were derived from the original Bitcoin (BTC). Due to the open source nature of Bitcoin and underlying code anyone with programming experience is able to create a Bitcoin like cryptocurrency with some modifications and market it as a separate cryptocurrency. The most noteworthy such cryptocurrency is [Bitcoin Cash](https://en.wikipedia.org/wiki/Bitcoin_Cash).
 
 - Altcoins: Usually the term refers to all other cryptocurrencies that are around. While there are thousands of them around only few managed to attract the audience and gain some crypto market share. The altcoins which have not attracted any audience are generally regarded as coins with no value proposition and are labeled as "shitcoins".
 
@@ -355,7 +355,7 @@ The point I am trying to make you kind of have to trust them not to be evil :)
 
 **Recommended Non-Custodial Wallets**
 
-Below are some of my favorite Non-Custodial type wallets.
+Below are some of my favorite Non-Custodial type wallets. Most of the screenshots shown in this guide were taken on Unstoppable wallet.
 
 Wallet Apps:
 
@@ -411,7 +411,7 @@ Treat the “Private Key” wallet app gives you with great care. If someone eve
 - Option 3 (Windows users): [How to Encrypt and Protect Your Data and Files Using VeraCrypt](https://www.makeuseof.com/tag/encrypt-data-files-veracrypt/)
 
 
-**What If You Lose Phone**
+**What Happens If You Lose Phone**
 
 Let's say you lost your phone and someone finds it... Is your wallet and funds are in danger?
 
@@ -436,33 +436,39 @@ So, in case of a device loss, the person may get a new phone and restore the wal
 
 ## 5. Transacting with Bitcoin
 
-Nearly every Bitcoin wallet comes with a standard Send and Receive features.
+So now that you understand the importance of the Private Keys, let us quickly go through the process of sending/receiving Bitcoin. Nearly every Bitcoin wallet comes with a standard Send and Receive feature.
 
-- Send : enables the owner to send Bitcoin to other Bitcoin wallets
-- Rceeive : enables the owner to receive Bitcoins from other Bitcoin wallets
+- Send : for sending Bitcoins to other wallets
+- Receive : for receiving Bitcoins from other wallets
 
 
-**How to Send Bitcoin?**
-
-To send someone Bitcoin you simply need to ask the recipient for his/her address and then use the wallet where you have bitcoin to send the desired amount to the provided address.
-
-[send_form_image]
-
-Once certain amount of bitcoins are sent to another address, the ownership is transferred to the owner of the destination address. From that moment onwards, only the owner of the destination address can send/transfer/spend those Bitcoins.
 
 
 **How to Receive Bitcoin?**
 
-To receive Bitcoins from someone or to transfer bitcoins from exchange account to your wallet account, you simply need to grab your Receive address from the wallet app you'are using and provide that address to the sender.
+To receive Bitcoins from someone or to transfer bitcoins from your own account on exchange your wallet account, you simply need your Bitcoin address. That address usually located in receive section of the wallet app. The screenshot below shows the 'Receive' screen from Unstoppable Bitcoin wallet.
 
-It should be noted, that most well-designed wallets will provide you a new "receive address" for each transaction. This is a privacy feature enabled in each wallet to keep you somewhat anonymous (explained below).
+<img src="/images/receive-bitcoin.png">
+
+It should be noted, that most Non-Custodial wallets will provide you a new "receive address" for each transaction. This is a recommended privacy feature enabled in any well designed wallet aimed at keeping your transactions history somewhat anonymous (will be explained below).
+
+Although, the wallet will generate a new Receive address after each incoming Bitcoin transaction, older addresses will still remain functional and appear in your wallet whenever someone sends funds to you. In practice, this means that you may generate an unlimited amount of addresses where people can send you Bitcoins and all of them will reach you.
 
 
-**Bitcoin Privacy Exaplined**
+**How to Send Bitcoin?**
 
-// explain anonymity aspect
-// metnion that good wallets provide new receive for every transaction
+To send someone Bitcoin you simply need to ask the recipient for ther Receive address and then use the Send feature in your Bitcoin wallet to send the desired amount to the provided address.
 
+<img src="/images/send-bitcoin.png">
+
+Once certain amount of bitcoins are sent to another address, the ownership is transferred to the owner of the destination address. From that moment onwards, only the owner of the destination address can send/transfer/spend those Bitcoins.
+
+
+**Bitcoin Privacy Explained**
+
+// As mentioned above, most well-designed wallets will provide you a new "receive address" for each transaction. 
+// 
+// 
 
 **How Fast Are Bitcoin transactions?**
 
