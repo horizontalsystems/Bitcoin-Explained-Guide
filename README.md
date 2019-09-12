@@ -38,19 +38,13 @@ The purpose of this guide is to introduce to Bitcoin phenomena and other crypt c
 - Storing Private Keys Securely
 - What if Phone is Lost
 
-
-
-
-
-
 5. Send / Receive Bitcoin
 
 - How to send Bitcoin?
 - How to receive Bitcoin?
-- Are Bitcoin transactions anonymous?
+- How Fast are Bitcoin transactions?
 - Bitcoin transaction fees explained
-- How long the transaction takes place?
-- Is it possible to cancel Bitcoin transaction?
+
 
 6. Transacting with Bitcoin
 
@@ -359,13 +353,24 @@ If you keep Bitcoins on exchange, it means the exchange keeps them for you on th
 
 The point I am trying to make you kind of have to trust them not to be evil :)
 
+**Recommended Non-Custodial Wallets**
 
-**Recommended Non-Custodial wallets**
+Below are some of my favorite Non-Custodial type wallets.
 
-- unstoppable
-- BRD
-- ledger
-- trezor
+Wallet Apps:
+
+- Unstoppable Wallet (https://unstoppable.money)
+- BRD Wallet (https://brd.com)
+
+Hardware Wallets:
+
+- Ledger (https://www.ledger.com)
+- Trezor (https://trezor.io)
+
+Strong Focus on Privacy:
+
+- Samourai (https://samouraiwallet.com)
+- Wasabi (https://wasabiwallet.io/)
 
 
 **Understanding the "Private Key"**
@@ -401,12 +406,9 @@ Treat the “Private Key” wallet app gives you with great care. If someone eve
 
 **Storing the "Private Key"**
 
-- Option 1: Write Private Keys on the paper and store it somewhere safe
-
+- Option 1: Write Private Keys on the paper and store it somewhere safe offline.
 - Option 2 (Mac OSX users): [Store Private Keys in Keychain's Secure Notes](https://support.apple.com/guide/keychain-access/what-is-keychain-access-kyca1083/mac)
-
 - Option 3 (Windows users): [How to Encrypt and Protect Your Data and Files Using VeraCrypt](https://www.makeuseof.com/tag/encrypt-data-files-veracrypt/)
-
 
 
 **What If You Lose Phone**
@@ -432,51 +434,42 @@ Some of the better wallet apps out there would refuse to work if the phone does 
 So, in case of a device loss, the person may get a new phone and restore the wallet funds with the help of the Private Key. After the access to the wallet is restored, it still recommended to transfer the funds to a new wallet.
 
 
+## 5. Transacting with Bitcoin
+
+Nearly every Bitcoin wallet comes with a standard Send and Receive features.
+
+- Send : enables the owner to send Bitcoin to other Bitcoin wallets
+- Rceeive : enables the owner to receive Bitcoins from other Bitcoin wallets
 
 
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-## 5. Transacting with Bitcoin: Sending / Receive 
-
-Nearly every Bitcoin wallet comes with Send and Receive features.
-
-The Send feature deducts amount the SECRET KEY can spend by passing the ownership for that amount to a new owner. The Receive feature allows someone to bitcoins from other people.
-
-Once certain amount of bitcoins are sent to another address, the ownership is transferred to the owner of the destination address. From that moment onwards, only the owner of the destination address can send/transfer/spend those Bitcoins.
-
-**Sending Bitcoins**
+**How to Send Bitcoin?**
 
 To send someone Bitcoin you simply need to ask the recipient for his/her address and then use the wallet where you have bitcoin to send the desired amount to the provided address.
 
 [send_form_image]
 
-**Receiving Bitcoins**
+Once certain amount of bitcoins are sent to another address, the ownership is transferred to the owner of the destination address. From that moment onwards, only the owner of the destination address can send/transfer/spend those Bitcoins.
+
+
+**How to Receive Bitcoin?**
 
 To receive Bitcoins from someone or to transfer bitcoins from exchange account to your wallet account, you simply need to grab your Receive address from the wallet app you'are using and provide that address to the sender.
 
 It should be noted, that most well-designed wallets will provide you a new "receive address" for each transaction. This is a privacy feature enabled in each wallet to keep you somewhat anonymous (explained below).
 
-**Bitcoin Transactions**
+
+**Bitcoin Privacy Exaplined**
+
+// explain anonymity aspect
+// metnion that good wallets provide new receive for every transaction
+
+
+**How Fast Are Bitcoin transactions?**
+
+
+Unlike regular money Bitcoin transactions are final and non-reversible. Once transaction is sent and included in the block (typically, within 10 minutes) it's nearly impossible to revert them. Although, some wallets will tell you that transactions can be considered final after 3/6 blocks has passed you would be safe to assume that once it was included in the block the chances for it to revert are very slim. We are not going to be looking at it here. 
+
+It's potentially possible to cancel transaction while it remains in pending state but for the sake of keeping this guide simple it won't be covered here. The general rule of thumbs once you see that transaction has been included in the block it's fairly safe to consider it final. 
 
 At first transaction sent from sender's wallet to the network. At the end of this step most (usually > 99%) miners/nodes that store blockchain and process transactions have the transaction in something called as "mempool". This whole process usually takes a couple seconds. In practice, that would mean that when you send transaction the recipient will see it PENDING in his/her wallet within a couple seconds. 
 
@@ -485,23 +478,28 @@ It should be also noted that this would be the case if the wallet you're using i
 When the transaction reaches every miner/node it's not yet part of the blockchain. The transaction becomes confirmed and no longer pending when it's included in the block. In Bitcoin blockchain the block closed roughly every 10 minutes, it varies for other blockchains.
 
 
-- Unlike regular money Bitcoin transactions are final and non-reversible. Once they are sent it's impossible to revert them. After the transaction is included in the block it can be already considered as completed. However, there is a general consensus for the transaction to be considered as FINAL (irreversible) 6 more blocks has to pass after the transaction was included in the block. This will add roughly another 50 minutes. 
+- link to block explorers
 
-It's potentially possible to cancel transaction while it remains in pending state but for the sake of keeping this guide simple it won't be covered here. The general rule of thumbs once you see that transaction has been included in the block it's fairly safe to consider it final. 
 
-- trnasaction duration: ... (provide links to block explorers)
+**Bitcoin Transaction Fees**
 
-- Bitcoin transactions are semi anonymous: ....
-
-**Bitcoin transaction fees explained**
-
-There are some factors which may affect the duration of this step. The main factor is the fee sender used when sending the transaction. If the fee is low and the mempool was crowded when transaction was sent it will take longer. More precisely, it will be confirmed when the mempool gets less crowded. In most cases it will happen within 24 hours.
+There are some factors which may affect the duration of the transaction. The main factor is the fee sender used when sending the transaction. If the fee is low and the mempool was crowded when transaction was sent it will take longer. More precisely, it will be confirmed when the mempool gets less crowded. In most cases it will happen within 24 hours.
 
 If the fee was sufficient then it will most likely be confirmed within 10 minutes. So, that's why setting the fee properly is important, especially for large payments that need to happen quickly.
 
 Some of the wallets that have the fee estimation/recommendations capabilities are bread wallet (https://brd.com), unstoppable wallet (https://unstoppable.money)
 
-After the transaction is included in the block it can be already considered as completed.
+
+
+
+
+
+
+
+
+
+
+
 
 6. Transacting with Bitcoin
 
