@@ -429,7 +429,7 @@ Long story short, if the phone doesn't have the Pin Lock in place, the person wh
 
 Some of the better wallet apps out there would refuse to work if the phone does not have the Pin Lock enabled.
 
-<img src="/images/pin-lock.png">
+<img src="/images/screenshots/pin-lock2.png">
 
 So, in case of a device loss, the person may get a new phone and restore the wallet funds with the help of the Private Key. After the access to the wallet is restored, it still recommended to transfer the funds to a new wallet.
 
@@ -440,8 +440,6 @@ So now that you understand the importance of the Private Keys, let us quickly go
 
 - Send : for sending Bitcoins to other wallets
 - Receive : for receiving Bitcoins from other wallets
-
-
 
 
 **How to Receive Bitcoin?**
@@ -457,18 +455,26 @@ Although, the wallet will generate a new Receive address after each incoming Bit
 
 **How to Send Bitcoin?**
 
-To send someone Bitcoin you simply need to ask the recipient for ther Receive address and then use the Send feature in your Bitcoin wallet to send the desired amount to the provided address.
+To send someone Bitcoin you simply need to ask the recipient for the Receive address and then use the Send feature in your Bitcoin wallet to send the desired amount to the provided address.
 
 <img src="/images/send-bitcoin.png">
 
-Once certain amount of bitcoins are sent to another address, the ownership is transferred to the owner of the destination address. From that moment onwards, only the owner of the destination address can send/transfer/spend those Bitcoins.
+Once certain amount of bitcoins are sent to another address, the ownership is transferred to the owner of the destination address. From the moment when the transaction is included in the block, only the owner of the destination Bitcoin address can send/transfer/spend those Bitcoins.
 
 
 **Bitcoin Privacy Explained**
 
+Satoshi Nakamoto, the anonymous creator of Bitcoin, wrote about privacy in Bitcoin’s Whitepaper:
+
+> Some linking of transactions to a common owner is still unavoidable, and could reveal other transactions that belonged to the same owner
+
+Make sure that only the people you want to know are aware of how much bitcoin you have, how or where you store it, when you send it, etc. and nobody else.
+
 // As mentioned above, most well-designed wallets will provide you a new "receive address" for each transaction. 
 // 
 // 
+
+- [A non-technical Guide to Privacy in Bitcoin](http://bitcoinsnippets.com/protect-your-bitcoin-through-privacy/)
 
 **How Fast Are Bitcoin transactions?**
 
