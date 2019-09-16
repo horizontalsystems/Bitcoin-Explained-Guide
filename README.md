@@ -43,7 +43,7 @@ The purpose of this guide is to introduce to Bitcoin phenomena and other crypt c
 - How to send Bitcoin?
 - How to receive Bitcoin?
 - How Fast are Bitcoin transactions?
-- Bitcoin transaction fees explained
+- Bitcoin privacy explained
 
 
 6. Transacting with Bitcoin
@@ -436,30 +436,97 @@ So, in case of a device loss, the person may get a new phone and restore the wal
 
 ## 5. Transacting with Bitcoin
 
-So now that you understand the importance of the Private Keys, let us quickly go through the process of sending/receiving Bitcoin. Nearly every Bitcoin wallet comes with a standard Send and Receive feature.
+So now that you understand the importance of the Private Keys, let us quickly go through the process of sending/receiving Bitcoin. Nearly every cryptocurrency wallet comes with a standard Send and Receive features.
 
-- Send : for sending Bitcoins to other wallets
-- Receive : for receiving Bitcoins from other wallets
+- Send : for sending Bitcoins to others
+- Receive : for receiving Bitcoins from others
 
 
 **How to Receive Bitcoin?**
 
-To receive Bitcoins from someone or to transfer bitcoins from your own account on exchange your wallet account, you simply need your Bitcoin address. That address usually located in receive section of the wallet app. The screenshot below shows the 'Receive' screen from Unstoppable Bitcoin wallet.
+To receive Bitcoins from someone or to transfer bitcoins from one of your own accounts (i.e. account on exchange) to your wallet account, you only need your Bitcoin address. That address usually located in receive section of the wallet app. The screenshot below shows the 'Receive' screen from Unstoppable wallet app.
 
 <img src="/images/receive-bitcoin.png">
 
-It should be noted, that most Non-Custodial wallets will provide you a new "receive address" for each transaction. This is a recommended privacy feature enabled in any well designed wallet aimed at keeping your transactions history somewhat anonymous (will be explained below).
+Copy that address and send it to the entity that wants to send you Bitcoin.
 
-Although, the wallet will generate a new Receive address after each incoming Bitcoin transaction, older addresses will still remain functional and appear in your wallet whenever someone sends funds to you. In practice, this means that you may generate an unlimited amount of addresses where people can send you Bitcoins and all of them will reach you.
+It should be noted, that most Non-Custodial wallets will provide you a new receive address for each transaction. This is a recommended privacy feature enabled in any well designed wallet designed to keep your transactions history somewhat anonymous (will be explained below).
+
+Although, the wallet will generate a new receive address after each incoming Bitcoin transaction, older addresses will still remain functional and appear in your wallet whenever someone sends funds to you. In practice, this means that you may generate an unlimited amount of addresses where people can send you Bitcoins and all of them will reach you.
 
 
 **How to Send Bitcoin?**
 
-To send someone Bitcoin you simply need to ask the recipient for the Receive address and then use the Send feature in your Bitcoin wallet to send the desired amount to the provided address.
+To send someone Bitcoin you simply need to ask the recipient for his/her Bitcoin address and then use the Send feature in your wallet to send the desired amount to the provided address.
 
 <img src="/images/send-bitcoin.png">
 
-Once certain amount of bitcoins are sent to another address, the ownership is transferred to the owner of the destination address. From the moment when the transaction is included in the block, only the owner of the destination Bitcoin address can send/transfer/spend those Bitcoins.
+When sending a transaction the sender expected to add a small transaction fee which would be awarded to the nodes which includes the transaction in the blockchain. 
+
+Once certain amount of bitcoins are sent to another address, only the owner of the destination Bitcoin address can send/spend those Bitcoins.
+
+> Note: Bitcoin transactions are final and irreversible. 
+
+Once you send the Bitcoin there is no way to cancel that transaction. There are some non-trivial technical ways to change/edit the transaction shortly after it's sent (within a couple of minutes) but in many cases such features won't be available in the wallet app. So, once you click Send the funds are gone to the destination address. Keep that in mind.
+
+
+**How Fast Are Bitcoin transactions?**
+
+In this section, we'll look into what happens to transaction after the user clicks on Send button from the wallet.
+
+Every Bitcoin transaction goes through following stages:
+
+PENDING PHASE: Sending transaction
+
+1. User clicks on Send button in the wallet app
+2. Transaction ALMOST instaly reaches most of the nodes on the Bitcoin network
+3. Each nodes places the transaction in so called "mempool".
+
+This phase should be nearly instant in most Non-Custodial wallets. At the end of this phase most (usually > 99%) miners/nodes that store blockchain and process transactions already have the transaction in the queue but it's not processed yet. In practice, that would mean that when you send transaction the recipient will see it as pending in his/her list of transactions within a couple seconds.
+
+// add screenshot showing a tx info for pending transaction
+
+It's potentially possible to modify transaction while it remains in pending state but for the sake of keeping this guide simple it won't be covered here. 
+
+
+CONFIRMATION PHASE: Transaction waiting to be included in blockchain
+
+4. Nodes add transaction to the Bitcoin blockchain. When the transaction reaches every node it's not yet part of the blockchain. The Bitcoin transaction becomes confirmed (and no longer pending) when it's included in the blockchain by nodes which usually happens within 10 minutes. There are two factors whcih can affect this duration
+
+-- the transaction fee set by the sender
+-- the amount of pending transactions in the network
+
+In it's current state the Bitcoin network able to process at most a million (close to that) transactions per day. When the number of transactions exceeds that amount the nodes are able to choose which transactions to include first. In general, nodes prefer to give priority to transactions which pay higher fee
+
+In general, any good wallet would take the current network conditrions into account and would recommend the optimal fee that you should set.
+
+<img src="/images/transaction-fee.jpg">
+
+If the fee was sufficient then it will most likely be confirmed within 10 minutes. That's why setting the fee properly is important, especially for larger payments that need to happen quickly.
+
+
+FINAL PHASE: Waiting for 3-6 blocks to pass
+
+After the transaction was included in the block it's fairly safe to assume that it's final and completed. However due to the nature how Bitcoin network operates it's generally recommended to wait somwehere between 3-6 blocks to pass before the transaction can be considered final and irreversible.
+
+> Note: It's safe to assume that transaction is final once it was included in a block. As soon as transaction is included in the block it's considered to have had "1 confirmation". When the blockcain adds another block on top of it, it's assumed to have received "2 confirmations" and so on.
+
+
+Most wallets will show the transaction as final after 3/6 blocks has passed. for some wallets even 1 confirmation is enough for transaction to be shown as final. 
+
+
+// add screenshot showing a tx info for confirmed transaction. 
+
+
+Anyone can monitor the status of the transaction from the moment it was sent using so called Blockchain block explorer sites. In practice this means that as soon as you the user hit the Sent button the receiving party can already monitor this transaction online and osee how it's progressing. In order to do that the receiver needs a tarnsaction ID which can be obtained by clicking on the pending trasnsaction and gettign it's ID.
+
+// grabbing transaction ID from pending transaction
+
+Below, you will find some of the popular public block explorers for Bitcoin:
+
+- [Blockchain.com/explorer](https://www.blockchain.com/explorer)
+- [BTC.com](https://btc.com/)
+- [BlockChair.com](https://blockchair.com/)
 
 
 **Bitcoin Privacy Explained**
@@ -475,34 +542,6 @@ Make sure that only the people you want to know are aware of how much bitcoin yo
 // 
 
 - [A non-technical Guide to Privacy in Bitcoin](http://bitcoinsnippets.com/protect-your-bitcoin-through-privacy/)
-
-**How Fast Are Bitcoin transactions?**
-
-
-Unlike regular money Bitcoin transactions are final and non-reversible. Once transaction is sent and included in the block (typically, within 10 minutes) it's nearly impossible to revert them. Although, some wallets will tell you that transactions can be considered final after 3/6 blocks has passed you would be safe to assume that once it was included in the block the chances for it to revert are very slim. We are not going to be looking at it here. 
-
-It's potentially possible to cancel transaction while it remains in pending state but for the sake of keeping this guide simple it won't be covered here. The general rule of thumbs once you see that transaction has been included in the block it's fairly safe to consider it final. 
-
-At first transaction sent from sender's wallet to the network. At the end of this step most (usually > 99%) miners/nodes that store blockchain and process transactions have the transaction in something called as "mempool". This whole process usually takes a couple seconds. In practice, that would mean that when you send transaction the recipient will see it PENDING in his/her wallet within a couple seconds. 
-
-It should be also noted that this would be the case if the wallet you're using is a decentralized one (i.e. talks directly to a blockchain rather than through a middle man).
-
-When the transaction reaches every miner/node it's not yet part of the blockchain. The transaction becomes confirmed and no longer pending when it's included in the block. In Bitcoin blockchain the block closed roughly every 10 minutes, it varies for other blockchains.
-
-
-- link to block explorers
-
-
-**Bitcoin Transaction Fees**
-
-There are some factors which may affect the duration of the transaction. The main factor is the fee sender used when sending the transaction. If the fee is low and the mempool was crowded when transaction was sent it will take longer. More precisely, it will be confirmed when the mempool gets less crowded. In most cases it will happen within 24 hours.
-
-If the fee was sufficient then it will most likely be confirmed within 10 minutes. So, that's why setting the fee properly is important, especially for large payments that need to happen quickly.
-
-Some of the wallets that have the fee estimation/recommendations capabilities are bread wallet (https://brd.com), unstoppable wallet (https://unstoppable.money)
-
-
-
 
 
 
