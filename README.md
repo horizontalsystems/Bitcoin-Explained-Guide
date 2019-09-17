@@ -542,12 +542,21 @@ On the other hand, if the wallet user uses a new address for each new transactio
 
 ## 6. Using Bitcoin for Purchases
 
-- [Cash.app](https://cash.app)
+Ability to pay with the Bitcoin in offline transactions is something very uncommon. While [some merchants](https://www.forbes.com/sites/michaeldelcastillo/2019/05/13/starbucks-nordstrom-and-whole-foods-now-accept-bitcoin-just-dont-ask-them/#41074bb12252) like [Whole Foods](https://fortune.com/2019/05/13/bitcoin-comes-to-whole-foods-major-retailers-in-coup-for-digital-currency/) are slowly starting to accept payments in Bitcoin, the vast majority of retailers worldwide are still in waiting phase.
+
+However, there are already some effective ways to spend your cryptocurrency pretty much everywhere. A number of companies provide branded debit cards which can be used to pay for things anywhere where the Visa or MasterCard is accepted. You pay with a card as you would normally do and the amount is deducted from your crypto balance per current market rates.
+
+<img src="/images/crypto-cards.jpg">
+
+Below, you will listed some of the more popular providers of such cards. Note that most of the available only to people residing in US or Europe and all of them will require the user to provide some identification documents.
+
 - [Crypterium.com](https://cards.crypterium.com)
 - [Crypto.com](https://crypto.com/en/cards.html)
 - [Coinbase.com](https://www.coinbase.com/card)
 - [Nexo.io](https://nexo.io/nexo-card)
 - [2gether.global](https://www.2gether.global)
+- [Cash.app](https://cash.app)
+- [Cryptopay.me](https://cryptopay.me/bitcoin-debit-card)
 
 
 ## 7. Bitcoin Nodes and Mining
