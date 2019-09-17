@@ -489,8 +489,8 @@ CONFIRMATION PHASE: Transaction waiting to be included in blockchain
 
 4. Transaction added to the blockchain and becomes confirmed. That usually happens within 10 minutes but can take loner as well. There are two factors which can affect the amount of time for the transaction to be confirmed:
 
--- the transaction fee set by the sender
--- the amount of pending transactions in the network
+- the transaction fee set by the sender
+- the amount of pending transactions in the network
 
 When the number of transactions in the network exceeds the amount of transactions nodes can process, nodes get to choose which transactions to include first. In general, nodes prefer to give priority to transactions which pay higher fee. Most good wallet apps would take the current network conditions into account and would recommend the optimal fee to the sender on the Sent screen itself.
 
@@ -540,15 +540,14 @@ On the other hand, if the wallet user uses a new address for each new transactio
 - [A non-technical Guide to Privacy in Bitcoin](http://bitcoinsnippets.com/protect-your-bitcoin-through-privacy/)
 
 
-
 ## 6. Using Bitcoin for Purchases
 
-// add content
-// - that section would outline all available credit cards (crypto to fiat cards)
-- https://cash.app
-- coinbase
-- crypterium
-- nexo
+- [Cash.app](https://cash.app)
+- [Crypterium.com](https://cards.crypterium.com)
+- [Crypto.com](https://crypto.com/en/cards.html)
+- [Coinbase.com](https://www.coinbase.com/card)
+- [Nexo.io](https://nexo.io/nexo-card)
+- [2gether.global](https://www.2gether.global)
 
 
 ## 7. Bitcoin Nodes and Mining
@@ -557,7 +556,7 @@ On the other hand, if the wallet user uses a new address for each new transactio
 
 - Why mining is important?
 
-- How to become a bitcoin miner  ?
+- How to become a Bitcoin miner  ?
 
 
 
