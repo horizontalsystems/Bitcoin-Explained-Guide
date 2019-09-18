@@ -38,29 +38,20 @@ The purpose of this guide is to introduce to Bitcoin phenomena and other crypt c
 - Storing Private Keys Securely
 - What if Phone is Lost
 
-5. Send / Receive Bitcoin
+5. Transacting with Bitcoin
 
 - How to send Bitcoin?
 - How to receive Bitcoin?
 - How fast are Bitcoin transactions?
 - Bitcoin privacy explained
+- Crypto to fiat credit cards
 
+6. Bitcoin Nodes and Mining
 
-6. Transacting with Bitcoin
-
-**Using Bitcoin in real world**
-
-// add content
-
-**Using Crypto To Fiat cards**
-
-// add content
-
-7. Bitcoin Nodes and Mining
-
+- Do I Need to Run a Node
+- Different Types of Nodes
 - What is Bitcoin mining?
-- Why mining is important?
-- How to become a Bitcoin miner  ?
+- How to become a miner  ?
 
 
 <br><br><br>
@@ -98,7 +89,7 @@ In the original paper, Satoshi Nakamoto proposed a Bitcoin in a form of decentra
 > Therefore, Bitcoin should be regarded as a scientific invention that potentially challenges the status quo of present day monetary system and regulatory entities surrounding them.
 
 
-**How Bitcoin Network Works**
+### How Bitcoin Network Works
 
 Usually, when someone talks about Bitcoin blockchain or Bitcoin users the person refers to the Bitcoin network.
 
@@ -125,7 +116,7 @@ There are close to 9000 Bitcoin nodes powering the network at any given time (so
 As mentioned earlier anyone can setup a Bitcoin node at home and act as a guardian of the Bitcoin network. It will be covered in detailed in the last section.
 
 
-**Bitcoin in Numbers**
+### Bitcoin in Numbers
 
 There will be in total 21 million Bitcoins with over 17 million Bitcoins have been released to the market. The remaining part will be automatically created by the Bitcoin network over the course of 130 years in a manner described below.
 
@@ -522,7 +513,7 @@ Below, you will find some of the popular public transaction explorers for Bitcoi
 
 **Bitcoin Privacy Explained**
 
-When it comes to privacy in Bitcoin it's somewhat semi-private. While all transactions in Bitcoin network are public they're appear as transaction from one Bitcoin address to another.
+When it comes to privacy in Bitcoin it's somewhat semi-private. While all transactions in Bitcoin network are public they simply appear as transaction from some Bitcoin address to another.
 
 The image below shows a screenshot of a transaction (ID: [https://btc.com/75e728201f3c35346542f5671ebefa958191aa64b0567aad46d2a7360b626280](https://btc.com/75e728201f3c35346542f5671ebefa958191aa64b0567aad46d2a7360b626280)) from a public BTC.com block explorer.
 
@@ -530,19 +521,21 @@ The image below shows a screenshot of a transaction (ID: [https://btc.com/75e728
 
 As you can see from the image above just by looking at individual transaction there is no way to know who the sender or recipient is. It might even be that both the sender and recipient is the same person. 
 
-That said, by clicking on the sender address it's possible to see when the sender received these funds. Now, if the wallet user always uses the same address for incoming transactions, it would be easy to see all incoming transactions to that address. 
+That said, by clicking on the sender address it's possible to see when and what address the sender received these funds from. Now, if the wallet user always uses the same address for incoming transactions, it would be easy to see all incoming transactions to that address and from that get a fairly comprehensive transaction history. 
 
-On the other hand, if the wallet user uses a new address for each new transaction then identifying that user's incoming transactions becomes impossible.
+On the other hand, if the wallet user uses a new address for each new transaction then identifying that user's incoming transactions becomes close to impossible.
 
+In addition to using new addresses for each transaction, a general rule of thumb here is to make sure that only the people you want to know are aware of how much Bitcoin you have, how/where you store it etc.
 
-> Note: Make sure that only the people you want to know are aware of how much Bitcoin you have, how or where you store it etc. and nobody else.
+> Note: While the information above give some basics in regards to how Bitcoin privacy works, keep in mind that it's by no means a complete picture when it comes to the privacy aspects to the Bitcoin. 
+
+For an advanced user with large amount of Bitcoins or for someone living in hostile environments there are several other factors that should be taken into account when it comes to transacting with Bitcoins. This subject alone warrants a brief guide on its own.
 
 - [A non-technical Guide to Privacy in Bitcoin](http://bitcoinsnippets.com/protect-your-bitcoin-through-privacy/)
 
+**Using Bitcoin for Purchases**
 
-## 6. Using Bitcoin for Purchases
-
-Ability to pay with the Bitcoin in offline transactions is something very uncommon. While [some merchants](https://www.forbes.com/sites/michaeldelcastillo/2019/05/13/starbucks-nordstrom-and-whole-foods-now-accept-bitcoin-just-dont-ask-them/#41074bb12252) like [Whole Foods](https://fortune.com/2019/05/13/bitcoin-comes-to-whole-foods-major-retailers-in-coup-for-digital-currency/) are slowly starting to accept payments in Bitcoin, the vast majority of retailers worldwide are still in waiting phase.
+Ability to pay with the Bitcoin in offline transactions is still something very uncommon. While [some merchants](https://www.forbes.com/sites/michaeldelcastillo/2019/05/13/starbucks-nordstrom-and-whole-foods-now-accept-bitcoin-just-dont-ask-them/#41074bb12252) like [Whole Foods](https://fortune.com/2019/05/13/bitcoin-comes-to-whole-foods-major-retailers-in-coup-for-digital-currency/) are slowly starting to accept payments in Bitcoin, the vast majority of retailers worldwide are still in waiting phase.
 
 However, there are already some effective ways to spend your cryptocurrency pretty much everywhere. A number of companies provide branded debit cards which can be used to pay for things anywhere where the Visa or MasterCard is accepted. You pay with a card as you would normally do and the amount is deducted from your crypto balance per current market rates.
 
@@ -558,14 +551,45 @@ Below, you will listed some of the more popular providers of such cards. Note th
 - [Cash.app](https://cash.app)
 - [Cryptopay.me](https://cryptopay.me/bitcoin-debit-card)
 
+When using the services above the card provider will provide you with with the wallet app as well. This will be a Custodial wallet tied to your card and therefore you should never keep too much funds on it. You should use a Non-Custodial wallet for your primary funds and occasionally top up the card wallet with some amount on a regular basis. Treat this one more like a debit card balance that you plan to spend using the provided card.
+
 
 ## 7. Bitcoin Nodes and Mining
 
-- What is Bitcoin mining?
+There are close to 9000 Bitcoin nodes powering the network at any given time (source: [https://bitnodes.earn.com](https://bitnodes.earn.com/)). The nodes are spread geographically, covering most of the countries worldwide.
 
-- Why mining is important?
+**Do I Need to Run a Node**
 
-- How to become a Bitcoin miner  ?
+As briefly mentioned above, nodes are with validating every new transaction and ensure that only valid transactions are made to the blockchain. 
+
+If one of the nodes tries to cheat the network by marking an invalid transaction as valid it would be disregarded by all other nodes on the network. Cheating on such network in practical terms is close impossible. 
+
+Cumulatively nodes guarantee:
+
+- openness, 
+- availability
+- decentralization and 
+- security of the network
+
+So, by running a node at home you're effectively contributing to Bitcoin network. 
+
+// explain how to setup a Bitcoin node
+
+**Different Types of Nodes**
+
+// explain different nodes (miners and non-mining nodes etc )
+
+**What is Bitcoin mining?**
+
+// what is mining
+// possible to make money?
+
+**How to become a miner  ?**
+
+Anyone can setup a node without much effort (will be covered later). The node doesn't require any maintenance and can autonomously operate even on an old computer as long as there is a working Internet connection. 
+
+
+
 
 
 
