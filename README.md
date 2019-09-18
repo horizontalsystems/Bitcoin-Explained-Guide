@@ -50,8 +50,7 @@ The purpose of this guide is to introduce to Bitcoin phenomena and other crypt c
 
 - Do I Need to Run a Node
 - Different Types of Nodes
-- What is Bitcoin mining?
-- How to become a miner  ?
+- How To Become A Miner  Node
 
 
 <br><br><br>
@@ -146,7 +145,7 @@ More Reading:
 - [The 21 million Bitcoin story explained: Why is the number special?](https://coinsavage.com/content/2018/11/the-21-million-bitcoin-story-explained-why-is-the-number-special/)
 
 
-**Bitcoin Forks and Other Cryptocurrencies**
+### Bitcoin Forks and Other Cryptocurrencies
 
 When trying to understand the Bitcoin for the first time a lot of people are usually left confused and frustrated... Before gaining any concrete understanding of what Bitcoin is, newcomers disover a large number of cryptocurrencies with many portraying itself as a better alternative to Bitcoin. Some of these cryptocurrencies have the word "Bitcoin" in its name adding to further confusion. All these aspects make the onboarding experience for the new users extremely difficult. 
 
@@ -200,7 +199,7 @@ These days, nearly all mainstream financial channels regularly talk about Bitcoi
 It's no longer perceived as "fun money for geeks" but more often as a "valuable financial asset" with a growing appeal. The current Bitcoin price as well as the market capitalization of Bitcoin is an indication of that.
 
 
-**Why Bitcoin Keeps Growing?**
+### Why Bitcoin Keeps Growing?
 
 To understand what drives Bitcoin price higher and further adoption it's important to look at Bitcoin as a social cause. A cause that seeks to provide a solution to some major socio-economic problems rather than some new asset class or even an alternative to gold or fiat money.
 
@@ -227,7 +226,7 @@ In face of modern-day problems such as excessive money printing, politically-mot
 - [Bitcoin Stats: Rich List & Distribution](https://btc.com/stats/rich-list)
 
 
-**Can The Bitcoin Be Stopped?**
+### Can The Bitcoin Be Stopped?
 
 A lot of new people entering Bitcoin ecosystem remain somewhat skeptical about its ability to succeed. The narrative that one day a Bitcoin or alike decentralized system may replace centrally regulated financial institutions seems unbelievable. An outlook that at some point governments are going to try banning the Bitcoin regarded as more likely scenario, especially by those unaware about how Bitcoin operates on a technical level.
 
@@ -262,7 +261,7 @@ At [current](https://www.coinbase.com/price/bitcoin) prices, buying even just on
 There are two main ways for a newcomer to acquire Bitcoin. You can either find someone willing to send you some or you may purchase some amount of Bitcoins online.
 
 
-**Buying Bitcoin with Credit Card**
+### Buying Bitcoin with Credit Card
 
 There are plenty of places online where it's possible to buy Bitcoin using Visa or MasterCard. While this option is convenient bear in mind that you will be purchasing the crypto at slightly elevated prices (approx. 1%) than market rates which is not really an issue for smaller amounts.
 
@@ -282,7 +281,7 @@ Below you will a list of popular places that have already served thousands of pe
 If you're looking to buy more than a couple of thousands worth of Bitcoins and on a regular basis than you should be buying on some cryptocurrency exchange at market prices.
 
 
-**Buying Bitcoin on Exchange**
+### Buying Bitcoin on Exchange
 
 Cryptocurrency exchanges are websites where you can buy/sell cryptocurrencies for USD/EUR or trade one cryptocurrency for another. If you're looking to invest substantial amount of money then buying on cryptocurrency exchange is the safest option. That may sound a bit complicated for someone who never traded stocks or currencies but it's not difficult at all.
 
@@ -314,7 +313,7 @@ Listed below are some of the better known cryptocurrency exchanges.
 
 Bitcoins are generally stored in cryptocurrency wallets which come in many different forms and types. A wallet can come in a form of a mobile app, a desktop program, a website or even a small hardware gadget.
 
-**Bitcoin Wallets Explained**
+### Bitcoin Wallets Explained
 
 Regardless of the wallet type and what's being said on the wallet website there is just **one crucial point** you should understand. That is whether the wallet lets you (the owner of funds) exclusively control the cryptocurrency held on that wallet. That is the main security criteria you should look for when choosing a wallet for your Bitcoins.
 
@@ -344,7 +343,7 @@ If you keep Bitcoins on exchange, it means the exchange keeps them for you on th
 
 The point I am trying to make you kind of have to trust them not to be evil :)
 
-**Recommended Non-Custodial Wallets**
+### Recommended Non-Custodial Wallets
 
 Below are some of my favorite Non-Custodial type wallets. Most of the screenshots shown in this guide were taken on Unstoppable wallet.
 
@@ -364,7 +363,7 @@ Strong Focus on Privacy:
 - Wasabi (https://wasabiwallet.io/)
 
 
-**Understanding the "Private Key"**
+### Understanding the "Private Key"
 
 The notion of Private Key is relevant to Non-Custodial wallets. 
 
@@ -395,14 +394,14 @@ Treat the Private Key the wallet app gives you with great care. If someone ever 
 > Note: The risk here is that you may loose the key or unknowingly expose it to someone who can then reenter that key in some other wallet and get control of your Bitcoins. That’s the only thing you should really understand. The rest is secondary.
 
 
-**Storing the "Private Key"**
+### Storing the "Private Key"
 
 - Option 1: Write Private Keys on the paper and store it somewhere safe offline. 
 - Option 2 (Mac OSX users): [Store Private Keys in Keychain's Secure Notes](https://support.apple.com/guide/keychain-access/what-is-keychain-access-kyca1083/mac)
 - Option 3 (Windows users): [How to Encrypt and Protect Your Data and Files Using VeraCrypt](https://www.makeuseof.com/tag/encrypt-data-files-veracrypt/)
 
 
-**What Happens If You Lose Phone**
+### What Happens If You Lose Phone
 
 Let's say you lost your phone and someone finds it... The question you may have is whether your wallet funds are in danger.
 
@@ -433,7 +432,7 @@ So now that you understand the importance of the Private Keys, let us quickly go
 - Receive : for receiving Bitcoins from others
 
 
-**How to Receive Bitcoin?**
+### How to Receive Bitcoin?
 
 To receive Bitcoins from someone or to transfer them from one of your own accounts (i.e. account on exchange) to your wallet account, you only need your Bitcoin address. That address usually located in receive section of the wallet app. The screenshot below shows the 'Receive' screen from Unstoppable wallet app.
 
@@ -459,7 +458,7 @@ Once the user clicks on Send button, the there is a brief period while the trans
 > Note: Bitcoin transactions are final. Once the Bitcoins are sent to the destination address and included in the block it can be assumed that this transaction is final. Only the owner of the destination Bitcoin address can send/spend those Bitcoins.
 
 
-**How Fast Are Bitcoin transactions?**
+### How Fast Are Bitcoin transactions?
 
 In this section, we'll look into what happens to transaction after the user clicks on Send button from the wallet. 
 
@@ -511,7 +510,7 @@ Below, you will find some of the popular public transaction explorers for Bitcoi
 - [BlockChair.com](https://blockchair.com/)
 
 
-**Bitcoin Privacy Explained**
+### Bitcoin Privacy Explained
 
 When it comes to privacy in Bitcoin it's somewhat semi-private. While all transactions in Bitcoin network are public they simply appear as transaction from some Bitcoin address to another.
 
@@ -533,7 +532,7 @@ For an advanced user with large amount of Bitcoins or for someone living in host
 
 - [A non-technical Guide to Privacy in Bitcoin](http://bitcoinsnippets.com/protect-your-bitcoin-through-privacy/)
 
-**Using Bitcoin for Purchases**
+### Using Bitcoin for Purchases
 
 Ability to pay with the Bitcoin in offline transactions is still something very uncommon. While [some merchants](https://www.forbes.com/sites/michaeldelcastillo/2019/05/13/starbucks-nordstrom-and-whole-foods-now-accept-bitcoin-just-dont-ask-them/#41074bb12252) like [Whole Foods](https://fortune.com/2019/05/13/bitcoin-comes-to-whole-foods-major-retailers-in-coup-for-digital-currency/) are slowly starting to accept payments in Bitcoin, the vast majority of retailers worldwide are still in waiting phase.
 
@@ -554,11 +553,13 @@ Below, you will listed some of the more popular providers of such cards. Note th
 When using the services above the card provider will provide you with with the wallet app as well. This will be a Custodial wallet tied to your card and therefore you should never keep too much funds on it. You should use a Non-Custodial wallet for your primary funds and occasionally top up the card wallet with some amount on a regular basis. Treat this one more like a debit card balance that you plan to spend using the provided card.
 
 
-## 7. Bitcoin Nodes and Mining
+## 6. Bitcoin Nodes and Mining
 
 There are close to 9000 Bitcoin nodes powering the network at any given time (source: [https://bitnodes.earn.com](https://bitnodes.earn.com/)). The nodes are spread geographically, covering most of the countries worldwide.
 
-**Do I Need to Run a Node**
+Anyone can setup a node without much effort. The node doesn't require any maintenance and can autonomously operate even on an old computer as long as there is a working Internet connection.
+
+### Do I Need to Run a Node
 
 As briefly mentioned above, nodes are with validating every new transaction and ensure that only valid transactions are made to the blockchain. 
 
@@ -568,29 +569,35 @@ Cumulatively nodes guarantee:
 
 - openness, 
 - availability
-- decentralization and 
-- security of the network
+- decentralization
+- security
 
 So, by running a node at home you're effectively contributing to Bitcoin network. 
 
-// explain how to setup a Bitcoin node
+https://bitcoin.org/en/full-node#what-is-a-full-node
 
-**Different Types of Nodes**
 
-// explain different nodes (miners and non-mining nodes etc )
+### Different Types of Nodes
 
-**What is Bitcoin mining?**
+While all nodes on Bitcoin Network are equal, some nodes may do more things than others. 
+
+All nodes are asked with validating and propagating new transactions and blocks. Some nodes keep a complete copy of the blockchain (history of transactions). These nodes are known as full nodes. Any full node can independently verify any transaction for validity.
+
+There are also nodes which keep only a subset of the blockchain and verify transactions using a method called simplified payment verification, or SPV. These nodes are known as SPV nodes. When choosing a mobile wallet aim for the wallet that can act as an SPV node on the network. Usually such wallets are called SPV wallets. 
+
+Finally, there are mining nodes (aka miners) which constantly compete to close the next block in the blockchain.
+
+
+### How To Become A Miner  Node
 
 // what is mining
 // possible to make money?
 
-**How to become a miner  ?**
 
-Anyone can setup a node without much effort (will be covered later). The node doesn't require any maintenance and can autonomously operate even on an old computer as long as there is a working Internet connection. 
-
+## Conclusion
 
 
-
+- https://www.oreilly.com/library/view/mastering-bitcoin/9781491902639/
 
 
 
