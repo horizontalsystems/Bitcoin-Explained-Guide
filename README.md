@@ -50,7 +50,7 @@ The purpose of this guide is to introduce to Bitcoin phenomena and other crypt c
 
 - Do I Need to Run a Node
 - Different Types of Nodes
-- How To Become A Miner  Node
+- Is It Profitable To Run A Miner Node
 
 
 <br><br><br>
@@ -121,7 +121,7 @@ There will be 21 million Bitcoins in total with over 17 million Bitcoins have be
 
 > Note: A single Bitcoin consists of 100 million (100,000,000) units called Satoshi.
 
-The Bitcoin network designed in a way where a certain number of Bitcoins are added to the network roughly every 10 minutes. Those newly created Bitcoins are given away "randomly" to one of the nodes on the Bitcoin network. In reality, that process is not really random.... but for the sake of keeping things simple, all you should understand is that a certain amount (publicly known) of Bitcoins are awarded to one of the network nodes every 10 minutes. The award goes to the node that is the first to successfully solve a mathematical problem. While all nodes are trying to solve it only the very first one gets the prize. The process of solving this mathematical problem is called mining.
+The Bitcoin network designed in a way where a certain number of Bitcoins are added to the network roughly every 10 minutes. Those newly created Bitcoins are given away "randomly" to one of the nodes on the Bitcoin network. The award goes to the node that is the first to successfully solve a mathematical problem. While all nodes are trying to solve it only the very first one gets the prize. The process of solving this mathematical problem is called mining.
 
 > Note: The release of new Bitcoins to the circulation is not something that's controlled by some entity. It's a fully automated process and is regulated autonomously by algorithms that were coded into Bitcoin at the very start, back in 2009.
 
@@ -310,13 +310,13 @@ The steps of purchasing the Bitcoins on Exchange is generally as follows:
 
 Listed below are some of the better known cryptocurrency exchanges: 
 
-- [Coinbase](https://www.coinbase.com/)
+- [Coinbase.com](https://www.coinbase.com/)
 - [CEX.io](https://cex.io)
-- [Binance](https://binance.com)
-- [ShapeShift](https://shapeshift.com)
-- [eToro](https://www.etoro.com)
-- [CoinMama](https://www.coinmama.com)
-- [Changelly](https://changelly.com) 
+- [Binance.com](https://binance.com)
+- [ShapeShift.com](https://shapeshift.com)
+- [eToro.com](https://www.etoro.com)
+- [CoinMama.com](https://www.coinmama.com)
+- [Changelly.com](https://changelly.com) 
 
 
 ## 4. Storing Bitcoin Safely
@@ -551,7 +551,7 @@ That said, there are already some effective ways to spend your cryptocurrency pr
 
 <img src="/images/crypto-cards.jpg">
 
-Below, you will listed some of the more popular providers of such cards. Note that most of the available only to people residing in US or Europe and all of them will require the user to provide some identification documents.
+Below, you will listed some of the more popular providers of such cards. Most are available only to people residing in US or Europe and all of them require the user to provide some identification documents.
 
 - [Crypterium.com](https://cards.crypterium.com)
 - [Crypto.com](https://crypto.com/en/cards.html)
@@ -561,67 +561,72 @@ Below, you will listed some of the more popular providers of such cards. Note th
 - [Cash.app](https://cash.app)
 - [Cryptopay.me](https://cryptopay.me/bitcoin-debit-card)
 
-When using the services above the card provider will provide you with with the wallet app as well. This will be a Custodial wallet tied to your card and therefore you should never keep too much funds on it. 
+When using the services above the card provider will provide you with the wallet app as well. This will be a Custodial wallet tied and therefore you should never keep too much funds on it. 
 
 Use a Non-Custodial wallet for your primary funds and occasionally top up the wallet provided by card provider with some amount. Think of it like a debit card balance that can be spent.
 
 
-
-
-
-
-
-
-
 ## 6. Bitcoin Nodes and Mining
 
-There are close to 9000 Bitcoin nodes powering the network at any given time (source: [https://bitnodes.earn.com](https://bitnodes.earn.com/)). The nodes are spread geographically, covering most of the countries worldwide.
+As mentioned earlier, currently there are over 9000 nodes powering the Bitcoin network. The nodes are spread geographically, covering most of the regions worldwide.
 
 Anyone can setup a node without much effort. The node doesn't require any maintenance and can autonomously operate even on an old computer as long as there is a working Internet connection.
 
 
 ### Do I Need to Run A Node
 
-As briefly mentioned above, nodes are tasked with validating every new transaction and pass it on to other nodes in the network. If one of the nodes tries to cheat the network by marking an invalid transaction as valid it would be disregarded by other nodes. Cheating on such network in practical terms is close impossible. 
+As briefly mentioned above, nodes are tasked with validating every new transaction and broadcasting transactions it receives to other nodes in the network. If one of the nodes tries to cheat the network by marking an invalid transaction as valid it would be disregarded by other nodes. 
 
-Cumulatively nodes guarantee:
+Cheating on such network in practical terms is close impossible. Cumulatively nodes guarantee decentralization, availability and security of the network.
 
-- openness, 
-- availability
-- decentralization
-- security
+- decentralization: By allowing participants to communicate with the network using any desired node (even their own).
 
-So, by running a node at home you're effectively contributing to the Bitcoin network. 
+- availability: As long as at least one node is online the Bitcoin network will remain operational.
 
-https://bitcoin.org/en/full-node#what-is-a-full-node
+- security: The more nodes there are on the network the harder it's for an entity to cheat as every single node would be working against it.
+
+So, if you're contemplating to run a Bitcoin node, know that by running a node you're effectively contributing to the Bitcoin network. 
+
+Also, keep in mind that there are [some countries](https://en.wikipedia.org/wiki/Legality_of_bitcoin_by_country_or_territory) where Bitcoin currently is considered illegal. So, make sure you're aware of the potential risks.
 
 
 ### Different Types Of Nodes
 
-While all nodes on Bitcoin Network are equal, some nodes may do more things than others. 
+While all nodes on Bitcoin Network are equal, some nodes may do more things than others. Below, we'll look at some of them.
 
-All nodes are asked with validating and propagating new transactions and blocks. Some nodes keep a complete copy of the blockchain (history of transactions). These nodes are known as full nodes. Any full node can independently verify any transaction for validity.
+All nodes are asked with validating and propagating new transactions and blocks. 
 
-There are also nodes which keep only a subset of the blockchain and verify transactions using a method called simplified payment verification, or SPV. These nodes are known as SPV nodes. When choosing a mobile wallet aim for the wallet that can act as an SPV node on the network. Usually such wallets are called SPV wallets. 
+- Some nodes, known as full nodes, keep a complete copy of the blockchain (history of transactions). Any such full node can independently verify any transaction for validity.
 
-Finally, there are mining nodes (aka miners) which constantly compete to close the next block in the blockchain.
+- There are also nodes known as "miners" which constantly compete between each other. All nodes compete in order to be the node that gets to add the next block (of new transactions) to the blockchain (history of transactions). The miner node that is the first to solve a mathematical problem is the one that wins the competition.
+
+A node can be both a miner and a full node.
+
+As mentioned earlier, the Bitcoin network designed in a way where a certain number of Bitcoins are released roughly every 10 minutes. This happens at the moment when a new block of transactions added to the blockchain. The node that adds the new block to the blockchain gets to keep these newly released Bitcoins. As a result, every node is motivated to become the one that gets to add the block in order to receive that reward. Currently, that reward is 12.5 Bitcoins (reduced by half every couple of years). Moreover, that node also receives all individual transaction fees from that block of newly added transactions. 
+
+In summary:
+
+1. Roughly every 10 minutes blockchain gets a new block of confirmed transactions. These transactions are taken from queue of pending transactions. 
+2. While every miner node tries to be the one that gets to add the block, only one succeeds.
+3. The winning miner gets rewarded for that by keeping all transaction fees from that block as well as the newly released Bitcoins.
 
 
-### How To Become A Miner  Node
+### Is It Profitable To Run A Miner Node
 
-// what is mining
-// possible to make money?
+If you're contemplating to run a miner node for the sake of making some money keep in mind that it's extremely difficult these days due to the large competition. 
+
+Taking into account electricity prices in the world you're more likely to loose money as a result. At present day, mining is profitable only for people running large number of specialized computers who are buying electricity at industrial rates in countries like China.
+
+Other than that running a miner node is not cost effective
 
 
 ## Conclusion
 
+That's about it! Now you know pretty much everything that's important when it comes to owning and transacting with Bitcoin. 
 
-- https://www.oreilly.com/library/view/mastering-bitcoin/9781491902639/
+Thanks for reading :) Do humanity a favor and share this guide with people you know!
 
+This guide didn't cover of the technical aspects powering the Bitcoin protocol (code). Those who are interested in this should checkout an excellent [Mastering Bitcoin](https://www.oreilly.com/library/view/mastering-bitcoin/9781491902639/) guide from Andreas M. Antonopoulos, one of the world’s foremost Bitcoin and open blockchain experts.
 
-
-
-
-
-
+Peace!
 
