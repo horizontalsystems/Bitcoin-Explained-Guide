@@ -3,12 +3,14 @@
 
 What is Bitcoin? Why should I care? What makes it special? How it works? How to invest in Bitcoin? How to get started? 
 
-The purpose of this guide is to introduce to Bitcoin phenomena and other crypt currencies in simple terms and easy to digest manner, without skipping the essentials.
+The purpose of this guide is to introduce to Bitcoin phenomena and other cryptocurrencies in simple terms and easy to digest manner, without skipping the essentials.
 
-> Disclaimer: This guide was written for an average person, who may have little to no technical knowledge needed to grasp the technical aspects of Bitcoin and related blockchain technologies. 
+> Disclaimer: 
+> 
+> This guide was written for an average person, who may have little to no technical knowledge needed to grasp the technical aspects of Bitcoin and related blockchain technologies. 
 >
 > For the sake of keeping this guide accessible for everyone, some of the technical concepts were simplified to make it easier for a non-technical person to grasp the essential information.
-
+>
 
 ## Table Of Contents
 
@@ -53,8 +55,6 @@ The purpose of this guide is to introduce to Bitcoin phenomena and other crypt c
 - Is It Profitable To Run A Miner Node
 
 
-<br><br><br>
-
 ## 1. About Bitcoin
 
 Over the last few years Bitcoin got labeled in many different ways, from electronic cash to the digital gold.
@@ -67,11 +67,11 @@ The images below demonstrate the difference between a centralized network (i.e. 
 
 *Centralized Network*
 
-<img src="/images/image_banks.png" align="center">
+<img src="https://raw.githubusercontent.com/horizontalsystems/Bitcoin-Explained-101/master/images/image_banks.png" align="center">
 
 *Decentralized Network*
 
-<img src="/images/image_blockchains.png">
+<img src="https://raw.githubusercontent.com/horizontalsystems/Bitcoin-Explained-101/master/images/image_blockchains.png">
 
 
 In the original paper, Satoshi Nakamoto proposed a Bitcoin in a form of decentralized network that is:
@@ -94,7 +94,7 @@ Usually, when someone talks about Bitcoin or Bitcoin blockchain the person refer
 
 The sketch below illustrates the basic structure of Bitcoin network. There are two types of parties participating on the network: wallets and nodes. Some Bitcoin network nodes are also known as miners.
 
-<img src="/images/image_net.png">
+<img src="https://raw.githubusercontent.com/horizontalsystems/Bitcoin-Explained-101/master/images/image_net.png">
 
 Anyone is able to join the network as a node or as a wallet and start transacting with Bitcoins on equal terms with everyone else.
 
@@ -110,7 +110,7 @@ If one or several nodes try to cheat the network by marking an invalid transacti
 
 There are close to 9000 Bitcoin nodes powering the network at any given time (source: [https://bitnodes.earn.com](https://bitnodes.earn.com/)). The nodes are spread geographically, covering most of the countries worldwide.
 
-<img src="/images/bitcoin-nodes-global.png">
+<img src="https://raw.githubusercontent.com/horizontalsystems/Bitcoin-Explained-101/master/images/bitcoin-nodes-global.png">
 
 As mentioned earlier anyone can setup a Bitcoin node at home and act as a guardian of the Bitcoin network. It will be covered in detail later in this guide.
 
@@ -136,7 +136,7 @@ In conclusion:
 
 It's worth noting that it's estimated that about 4 million Bitcoins have been already lost (source: [fortune.com](https://fortune.com/2017/11/25/lost-bitcoins/)). Taking that into account, it can be concluded that out of 17.8 million Bitcoins only about 14 millions are available on the market at this point. 
 
-<img src="/images/bitcoins_circulation.png">
+<img src="https://raw.githubusercontent.com/horizontalsystems/Bitcoin-Explained-101/master/images/bitcoins_circulation.png">
 
 More Reading:
 
@@ -150,7 +150,7 @@ More Reading:
 
 When trying to understand the Bitcoin for the first time a lot of people are usually left confused and frustrated... Before gaining any concrete understanding of what Bitcoin is, newcomers discover a large number of cryptocurrencies with many portraying itself as a better alternative to Bitcoin. Moreover, some of these cryptocurrencies have the word "Bitcoin" in its name adding to further confusion. All these aspects make the onboarding experience for the new users extremely difficult. 
 
-<img src="/images/bitcoin-and-forks.png">
+<img src="https://raw.githubusercontent.com/horizontalsystems/Bitcoin-Explained-101/master/images/bitcoin-and-forks.png">
 
 The essential points can be summarized as:
 
@@ -162,7 +162,7 @@ The essential points can be summarized as:
 
 For the comprehensive list as well as current market prices of cryptocurrencies check out [CoinMarketCap.com](https://coinmarketcap.com).
 
-<img src="/images/coinmarketcap.png">
+<img src="https://raw.githubusercontent.com/horizontalsystems/Bitcoin-Explained-101/master/images/coinmarketcap.png">
 
 
 ## 2. Why Bitcoin
@@ -182,9 +182,9 @@ Understandably Bitcoin was and still is extremely volatile. The volatility is pr
 More Reading: 
 
 - [A Dazzling History of Bitcoin Ups and Downs](https://cointelegraph.com/news/a-dazzling-history-of-bitcoins-ups-and-downs)
-- [What Causes Volatility In Bitcoin?] (https://www.fxcm.com/uk/insights/what-causes-volatility-in-bitcoin/  )
+- [What Causes Volatility In Bitcoin?](https://www.fxcm.com/uk/insights/what-causes-volatility-in-bitcoin/  )
 - [Why Bitcoin Has a Volatile Value ](https://www.investopedia.com/articles/investing/052014/why-bitcoins-value-so-volatile.asp)
-- [The Bitcoin Volatility Index] (https://bitvol.info  )
+- [The Bitcoin Volatility Index](https://bitvol.info  )
 
 Bitcoin today is very different from what it was 10 years ago. While the mainstream media still plays a huge role in how people perceive the Bitcoin, they seem to be loosing the battle as the price seem to be going up... 
 
@@ -204,7 +204,8 @@ It's no longer perceived as "fun money for geeks" but more often as a "valuable 
 
 To understand what drives Bitcoin price higher and further adoption it's important to look at Bitcoin as a social cause. A cause that seeks to provide a solution to some major socio-economic and geopolitical problems rather than merely a new asset class or even an alternative to gold or fiat money.
 
-> Bitcoin is not an improvement to how we transact and preserve wealth. It's a whole new way to own and exercise control over the wealth. 
+> Bitcoin is not an improvement to how we transact and preserve wealth. 
+> It's a whole new way to own and exercise control over the wealth. 
 
 Unlike traditional assets and financial instruments which are generally enforced by governments or some other centralized organizations, the core driving force of the Bitcoin is a global community. These people are driven by liberating ideas and share a strong passion to convey these ideas to the world.
 
@@ -256,7 +257,7 @@ The only way for the Bitcoin network to stop having any meaningful value is for 
 
 If you made until this point you should already have a general idea of what Bitcoin phenomena is. The next step for us is to introduce you to buying Bitcoin so that you can actually own some.
 
-<img src="/images/buy-bitcoin-online.png">
+<img src="https://raw.githubusercontent.com/horizontalsystems/Bitcoin-Explained-101/master/images/buy-bitcoin-online.png">
 
 At [current](https://www.coinbase.com/price/bitcoin) prices, buying even just one Bitcoin would set you back as much as $10,000 or even more. The good news, you don't have to spend $10,000 to get started. Start small and buy only $50 or $100 worth of Bitcoin at first. Later once you're comfortable with all aspects of owning Bitcoin you may buy more and increase your holdings over time.  
 
@@ -335,9 +336,9 @@ Taking the ownership aspect into account cryptocurrency wallets can be categoriz
 
 3. Then there are Hybrid wallets where neither a wallet user nor the wallet provider has full control over the funds. These wallets are programmed to require approval from both parties for both the owner and the wallet provider. This works well against hacking attempts but still keeps the door open for the wallet provider to censor the user.
 
-<img src="/images/custodial-non-custodial.png">
+<img src="https://raw.githubusercontent.com/horizontalsystems/Bitcoin-Explained-101/master/images/custodial-non-custodial.png">
 
-> Note: Non-Custodial wallets are generally considered safer and preferred over the Custodial or hybrid wallet types because they it gives user true independence by providing exclusive control over cryptocurrencies held on that wallet.
+> Note: Non-Custodial wallets are generally considered safer and preferred over the Custodial or hybrid wallet types because they provide users with exclusive control over cryptocurrencies held on that wallet.
 
 A lot of people prefer keeping the purchased Bitcoins on the Crypto exchange itself. For the most part, crypto exchanges like Binance, Coinbase, CEX.io etc provide users with Custodial type wallets. Many mistakenly assume that keeping them on exchanges is safe while it's not. Just like wallet providers, exchanges are often targeted by hackers. And when exchanges are hacked users usually loose their funds and not compensated.
 
