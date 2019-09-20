@@ -371,7 +371,7 @@ The entity which has access to that Private Key has full access to funds on the 
 
 The Private Key usually shown to user in a form of 12 or more plain English words. Those 12 plain words is just a ”human readable” representation of the “Private Key”. Sometimes it can be more than 12 words.
 
-<img src="/images/sample-private-key.png" width="200">
+<img src="/images/sample-private-key.png" width="300" align="center">
 
 *Image above shows a sample private key from [Unstoppable Bitcoin wallet](https://unstoppable.money). The wallet associated with that key does not have any funds on it. If it had any funds on it then anyone reading this could import/restore that key on some wallet app, access the wallet and transfer the funds elsewhere :)*
 
