@@ -70,18 +70,13 @@ The idea of Bitcoin was first proposed by Satoshi Nakamoto (not a real name) bac
 The images below demonstrate the difference between a centralized network (i.e. traditional monetary system) versus the Bitcoin or a similar decentralized network.
 
 
-
-<p align="center">
-	*Centralized Network*
-	<img src="/images/image_banks.png" width="600">
-</p>
+<p align="center">*Centralized Network*</p>
+<p align="center"><img src="/images/image_banks.png" width="600"></p>
 
 
 
-<p align="center">
-	*Decentralized Network*
-	<img src="/images/image_blockchains.png" width="600">
-</p>
+<p align="center">*Decentralized Network*</p>
+<p align="center"><img src="/images/image_blockchains.png" width="600"></p>
 
 
 In the original paper, Satoshi Nakamoto proposed a Bitcoin in a form of decentralized network that is:
