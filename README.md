@@ -1,7 +1,7 @@
 
 # Bitcoin-Explained-101
 
-What is Bitcoin? Why should I care? What makes it special? How it works? How to invest in Bitcoin? How to get started? 
+What is Bitcoin? Why should you care? What makes it special? How it works? How to invest in Bitcoin? How to get started? 
 
 The purpose of this guide is to introduce to Bitcoin phenomena and other cryptocurrencies in simple terms and easy to digest manner, without skipping the essentials.
 
@@ -11,6 +11,10 @@ The purpose of this guide is to introduce to Bitcoin phenomena and other cryptoc
 >
 > For the sake of keeping this guide accessible for everyone, some of the technical concepts were simplified to make it easier for a non-technical person to grasp the essential information.
 >
+
+
+<br><br>
+
 
 ## Table Of Contents
 
@@ -63,15 +67,15 @@ While Bitcoin may be defined in many different ways depending on who you ask, it
 
 The idea of Bitcoin was first proposed by Satoshi Nakamoto (not a real name) back in 2008. Satoshi's paper introducing Bitcoin idea can be found [here](https://bitcoin.org/bitcoin.pdf). The paper puts focus on ability to transact with anyone in a decentralized manner without the need for a 3'rd party intermediary such as central banks in traditional centralized monetary system.
 
-The images below demonstrate the difference between a centralized network (i.e. traditional monetary system) vs a Bitcoin or a similar decentralized network.
+The images below demonstrate the difference between a centralized network (i.e. traditional monetary system) vs the Bitcoin network or a similar decentralized network.
 
 *Centralized Network*
 
-<img src="https://raw.githubusercontent.com/horizontalsystems/Bitcoin-Explained-101/master/images/image_banks.png" align="center">
+<img src="/images/image_banks.png" align="center">
 
 *Decentralized Network*
 
-<img src="https://raw.githubusercontent.com/horizontalsystems/Bitcoin-Explained-101/master/images/image_blockchains.png">
+<img src="/images/image_blockchains.png">
 
 
 In the original paper, Satoshi Nakamoto proposed a Bitcoin in a form of decentralized network that is:
@@ -94,7 +98,7 @@ Usually, when someone talks about Bitcoin or Bitcoin blockchain the person refer
 
 The sketch below illustrates the basic structure of Bitcoin network. There are two types of parties participating on the network: wallets and nodes. Some Bitcoin network nodes are also known as miners.
 
-<img src="https://raw.githubusercontent.com/horizontalsystems/Bitcoin-Explained-101/master/images/image_net.png">
+<img src="/images/image_net.png">
 
 Anyone is able to join the network as a node or as a wallet and start transacting with Bitcoins on equal terms with everyone else.
 
@@ -110,7 +114,7 @@ If one or several nodes try to cheat the network by marking an invalid transacti
 
 There are close to 9000 Bitcoin nodes powering the network at any given time (source: [https://bitnodes.earn.com](https://bitnodes.earn.com/)). The nodes are spread geographically, covering most of the countries worldwide.
 
-<img src="https://raw.githubusercontent.com/horizontalsystems/Bitcoin-Explained-101/master/images/bitcoin-nodes-global.png">
+<img src="/images/bitcoin-nodes-global.png">
 
 As mentioned earlier anyone can setup a Bitcoin node at home and act as a guardian of the Bitcoin network. It will be covered in detail later in this guide.
 
@@ -136,7 +140,7 @@ In conclusion:
 
 It's worth noting that it's estimated that about 4 million Bitcoins have been already lost (source: [fortune.com](https://fortune.com/2017/11/25/lost-bitcoins/)). Taking that into account, it can be concluded that out of 17.8 million Bitcoins only about 14 millions are available on the market at this point. 
 
-<img src="https://raw.githubusercontent.com/horizontalsystems/Bitcoin-Explained-101/master/images/bitcoins_circulation.png">
+<img src="/images/bitcoins_circulation.png">
 
 More Reading:
 
@@ -150,7 +154,7 @@ More Reading:
 
 When trying to understand the Bitcoin for the first time a lot of people are usually left confused and frustrated... Before gaining any concrete understanding of what Bitcoin is, newcomers discover a large number of cryptocurrencies with many portraying itself as a better alternative to Bitcoin. Moreover, some of these cryptocurrencies have the word "Bitcoin" in its name adding to further confusion. All these aspects make the onboarding experience for the new users extremely difficult. 
 
-<img src="https://raw.githubusercontent.com/horizontalsystems/Bitcoin-Explained-101/master/images/bitcoin-and-forks.png">
+<img src="/images/bitcoin-and-forks.png">
 
 The essential points can be summarized as:
 
@@ -162,7 +166,7 @@ The essential points can be summarized as:
 
 For the comprehensive list as well as current market prices of cryptocurrencies check out [CoinMarketCap.com](https://coinmarketcap.com).
 
-<img src="https://raw.githubusercontent.com/horizontalsystems/Bitcoin-Explained-101/master/images/coinmarketcap.png">
+<img src="/images/coinmarketcap.png">
 
 
 ## 2. Why Bitcoin
@@ -257,7 +261,7 @@ The only way for the Bitcoin network to stop having any meaningful value is for 
 
 If you made until this point you should already have a general idea of what Bitcoin phenomena is. The next step for us is to introduce you to buying Bitcoin so that you can actually own some.
 
-<img src="https://raw.githubusercontent.com/horizontalsystems/Bitcoin-Explained-101/master/images/buy-bitcoin-online.png">
+<img src="/images/buy-bitcoin-online.png">
 
 At [current](https://www.coinbase.com/price/bitcoin) prices, buying even just one Bitcoin would set you back as much as $10,000 or even more. The good news, you don't have to spend $10,000 to get started. Start small and buy only $50 or $100 worth of Bitcoin at first. Later once you're comfortable with all aspects of owning Bitcoin you may buy more and increase your holdings over time.  
 
@@ -336,7 +340,7 @@ Taking the ownership aspect into account cryptocurrency wallets can be categoriz
 
 3. Then there are Hybrid wallets where neither a wallet user nor the wallet provider has full control over the funds. These wallets are programmed to require approval from both parties for both the owner and the wallet provider. This works well against hacking attempts but still keeps the door open for the wallet provider to censor the user.
 
-<img src="https://raw.githubusercontent.com/horizontalsystems/Bitcoin-Explained-101/master/images/custodial-non-custodial.png">
+<img src="/images/custodial-non-custodial.png">
 
 > Note: Non-Custodial wallets are generally considered safer and preferred over the Custodial or hybrid wallet types because they provide users with exclusive control over cryptocurrencies held on that wallet.
 
@@ -367,7 +371,7 @@ The entity which has access to that Private Key has full access to funds on the 
 
 The Private Key usually shown to user in a form of 12 or more plain English words. Those 12 plain words is just a ”human readable” representation of the “Private Key”. Sometimes it can be more than 12 words.
 
-<img src="/images/sample-private-key.png">
+<img src="/images/sample-private-key.png" width="200">
 
 *Image above shows a sample private key from [Unstoppable Bitcoin wallet](https://unstoppable.money). The wallet associated with that key does not have any funds on it. If it had any funds on it then anyone reading this could import/restore that key on some wallet app, access the wallet and transfer the funds elsewhere :)*
 
@@ -430,7 +434,7 @@ Long story short, if the phone doesn't have the Pin Lock in place, the person wh
 
 Some of the better wallet apps out there would refuse to work if the phone does not have the Pin Lock enabled. 
 
-<img src="/images/screenshots/pin-lock2.png">
+<img src="/images/pin-lock2.png">
 
 So, in case of a device loss, the person may get a new phone and restore the wallet funds with the help of the safely stored Private Key. After the access to the wallet is restored, it still recommended to transfer the funds to a new wallet.
 
