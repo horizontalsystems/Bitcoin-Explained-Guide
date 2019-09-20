@@ -63,19 +63,25 @@ The purpose of this guide is to introduce to Bitcoin phenomena and other cryptoc
 
 Over the last few years Bitcoin got labeled in many different ways, from electronic cash to the digital gold.
 
-While Bitcoin may be defined in many different ways depending on who you ask, it holds certain universal properties which in the eyes of many make Bitcoin "valuable" and consequently regarded as a better alternative to the traditional money like USD or EUR (aka fiat money) or other classical hard assets such as gold or silver.
+While Bitcoin may be defined in many different ways depending on who you ask, it holds certain universal properties which in the eyes of many make Bitcoin "valuable" and consequently regarded as a better alternative to the traditional money like USD or EUR (aka fiat money) or other hard assets such as gold or silver.
 
 The idea of Bitcoin was first proposed by Satoshi Nakamoto (not a real name) back in 2008. Satoshi's paper introducing Bitcoin idea can be found [here](https://bitcoin.org/bitcoin.pdf). The paper puts focus on ability to transact with anyone in a decentralized manner without the need for a 3'rd party intermediary such as central banks in traditional centralized monetary system.
 
-The images below demonstrate the difference between a centralized network (i.e. traditional monetary system) vs the Bitcoin network or a similar decentralized network.
+The images below demonstrate the difference between a centralized network (i.e. traditional monetary system) versus the Bitcoin or a similar decentralized network.
 
-*Centralized Network*
 
-<img src="/images/image_banks.png" align="center">
 
-*Decentralized Network*
+<p align="center">
+	*Centralized Network*
+	<img src="/images/image_banks.png" width="600">
+</p>
 
-<img src="/images/image_blockchains.png">
+
+
+<p align="center">
+	*Decentralized Network*
+	<img src="/images/image_blockchains.png" width="600">
+</p>
 
 
 In the original paper, Satoshi Nakamoto proposed a Bitcoin in a form of decentralized network that is:
@@ -87,7 +93,7 @@ In the original paper, Satoshi Nakamoto proposed a Bitcoin in a form of decentra
 - works without geographical borders
 
 
-> Note: The ideas brought forward in the paper required a fairly comprehensive understanding of the contemporary monetary system and graduate-level knowledge of Mathematics, Cryptography and Computer Science. 
+> The ideas brought forward in the paper required a fairly comprehensive understanding of the contemporary monetary system and graduate-level knowledge of Mathematics, Cryptography and Computer Science. 
 >
 > Therefore, Bitcoin should be regarded as a scientific invention that potentially challenges the status quo of present day monetary system and regulatory entities surrounding them.
 
@@ -98,7 +104,7 @@ Usually, when someone talks about Bitcoin or Bitcoin blockchain the person refer
 
 The sketch below illustrates the basic structure of Bitcoin network. There are two types of parties participating on the network: wallets and nodes. Some Bitcoin network nodes are also known as miners.
 
-<img src="/images/image_net.png">
+<p align="center"><img src="/images/image_net.png" width="600"></p>
 
 Anyone is able to join the network as a node or as a wallet and start transacting with Bitcoins on equal terms with everyone else.
 
@@ -106,15 +112,17 @@ Anyone is able to join the network as a node or as a wallet and start transactin
 
 2. Nodes are the entities which validate Bitcoin transactions and keep history of transactions. A node can also act like a wallet at the same time. 
 
-While every network participant is able to send/receive Bitcoin payments, only nodes keep the entity history of transactions from the very first one to the transactions happening in real-time. That entire history of transactions is what is called a Bitcoin blockchain. The word blockchain originates from the fact that new transactions are added to history in batches (i.e. a block of transactions), roughly once every 10 minutes.
+While every network participant is able to send/receive Bitcoin payments, only nodes keep the entity history of transactions from the very first one to the transactions happening in real-time. That entire history of transactions is what is called a Bitcoin blockchain. 
+
+> The word blockchain originates from the fact that new transactions are added to history in batches (i.e. a block of transactions), roughly once every 10 minutes.
 
 Nodes are also tasked with validating every new transaction and ensure that only valid transactions are added to the blockchain. Anyone can setup a node without much effort. The node doesn't require any maintenance and can autonomously operate even on an old computer as long as there is a working Internet connection. 
 
 If one or several nodes try to cheat the network by marking an invalid transaction as valid it would be disregarded by all other nodes on the network. Cumulatively nodes guarantee the openness, availability, decentralization and security of the network. Cheating on such network in practical terms is close impossible.
 
-There are close to 9000 Bitcoin nodes powering the network at any given time (source: [https://bitnodes.earn.com](https://bitnodes.earn.com/)). The nodes are spread geographically, covering most of the countries worldwide.
+There are over 9000 Bitcoin nodes powering the network at any given time (source: [https://bitnodes.earn.com](https://bitnodes.earn.com/)). The nodes are spread geographically, covering most of the countries worldwide.
 
-<img src="/images/bitcoin-nodes-global.png">
+<p align="center"><img src="/images/bitcoin-nodes-global.png"></p>
 
 As mentioned earlier anyone can setup a Bitcoin node at home and act as a guardian of the Bitcoin network. It will be covered in detail later in this guide.
 
@@ -123,7 +131,7 @@ As mentioned earlier anyone can setup a Bitcoin node at home and act as a guardi
 
 There will be 21 million Bitcoins in total with over 17 million Bitcoins have been already released to the market. The remaining part will be automatically created by the Bitcoin network over the course of 130 years in a manner described below.
 
-> Note: A single Bitcoin consists of 100 million (100,000,000) units called Satoshi.
+> A single Bitcoin consists of 100 million (100,000,000) units called Satoshi.
 
 The Bitcoin network designed in a way where a certain number of Bitcoins are added to the network roughly every 10 minutes. Those newly created Bitcoins are given away "randomly" to one of the nodes on the Bitcoin network. The award goes to the node that is the first to successfully solve a mathematical problem. While all nodes are trying to solve it only the very first one gets the prize. The process of solving this mathematical problem is called mining.
 
@@ -140,7 +148,7 @@ In conclusion:
 
 It's worth noting that it's estimated that about 4 million Bitcoins have been already lost (source: [fortune.com](https://fortune.com/2017/11/25/lost-bitcoins/)). Taking that into account, it can be concluded that out of 17.8 million Bitcoins only about 14 millions are available on the market at this point. 
 
-<img src="/images/bitcoins_circulation.png">
+<p align="center"><img src="/images/bitcoins_circulation.png"></p>
 
 More Reading:
 
@@ -152,9 +160,11 @@ More Reading:
 
 ### Bitcoin Forks and Other Cryptocurrencies
 
-When trying to understand the Bitcoin for the first time a lot of people are usually left confused and frustrated... Before gaining any concrete understanding of what Bitcoin is, newcomers discover a large number of cryptocurrencies with many portraying itself as a better alternative to Bitcoin. Moreover, some of these cryptocurrencies have the word "Bitcoin" in its name adding to further confusion. All these aspects make the onboarding experience for the new users extremely difficult. 
+When trying to understand the Bitcoin for the first time a lot of people are usually left confused and frustrated. Before gaining any concrete understanding of what Bitcoin is, newcomers discover a large number of cryptocurrencies with many portraying itself as a better alternative to Bitcoin. 
 
-<img src="/images/bitcoin-and-forks.png">
+Moreover, some of these cryptocurrencies have the word "Bitcoin" in its name adding to further confusion. All these aspects make the onboarding experience for the new users extremely difficult. 
+
+<p align="center"><img src="/images/bitcoin-and-forks.png"></p>
 
 The essential points can be summarized as:
 
@@ -166,7 +176,7 @@ The essential points can be summarized as:
 
 For the comprehensive list as well as current market prices of cryptocurrencies check out [CoinMarketCap.com](https://coinmarketcap.com).
 
-<img src="/images/coinmarketcap.png">
+<p align="center"><img src="/images/coinmarketcap.png"></p>
 
 
 ## 2. Why Bitcoin
@@ -261,7 +271,7 @@ The only way for the Bitcoin network to stop having any meaningful value is for 
 
 If you made until this point you should already have a general idea of what Bitcoin phenomena is. The next step for us is to introduce you to buying Bitcoin so that you can actually own some.
 
-<img src="/images/buy-bitcoin-online.png">
+<p align="center"><img src="/images/buy-bitcoin-online.png"></p>
 
 At [current](https://www.coinbase.com/price/bitcoin) prices, buying even just one Bitcoin would set you back as much as $10,000 or even more. The good news, you don't have to spend $10,000 to get started. Start small and buy only $50 or $100 worth of Bitcoin at first. Later once you're comfortable with all aspects of owning Bitcoin you may buy more and increase your holdings over time.  
 
@@ -340,7 +350,7 @@ Taking the ownership aspect into account cryptocurrency wallets can be categoriz
 
 3. Then there are Hybrid wallets where neither a wallet user nor the wallet provider has full control over the funds. These wallets are programmed to require approval from both parties for both the owner and the wallet provider. This works well against hacking attempts but still keeps the door open for the wallet provider to censor the user.
 
-<img src="/images/custodial-non-custodial.png">
+<p align="center"><img src="/images/custodial-non-custodial.png"></p>
 
 > Note: Non-Custodial wallets are generally considered safer and preferred over the Custodial or hybrid wallet types because they provide users with exclusive control over cryptocurrencies held on that wallet.
 
@@ -371,9 +381,8 @@ The entity which has access to that Private Key has full access to funds on the 
 
 The Private Key usually shown to user in a form of 12 or more plain English words. Those 12 plain words is just a ”human readable” representation of the “Private Key”. Sometimes it can be more than 12 words.
 
-<p align="center"> 
-<img src="/images/sample-private-key.png" width="300">
-</p>
+
+<p align="center"><img src="/images/sample-private-key.png" width="330"></p>
 
 *Image above shows a sample private key from [Unstoppable Bitcoin wallet](https://unstoppable.money). The wallet associated with that key does not have any funds on it. If it had any funds on it then anyone reading this could import/restore that key on some wallet app, access the wallet and transfer the funds elsewhere :)*
 
@@ -381,7 +390,7 @@ Safely storing Private Key is extremely important and all wallets that provide y
 
 Nearly all Non-Custodial wallets provide Import (or Restore) wallet feature which enables anyone to enter existing Private Key (that was previously generated in that wallet app) and restore access to the wallet funds as well as past transactions. Some wallet apps allow you to import/restore keys that were generated in other wallets as well but for the sake of keeping things simple we won't go into that here.
 
-<img src="/images/restore-private-key.jpeg">
+<p align="center"><img src="/images/restore-private-key.jpeg" width="330"></p>
 
 Let's say you transferred some Bitcoins to your new wallet app. Even if your phone breaks or the wallet app stops working your funds are still safe because you will always be able to restore access to your Bitcoins using the Private Key the wallet has generated for you. It can be even years later, in the same app or some other wallet app.
 
@@ -436,7 +445,7 @@ Long story short, if the phone doesn't have the Pin Lock in place, the person wh
 
 Some of the better wallet apps out there would refuse to work if the phone does not have the Pin Lock enabled. 
 
-<img src="/images/pin-lock2.png">
+<p align="center"><img src="/images/pin-lock2.png" width="330"></p>
 
 So, in case of a device loss, the person may get a new phone and restore the wallet funds with the help of the safely stored Private Key. After the access to the wallet is restored, it still recommended to transfer the funds to a new wallet.
 
@@ -453,7 +462,7 @@ So now that you understand the importance of the Private Keys, let us quickly go
 
 To receive Bitcoins from someone or to transfer them from one of your own accounts (i.e. account on exchange) to your wallet account, you only need your Bitcoin address. That address usually located in receive section of the wallet app. The screenshot below shows the 'Receive' screen from Unstoppable wallet app.
 
-<img src="/images/receive-bitcoin.png">
+<p align="center"><img src="/images/receive-bitcoin.png" width="330"></p>
 
 Copy that address and send it to the entity that wants to send you Bitcoin.
 
@@ -466,7 +475,7 @@ Although, the wallet will generate a new receive address after each incoming Bit
 
 To send someone Bitcoin you simply need to ask the recipient for his/her Bitcoin address and then use the Send feature in your wallet app to send the desired amount to the provided address.
 
-<img src="/images/send-bitcoin.png">
+<p align="center"><img src="/images/send-bitcoin.png" width="330"></p>
 
 When sending a transaction the sender expected to add a small transaction fee which would be awarded to the nodes which adds the transaction to the blockchain. 
 
@@ -501,7 +510,7 @@ CONFIRMATION PHASE: Transaction waiting to be included in blockchain
 
 When the number of transactions in the network exceeds the amount of transactions nodes can process, nodes get to choose which transactions to include first. In general, nodes prefer to give priority to transactions which pay higher fee because the nodes get to keep the fee. Most good wallet apps would take the current network conditions into account and would recommend the optimal fee to the sender on the Sent screen itself.
 
-<img src="/images/transaction-fee.jpg">
+<p align="center"><img src="/images/transaction-fee.jpg" width="330">
 
 If the fee was sufficient then it will most likely be confirmed within 10 minutes. That's why setting the fee properly is important, especially for larger payments that need to happen quickly.
 
@@ -514,11 +523,7 @@ After the transaction is included in the block it's fairly safe to assume that i
 
 Most wallets will show the transaction as final after 3/6 blocks has passed. For some wallets even 1 confirmation is enough for transaction to be shown as final.
 
-// add screenshots 
-
 Anyone can monitor the status of any transaction from the moment it was sent using a number of public block explorer sites. In practice this means that as soon as you the user hit the Sent button the receiving party can already monitor this transaction online and see how it's progressing. In order to do that the receiver needs only an ID of the transaction which can be obtained from the wallet itself.
-
-// add screenshots 
 
 Below, you will find some of the popular public transaction explorers for Bitcoin network:
 
@@ -533,7 +538,7 @@ When it comes to privacy in Bitcoin it's somewhat semi-private. While all transa
 
 The image below shows a screenshot of a transaction (ID: [https://btc.com/75e728201f3c35346542f5671ebefa958191aa64b0567aad46d2a7360b626280](https://btc.com/75e728201f3c35346542f5671ebefa958191aa64b0567aad46d2a7360b626280)) from a public BTC.com block explorer.
 
-<img src="/images/block-explorer.png">
+<p align="center"><img src="/images/block-explorer.png"></p>
 
 As you can see from the image above just by looking at individual transaction there is no way to know who the sender or recipient is. It might even be that both the sender and recipient is the same person. 
 
@@ -556,7 +561,7 @@ Ability to pay with the Bitcoin in offline transactions is still something very 
 
 That said, there are already some effective ways to spend your cryptocurrency pretty much everywhere. A number of companies provide branded debit cards which can be used to pay for things anywhere where the Visa or MasterCard is accepted. You pay with a card as you would normally do and the amount is deducted from your crypto wallet balance per current market rates.
 
-<img src="/images/crypto-cards.jpg">
+<p align="center"><img src="/images/crypto-cards.jpg">
 
 Below, you will listed some of the more popular providers of such cards. Most are available only to people residing in US or Europe and all of them require the user to provide some identification documents.
 
