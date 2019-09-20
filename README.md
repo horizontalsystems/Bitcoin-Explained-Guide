@@ -182,12 +182,15 @@ Back in early days, the idea that someday Bitcoin would be worth over $10,000 ap
 
 Fast forward to August 2019, Bitcoin have been mostly trading over the $11,000 mark and seems to have consolidated above the $10,000 at this point.
 
-> Regardless of the current price, the biggest challenge for the Bitcoin was to grow from 0$ to 100$ and that first happened sometime in 2013 (nearly 5 years after it emerged)... As time gone buy, it grew higher and higher. It broke $1,000 next year in 2014 though retreated quickly, and even reached nearly $20,000 in the end of 2018. But the hardest point was to break away from 0$ mark and raise above the 100$.
+> Regardless of the current price, the biggest challenge for the Bitcoin was to grow from 0$ to 100$ and that first happened sometime in 2013 (nearly 5 years after it emerged)... 
+> 
+> As time gone buy, it grew higher and higher. It broke $1,000 next year in 2014 though retreated quickly, and even reached nearly $20,000 in the end of 2018. But the hardest point was to break away from 0$ mark and raise above the 100$.
 
 Understandably Bitcoin was and still is extremely volatile. The volatility is primarily due to low number of people willing to buy/sell the Bitcoin at any given time. Today Bitcoin has a 200 billion market cap it's still fairly common to see a daily price change of 5%. The market cap of Bitcoin should reach a couple of trillions before public hype/panic/traders would be unable to affect the price significantly.
 
 More Reading: 
 
+- [Bitcoin History](https://en.bitcoinwiki.org/wiki/Bitcoin_history)
 - [A Dazzling History of Bitcoin Ups and Downs](https://cointelegraph.com/news/a-dazzling-history-of-bitcoins-ups-and-downs)
 - [What Causes Volatility In Bitcoin?](https://www.fxcm.com/uk/insights/what-causes-volatility-in-bitcoin/  )
 - [Why Bitcoin Has a Volatile Value ](https://www.investopedia.com/articles/investing/052014/why-bitcoins-value-so-volatile.asp)
