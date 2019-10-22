@@ -1,6 +1,8 @@
 
 # Bitcoin-Explained-101
 
+<p align="center"><strong><a href="Bitcoin-Explained-Simple-Terms.pdf" target="_blank">Download As PDF</a></strong></p>
+
 What is Bitcoin? Why should you care? What makes it special? How it works? How to invest in Bitcoin? How to get started? 
 
 The purpose of this guide is to introduce to Bitcoin phenomena and other cryptocurrencies in simple terms and easy to digest manner, without skipping the essentials.
