@@ -1,7 +1,11 @@
+<p align="center"><img src="/images/bitcoin-explained-cover.png"></p>
 
-# Bitcoin-Explained-101
-
+<hr>
 <p align="center"><strong><a href="Bitcoin-Explained-Simple-Terms.pdf" target="_blank">Download As PDF</a></strong></p>
+<hr>
+
+
+# Bitcoin Explained
 
 What is Bitcoin? Why should you care? What makes it special? How it works? How to invest in Bitcoin? How to get started? 
 
