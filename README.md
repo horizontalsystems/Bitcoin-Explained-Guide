@@ -1,9 +1,5 @@
 <p align="center"><img src="/images/bitcoin-explained-cover.png"></p>
 
-<hr>
-<p align="center"><strong><a href="Bitcoin-Explained-Simple-Terms.pdf" target="_blank">Download As PDF</a></strong></p>
-<hr>
-
 
 # Bitcoin Explained
 
